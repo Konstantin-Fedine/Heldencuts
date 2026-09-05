@@ -3,6 +3,7 @@ import './App.css'
 import { useState } from 'react'
 
 type Language = 'en' | 'de'
+const logoUrl = 'https://yt3.googleusercontent.com/1-ogLuF1n4VozrtukmNEZXi9WVRKfKVgzrtKx3uTHPDEOwACojLSecn1QJUaEjJWy2wyOqRXZRA=s160-c-k-c0x00ffffff-no-rj'
 
 const copy = {
   en: {
@@ -89,7 +90,7 @@ function App() {
   return (
     <div className="site-shell">
       <header className="site-header">
-        <a className="brand" href="#home" aria-label="HeldenCuts home"><span>H</span> HeldenCuts</a>
+        <a className="brand" href="#home" aria-label="HeldenCuts home"><img src={logoUrl} alt="Heldenhuf logo" /> HeldenCuts</a>
         <nav className={menuOpen ? 'main-nav is-open' : 'main-nav'} aria-label="Main navigation">
           {t.nav.map((item, index) => <a key={item} href={['#work', '#about', '#process', '#faq'][index]} onClick={() => setMenuOpen(false)}>{item}</a>)}
           <a className="nav-contact" href="#contact" onClick={() => setMenuOpen(false)}>{t.primary} <Arrow /></a>
@@ -133,7 +134,7 @@ function App() {
         <section className="contact section" id="contact"><div className="contact-inner"><p className="eyebrow">{t.contactEyebrow}</p><h2>{t.contactTitle.split('\n').map((line) => <span key={line}>{line}</span>)}</h2><p>{t.contactText}</p><div className="contact-actions"><a className="button button-light" href="mailto:heldenhuf@gmx.net">{t.email} <Arrow /></a><a className="button button-outline" href="https://discord.gg/aFdQzYfwF" target="_blank" rel="noreferrer">{t.discord} <Arrow /></a></div></div><span className="contact-corner">HC / 06</span></section>
       </main>
 
-      <footer className="site-footer"><div><a className="brand" href="#home"><span>H</span> HeldenCuts</a><p>{t.footer}</p></div><div className="footer-links"><a href="#work">{t.nav[0]}</a><a href="#about">{t.nav[1]}</a><a href="#contact">{t.primary}</a></div><div className="footer-meta"><span>© 2026 Heldenhuf</span><a href="/privacy-policy">Privacy</a><a href="/imprint">Terms</a></div></footer>
+      <footer className="site-footer"><div><a className="brand" href="#home"><img src={logoUrl} alt="Heldenhuf logo" /> HeldenCuts</a><p>{t.footer}</p></div><div className="footer-links"><a href="#work">{t.nav[0]}</a><a href="#about">{t.nav[1]}</a><a href="#contact">{t.primary}</a></div><div className="footer-meta"><span>© 2026 Heldenhuf</span><a href="/privacy-policy">Privacy</a><a href="/imprint">Terms</a></div></footer>
     </div>
   )
 }
