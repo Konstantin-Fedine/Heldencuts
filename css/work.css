@@ -1,1 +1,91 @@
-.work{padding-top:112px}.section-intro{color:var(--muted);font-size:13px;line-height:1.5;margin-top:13px}.work-grid{display:grid;gap:24px;grid-template-columns:repeat(3,1fr);margin-top:48px}.project-card{aspect-ratio:1.38;background:#171d26;border:1px solid #2a3442;border-radius:5px;isolation:isolate;overflow:hidden;position:relative;transition:border-color .25s,transform .25s}.project-card:hover{border-color:var(--blue);transform:translateY(-4px)}.project-card img{height:100%;object-fit:cover;position:absolute;width:100%;z-index:-2}.project-overlay{background:linear-gradient(180deg,transparent 30%,rgba(5,10,17,.92) 100%);inset:0;position:absolute;z-index:-1}.project-copy{bottom:16px;display:flex;flex-direction:column;left:17px;position:absolute;right:17px}.project-copy strong{font-size:17px}.project-copy small{background:var(--blue);border-radius:2px;font-size:11px;margin-top:11px;padding:9px;text-align:center}.project-copy small span{float:right}
+.work {
+  padding-top: 89px;
+}
+.eyebrow {
+  text-align: center;
+}
+#work-title {
+  text-align: center;
+  padding: 15px 0 25px 0;
+}
+.work-grid {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(3, 346px);
+  margin: 55px 0 0 calc(50% - 549px);
+  width: 1098px;
+}
+.project-card {
+  background: #171717;
+  border: 1px solid #2a3442;
+  border-radius: 11px;
+  height: 530px;
+  isolation: isolate;
+  overflow: hidden;
+  position: relative;
+  transition: box-shadow 0.75s ease;
+}
+.project-card:hover {
+  box-shadow:
+    0 0 0 1px var(--blue),
+    0 0 12px rgba(0, 122, 245, 0.15);
+}
+.project-card img {
+  height: 310px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -2;
+}
+.project-overlay {
+  display: none;
+}
+.project-copy {
+  background: #171717;
+  border-top: 1px solid rgba(58, 70, 84, 0.8);
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 220px;
+  padding: 22px 24px 24px;
+  position: absolute;
+  right: 0;
+}
+.project-copy strong {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.project-copy p {
+  color: #b9c2d1;
+  font-size: 15px;
+  line-height: 21px;
+  margin: 0;
+  max-width: 100%;
+}
+.project-copy small {
+  align-items: center;
+  background: radial-gradient(50% 309%, #007af5 0%, #044fd9 100%);
+  border-radius: 5px;
+  display: flex;
+  font-size: 14px;
+  height: 45px;
+  justify-content: center;
+  margin-top: 23px;
+  padding: 0;
+  text-align: center;
+  transition:
+    filter 0.2s ease,
+    transform 0.2s ease;
+  width: 100%;
+}
+.project-copy small:hover {
+  filter: brightness(1.08);
+  transform: translateY(-1px);
+}
+.project-copy small span {
+  margin-left: auto;
+  margin-right: 12px;
+}

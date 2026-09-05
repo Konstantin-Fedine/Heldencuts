@@ -1,2 +1,83 @@
 /* Fixed navigation bar */
-.site-header{background-color:#091017cc;backdrop-filter:blur(6px);height:70px;left:0;position:fixed;right:0;top:0;width:100%;z-index:5}.header-inner{align-items:center;display:flex;gap:34px;height:min-content;justify-content:center;left:0;position:absolute;top:50%;transform:translateY(-50%);width:100%}.logo{height:30px;position:relative;width:140px}.logo-text{left:50%;position:absolute;top:50%;transform:translate(-50%,-50%);white-space:nowrap}.logo-text p{font-size:24px;font-variation-settings:"wght" 723,"opsz" 28;font-weight:723;margin:0}.logo-text span{color:var(--blue)}.nav-link{color:#808080;font-size:14px;line-height:1.5em;transition:color .2s ease;white-space:nowrap}.nav-link:hover{color:#fff}
+.site-header {
+  background-color: #091017cc;
+  backdrop-filter: blur(6px);
+  height: 70px;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+}
+.header-inner {
+  align-items: center;
+  display: flex;
+  gap: 34px;
+  height: min-content;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+.header-nav {
+  align-items: center;
+  display: flex;
+  gap: 34px;
+}
+.logo {
+  height: 30px;
+  position: relative;
+  width: 140px;
+}
+.logo-text {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.logo-text p {
+  font-size: 24px;
+  font-variation-settings:
+    "wght" 723,
+    "opsz" 28;
+  font-weight: 723;
+  margin: 0;
+}
+.logo-text span {
+  color: var(--blue);
+}
+.nav-link {
+  color: #808080;
+  font-size: 14px;
+  line-height: 1.5em;
+  transition: color 0.2s ease;
+  white-space: nowrap;
+}
+.nav-link:hover {
+  color: #fff;
+}
+.header-menu-toggle {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(122, 138, 160, 0.32);
+  border-radius: 10px;
+  cursor: pointer;
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  height: 38px;
+  justify-content: center;
+  margin-left: auto;
+  width: 42px;
+}
+.header-menu-toggle span {
+  background: #edf5ff;
+  border-radius: 99px;
+  display: block;
+  height: 2px;
+  width: 18px;
+}

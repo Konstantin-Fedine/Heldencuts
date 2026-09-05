@@ -1,1 +1,95 @@
-.contact{align-items:center;border-bottom:1px solid #27303b;border-top:1px solid #27303b;display:grid;gap:40px;grid-template-columns:1fr 1fr;margin-top:145px;padding-bottom:95px;padding-top:95px}.contact h2{font-size:42px}.contact .section-intro{max-width:340px}.contact-links{display:flex;flex-direction:column}.contact-links a{align-items:center;border-bottom:1px solid #27303b;display:grid;grid-template-columns:80px 1fr 25px;padding:18px 0;transition:color .2s}.contact-links a:hover{color:var(--blue)}.contact-links span:first-child{color:#778293;font-size:11px}.contact-links strong{font-size:14px;font-weight:500}.contact-links span:last-child{font-size:20px;text-align:right}
+.contact {
+  border-top: 1px solid #27303b;
+  margin-top: 47px;
+  padding-bottom: 0;
+  padding-top: 95px;
+  text-align: center;
+}
+.contact h2 {
+  font-size: 41px;
+}
+.contact > .section-intro {
+  font-size: 16px;
+  line-height: 24.8px;
+  margin: 9px auto 0;
+  max-width: 676px;
+}
+.contact-grid {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(2, 396px);
+  margin: 13px 0 0 calc(50% - 416px);
+  text-align: left;
+}
+.contact-card {
+  background: #121212;
+  border: 1px solid #2a3442;
+  border-radius: 6px;
+  height: 171px;
+  padding: 27px 32px 27px 110px;
+  position: relative;
+  transition: box-shadow 0.75s ease;
+}
+
+.contact-card:hover {
+  box-shadow:
+    0 0 0 1px var(--blue),
+    0 0 12px rgba(0, 122, 245, 0.15);
+}
+.contact-card strong {
+  display: block;
+  font-size: 23px;
+  font-variation-settings:
+    "opsz" 28,
+    "wght" 635;
+  font-weight: 400;
+  line-height: 27.6px;
+}
+.contact-card > span:not(.contact-icon) {
+  color: #b9c2d1;
+  display: block;
+  font-size: 17px;
+  line-height: 25.5px;
+}
+.contact-icon {
+  height: 28px;
+  left: 43px;
+  position: absolute;
+  top: 36px;
+  width: 36px;
+}
+.contact-icon svg {
+  fill: none;
+  height: 100%;
+  stroke: #2b89fc;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.4;
+  width: 100%;
+}
+.contact-card small {
+  align-items: center;
+  background: radial-gradient(50% 309%, #007af5 0%, #044fd9 100%);
+  border-radius: 5px;
+  bottom: 32px;
+  color: #fff;
+  display: flex;
+  font-size: 20px;
+  height: 43px;
+  justify-content: center;
+  left: 33px;
+  padding: 0;
+  position: absolute;
+  transition:
+    filter 0.2s ease,
+    transform 0.2s ease;
+  width: 255px;
+}
+.contact-card small:hover {
+  filter: brightness(1.08);
+  transform: translateY(-1px);
+}
+.contact-card small span {
+  font-size: 24px;
+  margin-left: 12px;
+}
