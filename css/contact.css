@@ -25,10 +25,12 @@
   background: #121212;
   border: 1px solid #2a3442;
   border-radius: 6px;
-  height: 171px;
-  padding: 27px 32px 27px 110px;
+  min-height: 171px;
+  padding: 27px 32px 84px 110px;
   position: relative;
   transition: box-shadow 0.75s ease;
+  min-width: 0;
+  max-width: 100%;
 }
 
 .contact-card:hover {
@@ -44,12 +46,17 @@
     "wght" 635;
   font-weight: 400;
   line-height: 27.6px;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 .contact-card > span:not(.contact-icon) {
   color: #b9c2d1;
   display: block;
   font-size: 17px;
   line-height: 25.5px;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 .contact-icon {
   height: 28px;

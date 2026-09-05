@@ -57,6 +57,8 @@
   font-size: 25px;
   font-weight: 400;
   line-height: 30px;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 .project-copy p {
   color: #b9c2d1;
@@ -64,6 +66,8 @@
   line-height: 21px;
   margin: 0;
   max-width: 100%;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 .project-copy small {
   align-items: center;
