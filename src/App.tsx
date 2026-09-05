@@ -113,6 +113,7 @@ function App() {
             <h1>{t.heroTitle.split('\n').map((line) => <span key={line}>{line}</span>)}</h1>
             <p className="hero-text">{t.heroText}</p>
             <div className="hero-actions"><a className="button button-primary" href="#contact">{t.primary} <Arrow /></a><a className="text-link" href="#work">{t.secondary} <Arrow /></a></div>
+            <div className="hero-stats"><div><strong>3+</strong><span>{language === 'en' ? 'Years experience' : 'Jahre Erfahrung'}</span></div><div><strong>+500%</strong><span>{language === 'en' ? 'Views on client videos' : 'Aufrufe auf Kundenvideos'}</span></div><div><strong>2.5k</strong><span>{language === 'en' ? 'YouTube subscribers' : 'YouTube-Abonnenten'}</span></div></div>
           </div>
           <div className="hero-mark" aria-hidden="true"><span>HC</span><i></i><i></i><i></i></div>
           <div className="hero-footer"><span>01 / 04</span><span>{t.scroll} <b>↓</b></span><span>MMXXVI</span></div>
