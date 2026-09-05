@@ -6,12 +6,105 @@
     <meta name="description" content="HeldenCuts by Heldenhuf: high-quality video editing for brands and creators." />
     <meta name="theme-color" content="#0b0c12" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="stylesheet" href="/global.css" />
-    <link rel="stylesheet" href="/precision.css" />
+    <link rel="stylesheet" href="css/global.css" />
     <title>HeldenCuts | Video Editing by Heldenhuf</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/site.js"></script>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="HeldenCuts home">HeldenCuts</a>
+      <nav aria-label="Main navigation">
+        <a href="#work">Work-Showoff</a>
+        <a href="#about">Profile</a>
+        <a href="#process">Process</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Boost Views</a>
+      </nav>
+      <div class="language-switcher" aria-label="Language selector">
+        <button type="button">EN</button>
+        <span>/</span>
+        <button type="button">DE</button>
+      </div>
+      <button class="menu-toggle" type="button" aria-label="Open navigation">Menu</button>
+    </header>
+
+    <main>
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <p class="eyebrow">Heldenhuf - Video Editor</p>
+        <h1 id="hero-title">Grow your Audience through <span>Viral Editing.</span></h1>
+        <div class="hero-actions">
+          <a href="#contact">Boost Views</a>
+          <a href="#work">Explore Work</a>
+        </div>
+        <div class="hero-stats" aria-label="HeldenCuts statistics">
+          <span><strong>3+</strong> Years Experience</span>
+          <span><strong>+500%</strong> Views on Client Videos</span>
+          <span><strong>2.5k</strong> YouTube Subscribers</span>
+        </div>
+      </section>
+
+      <section id="work" aria-labelledby="work-title">
+        <p class="eyebrow">Work-Showoff</p>
+        <h2 id="work-title">Explore My Work</h2>
+        <p>Browse through a collection of Client Videos I have worked on.</p>
+        <div class="portfolio-grid">
+          <a href="/client-videos"><span>Client Videos</span><span>View</span></a>
+          <a href="/motion-design"><span>Motion Design</span><span>View</span></a>
+          <a href="/thumbnails"><span>Thumbnails</span><span>View</span></a>
+        </div>
+      </section>
+
+      <section id="about" aria-labelledby="about-title">
+        <p class="eyebrow">Profile</p>
+        <h2 id="about-title">About Me</h2>
+        <p>I am Heldenhuf, a video editor focused on engaging editing that helps brands and creators grow their audience.</p>
+        <dl>
+          <div><dt>Language</dt><dd>English and German</dd></div>
+          <div><dt>Editing Style</dt><dd>Clean, modern &amp; minimal</dd></div>
+          <div><dt>Software</dt><dd>DaVinci, Alight Motion &amp; CapCut</dd></div>
+        </dl>
+      </section>
+
+      <section id="ratings" aria-labelledby="ratings-title">
+        <p class="eyebrow">Client-Ratings</p>
+        <h2 id="ratings-title">Read Client Reviews</h2>
+        <blockquote>Heldenhuf is a great editor who completes his work quickly and carefully.<cite>Reeen96, Streamer &amp; YouTuber</cite></blockquote>
+        <blockquote>As always your editing is crazy! I swear I like your style so much.<cite>Mini-Top, 300k+ YouTuber</cite></blockquote>
+        <blockquote>Heldenhuf works very professional, and the videos were always finished very quickly.<cite>SirKobold, YouTuber</cite></blockquote>
+      </section>
+
+      <section id="process" aria-labelledby="process-title">
+        <p class="eyebrow">Process</p>
+        <h2 id="process-title">View The Workflow</h2>
+        <ol>
+          <li><strong>Share the Footage</strong><span>Share Expectations and Footage</span></li>
+          <li><strong>Editing &amp; Feedback</strong><span>Editing based on your feedback</span></li>
+          <li><strong>Final Delivery</strong><span>Receive the finished files.</span></li>
+        </ol>
+      </section>
+
+      <section id="faq" aria-labelledby="faq-title">
+        <p class="eyebrow">FAQ</p>
+        <h2 id="faq-title">Frequently Asked</h2>
+        <details><summary>What kind of videos do you edit?</summary><p>I specialise in both long-form and short-form content, no matter the niche.</p></details>
+        <details><summary>How quickly can you deliver?</summary><p>Depending on the project's complexity, turnaround typically ranges from two to fourteen days.</p></details>
+        <details><summary>What is your price range?</summary><p>Every project is different, so pricing is discussed individually based on the scope and requirements.</p></details>
+        <details><summary>How can I hire you?</summary><p>Simply get in touch via email or Discord, and we can discuss your project.</p></details>
+      </section>
+
+      <section id="contact" aria-labelledby="contact-title">
+        <p class="eyebrow">Contacts</p>
+        <h2 id="contact-title">Get In Touch</h2>
+        <p>Get in touch via email or Discord, and we can discuss your project.</p>
+        <a href="mailto:heldenhuf@gmx.net">heldenhuf@gmx.net</a>
+        <a href="https://discord.gg/aFdQzYfwF">heldenhuf</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div><a class="brand" href="#home">HeldenCuts</a><p>High-quality video editing that helps brands and creators grow their audience.</p></div>
+      <nav aria-label="Footer sections"><strong>SECTIONS</strong><a href="#work">Work-Showoff</a><a href="#about">Profile</a><a href="#ratings">Client-Ratings</a><a href="#process">Process</a><a href="#contact">Contacts</a><a href="#faq">FAQ</a></nav>
+      <nav aria-label="Legal"><strong>LEGAL</strong><a href="/imprint">Imprint</a><a href="/privacy-policy">Privacy Policy</a></nav>
+      <nav aria-label="Support"><strong>SUPPORT</strong><a href="mailto:heldenhuf@gmx.net">E-Mail</a><a href="https://discord.gg/aFdQzYfwF">Discord</a></nav>
+    </footer>
   </body>
 </html>
