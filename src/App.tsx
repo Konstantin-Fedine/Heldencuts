@@ -81,10 +81,24 @@ const projects = [
 ]
 
 const clientVideos = [
-  ['Mini-Top', 'YouTuber', '12-6-2025'],
-  ['Meshy AI', 'Brand', '10-7-2026'],
-  ['Reeen96', 'Streamer & YouTuber', '9-3-2026'],
-  ['SirKobold', 'YouTuber', '26-7-2026'],
+  ['Mini-Top', 'YouTuber', '12-6-2025', 'https://i.ytimg.com/vi_webp/t7nDj_Aqdyo/sddefault.webp'],
+  ['Meshy AI', 'Brand', '10-7-2026', 'https://i.ytimg.com/vi_webp/Hkb6z5TDlFY/sddefault.webp'],
+  ['Reeen96', 'Streamer & YouTuber', '9-3-2026', 'https://i.ytimg.com/vi_webp/Ekvk8C4PW6g/sddefault.webp'],
+  ['SirKobold', 'YouTuber', '26-7-2026', 'https://i.ytimg.com/vi_webp/5K9wqWVnvKY/sddefault.webp'],
+]
+
+const motionVideos = [
+  'https://framerusercontent.com/assets/BQHSZYO0Zq1ydsMFDjEZSJOa0.mp4',
+  'https://framerusercontent.com/assets/K8xSpatXdPZe8CMZiXu1gNCykY.mp4',
+  'https://framerusercontent.com/assets/2d13quhJvk8pQAHkHPNQ2fQmTM.mp4',
+  'https://framerusercontent.com/assets/pzVCn1o9Fz3VEC4Mv0hbldqnQA.mp4',
+]
+
+const thumbnailImages = [
+  'https://framerusercontent.com/images/5xMsQjirVBhcmekNNZHcE5kEmLk.jpg?scale-down-to=1024&width=1280&height=720',
+  'https://framerusercontent.com/images/HVglpJLvDz453UU4fexcsWMtlU.png?scale-down-to=1024&width=1280&height=720',
+  'https://framerusercontent.com/images/ZwLu6RlLiKW0Q81YTc7SokzoTM.jpeg?scale-down-to=1024&width=2388&height=1339',
+  'https://framerusercontent.com/images/XmhJtSdDvgIH1FEKEVtKeWzJLnw.jpeg?scale-down-to=1024&width=1668&height=933',
 ]
 
 const testimonials = [
@@ -114,7 +128,7 @@ function PortfolioPage({ path }: { path: string }) {
     <main>
       <section className="portfolio-hero"><p className="eyebrow">{title}</p><h1>{title}</h1><p>{description}</p></section>
       <section className="portfolio-grid section">
-        {isClientVideos ? clientVideos.map(([name, role, date], index) => <article className="portfolio-item" key={name}><div className="portfolio-media"><img src={projects[index % projects.length].image} alt={`${name} ${role}`} /><span className="portfolio-play" aria-hidden="true">▶</span></div><div className="portfolio-item-meta"><div><h2>{name}</h2><p>{role}</p></div><time>{date}</time></div></article>) : <article className="portfolio-item portfolio-feature"><div className="portfolio-media"><img src={isMotionDesign ? projects[1].image : projects[2].image} alt={title} /></div><div className="portfolio-item-meta"><div><h2>{title}</h2><p>{description}</p></div></div></article>}
+        {isClientVideos ? clientVideos.map(([name, role, date, image]) => <article className="portfolio-item" key={name}><div className="portfolio-media"><img src={image} alt={`${name} ${role}`} /><span className="portfolio-play" aria-hidden="true">▶</span></div><div className="portfolio-item-meta"><div><h2>{name}</h2><p>{role}</p></div><time>{date}</time></div></article>) : isMotionDesign ? motionVideos.map((video, index) => <article className="portfolio-item" key={video}><div className="portfolio-media"><video controls preload="metadata" src={video} aria-label={`${title} ${index + 1}`} /></div><div className="portfolio-item-meta"><div><h2>{title}</h2><p>{description}</p></div></div></article>) : thumbnailImages.map((image, index) => <article className="portfolio-item" key={image}><div className="portfolio-media"><img src={image} alt={`${title} ${index + 1}`} /></div><div className="portfolio-item-meta"><div><h2>{title}</h2><p>{description}</p></div></div></article>)}
       </section>
     </main>
     <footer className="site-footer"><div><a className="brand" href="/#home"><img src={logoUrl} alt="Heldenhuf logo" /> HeldenCuts</a><p>High-quality video editing that helps brands and creators grow their audience.</p></div><div className="footer-links"><a href="/#work">Work-Showoff</a><a href="/#contact">Contact</a></div><div className="footer-meta"><span>© 2026 Heldenhuf</span><a href="/#home">Back home</a></div></footer>
