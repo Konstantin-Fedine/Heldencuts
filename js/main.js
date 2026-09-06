@@ -40,6 +40,27 @@ function setupHeaderMenu() {
   });
 }
 
+function scrollToHashTarget() {
+  const hash = window.location.hash.slice(1);
+  if (!hash) return;
+
+  const target = document.getElementById(decodeURIComponent(hash));
+  if (!target) return;
+
+  requestAnimationFrame(() => {
+    requestAnimationFrame(() => {
+      window.setTimeout(() => {
+        const scrollContainer = document.scrollingElement;
+        const top = target.getBoundingClientRect().top + scrollContainer.scrollTop - 90;
+        const previousBehavior = document.documentElement.style.scrollBehavior;
+        document.documentElement.style.scrollBehavior = "auto";
+        scrollContainer.scrollTop = Math.max(0, top);
+        document.documentElement.style.scrollBehavior = previousBehavior;
+      }, 50);
+    });
+  });
+}
+
 async function loadPage() {
   const components = [
     ["[data-component='header']", "components/header.html"],
@@ -58,6 +79,7 @@ async function loadPage() {
   );
 
   setupHeaderMenu();
+  scrollToHashTarget();
 }
 
 loadPage().catch((error) => console.error(error));

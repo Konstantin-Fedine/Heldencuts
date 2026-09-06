@@ -83,6 +83,10 @@ main {
   overflow: hidden;
 }
 
+main [id] {
+  scroll-margin-top: 90px;
+}
+
 .section-shell {
   margin: auto;
   max-width: 1100px;
