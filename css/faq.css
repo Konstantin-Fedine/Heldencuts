@@ -33,16 +33,26 @@
 .faq summary::-webkit-details-marker {
   display: none;
 }
-.faq summary::after {
+.faq-toggle-icon {
   color: var(--blue);
-  content: "+";
-  font-size: 23px;
+  height: 22px;
   position: absolute;
   right: 0;
-  top: -7px;
+  top: 4px;
+  transition: transform 0.2s ease;
+  width: 22px;
 }
-.faq details[open] summary::after {
-  content: "−";
+.faq-toggle-icon svg {
+  display: block;
+  fill: none;
+  height: 100%;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: 2;
+  width: 100%;
+}
+.faq details[open] .faq-toggle-icon {
+  transform: rotate(45deg);
 }
 .faq details p {
   color: #7d8898;

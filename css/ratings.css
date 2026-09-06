@@ -30,12 +30,17 @@
 }
 .quote-icon {
   color: #2b89fc;
-  font-size: 100px;
-  font-weight: 400;
+  height: 54px;
   left: 28px;
-  line-height: 50px;
   position: absolute;
   top: 28px;
+  width: 54px;
+}
+.quote-icon svg {
+  display: block;
+  fill: currentColor;
+  height: 100%;
+  width: 100%;
 }
 .review-person {
   align-items: center;

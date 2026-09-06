@@ -74,6 +74,10 @@
   stroke-width: 1.4;
   width: 100%;
 }
+.discord-icon svg {
+  fill: #2b89fc;
+  stroke: none;
+}
 .contact-card small {
   align-items: center;
   background: radial-gradient(50% 309%, #007af5 0%, #044fd9 100%);

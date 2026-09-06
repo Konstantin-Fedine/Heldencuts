@@ -74,10 +74,14 @@
   margin-left: auto;
   width: 42px;
 }
-.header-menu-toggle span {
-  background: #edf5ff;
-  border-radius: 99px;
+.menu-icon {
   display: block;
-  height: 2px;
-  width: 18px;
+  height: 20px;
+  width: 20px;
+}
+.menu-icon path {
+  fill: none;
+  stroke: #edf5ff;
+  stroke-linecap: round;
+  stroke-width: 2;
 }
