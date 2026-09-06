@@ -88,7 +88,7 @@
     border: 1px solid rgba(122, 138, 160, 0.32);
     border-radius: 12px;
     box-shadow: 0 18px 40px rgba(0, 0, 0, 0.32);
-    display: none;
+    display: flex;
     flex-direction: column;
     gap: 12px;
     left: 18px;
@@ -96,11 +96,21 @@
     position: absolute;
     right: 18px;
     top: calc(100% + 10px);
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-8px);
+    transition:
+      opacity 0.2s ease,
+      transform 0.2s ease;
+    visibility: hidden;
     z-index: 20;
   }
 
   .site-header.is-open .header-nav {
-    display: flex;
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+    visibility: visible;
   }
 
   .header-menu-toggle {

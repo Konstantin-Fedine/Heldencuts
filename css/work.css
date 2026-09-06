@@ -23,12 +23,15 @@
   isolation: isolate;
   overflow: hidden;
   position: relative;
-  transition: box-shadow 0.75s ease;
+  transition:
+    box-shadow 0.75s ease,
+    transform 0.2s ease;
 }
 .project-card:hover {
   box-shadow:
     0 0 0 1px var(--blue),
     0 0 12px rgba(0, 122, 245, 0.15);
+  transform: translateY(-2px);
 }
 .project-card img {
   height: 310px;

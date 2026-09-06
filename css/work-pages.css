@@ -114,6 +114,18 @@
   font-size: 17px;
   line-height: 1;
   transform: translate(-50%, -50%);
+  transition:
+    filter 0.2s ease,
+    transform 0.2s ease;
+}
+
+.video-play:hover {
+  filter: brightness(1.12);
+  transform: translate(-50%, -50%) scale(1.04);
+}
+
+.video-play:active {
+  transform: translate(-50%, -50%) scale(0.96);
 }
 
 .video-play svg {
