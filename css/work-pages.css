@@ -1,6 +1,6 @@
 .work-page {
   min-height: 100vh;
-  padding: 150px 24px 70px;
+  padding: 168px 24px 70px;
 }
 
 .work-page-shell {
@@ -11,11 +11,15 @@
 .work-page h1 {
   margin: 0;
   color: #fff;
-  font-size: clamp(42px, 7vw, 78px);
+  font-size: clamp(42px, 6vw, 72px);
   font-weight: 400;
   letter-spacing: 0;
   line-height: 1;
   text-align: center;
+}
+
+.work-page h1 span {
+  color: var(--blue);
 }
 
 .work-page-intro {
@@ -27,15 +31,52 @@
   text-align: center;
 }
 
-.video-grid {
+.video-grid,
+.media-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 32px;
-  margin-top: 64px;
+  margin-top: 76px;
 }
 
-.video-project {
+.video-project,
+.media-project {
   min-width: 0;
+}
+
+.video-meta,
+.media-meta {
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  min-height: 54px;
+  margin-bottom: 18px;
+}
+
+.video-meta h2,
+.media-meta h2 {
+  color: #fff;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 25px;
+  margin: 0;
+}
+
+.video-meta p,
+.media-meta p,
+.video-meta time,
+.media-meta time {
+  color: #b9c2d1;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 3px 0 0;
+}
+
+.video-meta time,
+.media-meta time {
+  flex: 0 0 auto;
+  text-align: right;
 }
 
 .video-frame {
@@ -72,11 +113,7 @@
 }
 
 .video-project h2 {
-  margin: 18px 0 4px;
-  color: #fff;
-  font-size: 23px;
-  font-weight: 400;
-  line-height: 28px;
+  margin: 0;
 }
 
 .video-project p {
@@ -84,6 +121,22 @@
   color: #b9c2d1;
   font-size: 16px;
   line-height: 24px;
+}
+
+.media-frame {
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border: 1px solid #2a3442;
+  border-radius: 10px;
+  background: #121212;
+}
+
+.media-frame img,
+.media-frame video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .work-page-back {
@@ -104,10 +157,16 @@
     padding: 120px 18px 50px;
   }
 
-  .video-grid {
+  .video-grid,
+  .media-grid {
     grid-template-columns: 1fr;
     gap: 38px;
-    margin-top: 44px;
+    margin-top: 52px;
+  }
+
+  .video-meta,
+  .media-meta {
+    margin-bottom: 14px;
   }
 
   .video-play {
