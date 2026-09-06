@@ -32,7 +32,7 @@ h2 span, h1 em { color: var(--blue-light); font-style: normal; }
 .text-link { color: var(--text-light); font-size: 14px; transition: color .25s ease; }
 .text-link span { color: var(--blue-light); margin-left: 8px; }
 .text-link:hover { color: var(--blue-light); }
-.button { border: 1px solid var(--line); border-radius: 3px; font-size: 14px; font-weight: 650; gap: 18px; height: 52px; padding: 0 21px; transition: border-color .25s ease, background .25s ease, transform .25s ease; width: auto; }
+.button { align-items: center; border: 1px solid var(--line); border-radius: 3px; font-size: 14px; font-weight: 650; gap: 18px; height: 52px; padding: 0 21px; transition: border-color .25s ease, background .25s ease, transform .25s ease; white-space: nowrap; width: auto; }
 .button span { color: currentColor; font-size: 18px; }
 .button:hover { border-color: var(--blue-light); transform: translateY(-3px); }
 .button-primary { background: var(--blue); border-color: var(--blue); }
@@ -67,10 +67,10 @@ h2 span, h1 em { color: var(--blue-light); font-style: normal; }
 
 .work { padding-top: 130px; }
 .work-grid { display: grid; gap: 18px; grid-template-columns: 1.2fr .8fr; grid-template-rows: repeat(2, minmax(250px, 1fr)); margin-top: 58px; }
-.project-card { display: grid; grid-template-rows: minmax(0, 1fr) auto; min-height: 0; overflow: hidden; }
+.project-card { display: grid; grid-template-rows: minmax(0, 1fr) auto; height: auto; min-height: 0; overflow: hidden; }
 .project-card:first-child { grid-row: span 2; }
 .project-image { display: block; min-height: 0; overflow: hidden; }
-.project-card img { height: 100%; object-fit: cover; transition: transform .7s cubic-bezier(.2,.75,.25,1); width: 100%; }
+.project-card img { height: 100%; object-fit: cover; position: static; transition: transform .7s cubic-bezier(.2,.75,.25,1); width: 100%; }
 .project-card:hover img { transform: scale(1.045); }
 .project-copy { background: var(--surface); border-top: 1px solid var(--line); display: block; padding: 18px 20px 20px; position: static; }
 .project-copy strong { display: block; font-size: clamp(24px, 3vw, 38px); font-weight: 500; letter-spacing: -.04em; }
@@ -93,6 +93,8 @@ h2 span, h1 em { color: var(--blue-light); font-style: normal; }
 .profile-card { align-items: center; border-color: var(--line); display: grid; gap: 16px; grid-template-columns: 56px minmax(0, 1fr); min-height: 108px; overflow: visible; padding: 18px; }
 .profile-card .profile-icon { align-items: center; display: grid; height: 40px; justify-content: center; position: static; transform: none; width: 40px; }
 .profile-card .profile-icon svg { height: 30px; width: 30px; }
+.profile-card .profile-icon { grid-column: 1; grid-row: 1 / span 2; }
+.profile-card > strong, .profile-card > p { grid-column: 2; }
 .profile-card strong { color: var(--text-white); display: block; font-size: 18px; margin: 0; }
 .profile-card p { color: var(--text-light); font-size: 13px; }
 .about-brand { align-items: center; background: var(--surface); display: flex; justify-content: center; min-height: 330px; }
