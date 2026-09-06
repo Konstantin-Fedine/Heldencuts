@@ -106,10 +106,6 @@
     z-index: 20;
   }
 
-  .logo {
-    margin-left: auto;
-  }
-
   .site-header.is-open .header-nav {
     opacity: 1;
     pointer-events: auto;
@@ -246,10 +242,6 @@
     flex-shrink: 0;
   }
 
-  .logo span {
-    display: none;
-  }
-
   .header-menu-toggle {
     display: flex;
   }
@@ -344,6 +336,18 @@
   .about {
     display: block;
     padding-top: 100px;
+  }
+  .about-intro {
+    display: block;
+  }
+  .about-brand {
+    margin: 42px auto 0;
+    text-align: center;
+  }
+  .about-brand img,
+  .about-brand p {
+    margin-left: auto;
+    margin-right: auto;
   }
   .about-lead {
     font-size: 23px;

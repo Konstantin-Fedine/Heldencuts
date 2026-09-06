@@ -21,9 +21,6 @@ async function loadChrome() {
     }
   });
 
-  const logoImage = document.querySelector(".logo img");
-  if (logoImage) logoImage.src = "../assets/images/logo.avif";
-
   const header = document.querySelector(".site-header");
   const toggle = document.querySelector(".header-menu-toggle");
   if (!header) return;

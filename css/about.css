@@ -7,6 +7,33 @@
   width: 100%;
 }
 
+.about-intro {
+  align-items: center;
+  display: grid;
+  gap: 60px;
+  grid-template-columns: minmax(0, 1fr) 220px;
+}
+
+.about-brand {
+  text-align: right;
+}
+
+.about-brand img {
+  height: auto;
+  margin-left: auto;
+  max-height: 82px;
+  max-width: 180px;
+  object-fit: contain;
+}
+
+.about-brand p {
+  color: #8e9aaa;
+  font-size: 12px;
+  line-height: 18px;
+  margin: 12px 0 0 auto;
+  max-width: 210px;
+}
+
 .about h2 {
   color: var(--blue);
 }
