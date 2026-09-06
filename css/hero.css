@@ -15,6 +15,27 @@
   margin: 0 auto 11px;
   max-width: 600px;
 }
+.hero h1,
+.hero-actions,
+.hero-stats {
+  opacity: 0;
+  transform: translateY(16px);
+  transition:
+    opacity 0.6s ease,
+    transform 0.6s ease;
+}
+.hero.is-visible h1,
+.hero.is-visible .hero-actions,
+.hero.is-visible .hero-stats {
+  opacity: 1;
+  transform: translateY(0);
+}
+.hero.is-visible .hero-actions {
+  transition-delay: 0.1s;
+}
+.hero.is-visible .hero-stats {
+  transition-delay: 0.2s;
+}
 .hero-title-line,
 .hero-title-accent {
   display: block;
@@ -99,6 +120,16 @@
   display: block;
   font-size: 9px;
   margin-top: 8px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero h1,
+  .hero-actions,
+  .hero-stats {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
 }
 .hero-footer {
   bottom: 21px;

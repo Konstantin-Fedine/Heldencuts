@@ -71,7 +71,6 @@ function setupMainReveal() {
 
   const sections = main.querySelectorAll(":scope > section");
   main.classList.add("is-reveal-ready");
-  sections[0]?.classList.add("is-visible");
 
   const revealVisibleSections = () => {
     sections.forEach((section) => {
@@ -82,7 +81,10 @@ function setupMainReveal() {
     });
   };
 
-  revealVisibleSections();
+  requestAnimationFrame(() => {
+    sections[0]?.classList.add("is-visible");
+    revealVisibleSections();
+  });
   window.addEventListener("scroll", revealVisibleSections, { passive: true });
 
   if (!("IntersectionObserver" in window)) {
