@@ -1,99 +1,84 @@
-async function loadChrome() {
-  const fragments = [
-    ["[data-page-header]", "../components/header.html"],
-    ["[data-page-footer]", "../components/footer.html"],
-  ];
+import { loadSharedChrome, setupSharedMenu } from "./site-loader.js?v=20260918";
 
-  await Promise.all(
-    fragments.map(async ([selector, path]) => {
-      const target = document.querySelector(selector);
-      if (!target) return;
-      const response = await fetch(path, { cache: "no-store" });
-      if (!response.ok) throw new Error(`Could not load component: ${path}`);
-      target.outerHTML = await response.text();
-    }),
-  );
-
-  document.querySelectorAll("a[href]").forEach((link) => {
-    const href = link.getAttribute("href");
-    if (href === "work/" || href === "services.html" || href === "about.html" || href === "contact.html" || href?.startsWith("index.html") || href === "imprint.html" || href === "privacy-policy.html") {
-      link.setAttribute("href", `../${href}`);
-    }
-  });
-
-  const sharedStyles = document.createElement("link");
-  sharedStyles.rel = "stylesheet";
-  sharedStyles.href = "../css/site.css";
-  document.head.appendChild(sharedStyles);
-
-  const header = document.querySelector(".site-header");
-  const toggle = document.querySelector(".header-menu-toggle");
-  if (!header) return;
-
-  header.classList.add("is-visible");
-
-  if (!toggle) return;
-
-  const closeMenu = () => {
-    header.classList.remove("is-open");
-    toggle.setAttribute("aria-expanded", "false");
-  };
-
-  toggle.addEventListener("click", () => {
-    const isOpen = header.classList.toggle("is-open");
-    toggle.setAttribute("aria-expanded", String(isOpen));
-  });
-
-  header.querySelectorAll(".nav-link").forEach((link) => link.addEventListener("click", closeMenu));
-  document.addEventListener("click", (event) => {
-    if (!header.contains(event.target) && header.classList.contains("is-open")) closeMenu();
-  });
+function createVideoDialog() {
+  const dialog = document.createElement("dialog");
+  dialog.className = "video-dialog";
+  dialog.innerHTML = '<div class="video-dialog-shell"><button class="icon-button video-dialog-close" type="button" aria-label="Close video">&times;</button><div class="video-dialog-frame"></div></div>';
+  document.body.append(dialog);
+  return dialog;
 }
 
 function setupVideoButtons() {
+  document.querySelectorAll(".video-frame img, .media-frame img").forEach((image) => {
+    image.loading = "lazy";
+  });
+  const dialog = createVideoDialog();
+  const frame = dialog.querySelector(".video-dialog-frame");
+  const close = () => {
+    dialog.close();
+    frame.replaceChildren();
+    document.body.classList.remove("has-video-dialog");
+  };
+
+  dialog.querySelector(".video-dialog-close").addEventListener("click", close);
+  dialog.addEventListener("click", (event) => {
+    if (event.target === dialog) close();
+  });
+
   document.querySelectorAll("[data-video-id]").forEach((project) => {
     const button = project.querySelector(".video-play");
     const videoId = project.dataset.videoId;
-
     button?.addEventListener("click", () => {
-      const frame = project.querySelector(".video-frame");
       const iframe = document.createElement("iframe");
       iframe.src = `https://www.youtube.com/embed/${videoId}?rel=0&playsinline=1`;
       iframe.title = project.dataset.videoTitle || "YouTube video";
+      iframe.loading = "lazy";
       iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
       iframe.allowFullscreen = true;
       frame.replaceChildren(iframe);
+      dialog.showModal();
+      document.body.classList.add("has-video-dialog");
+      dialog.querySelector(".video-dialog-close").focus();
     });
+  });
+
+  dialog.addEventListener("cancel", (event) => {
+    event.preventDefault();
+    close();
+  });
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && dialog.open) close();
   });
 }
 
 function setupWorkReveal() {
+  const projects = document.querySelectorAll(".case-study");
+  if (!projects.length) return;
   const workPage = document.querySelector(".work-page");
-  if (!workPage) return;
-
-  workPage.classList.add("is-ready");
-  const projects = workPage.querySelectorAll(".case-study");
+  workPage?.classList.add("is-ready");
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    document.querySelectorAll("video[autoplay]").forEach((video) => {
+      video.pause();
+      video.removeAttribute("autoplay");
+    });
+  }
   if (!("IntersectionObserver" in window)) {
     projects.forEach((project) => project.classList.add("is-visible"));
     return;
   }
-
-  const observer = new IntersectionObserver(
-    (entries, currentObserver) => {
-      entries.forEach((entry) => {
-        if (!entry.isIntersecting) return;
-        entry.target.classList.add("is-visible");
-        currentObserver.unobserve(entry.target);
-      });
-    },
-    { rootMargin: "0px 0px -10%", threshold: 0.12 },
-  );
-
+  const observer = new IntersectionObserver((entries, currentObserver) => {
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) return;
+      entry.target.classList.add("is-visible");
+      currentObserver.unobserve(entry.target);
+    });
+  }, { rootMargin: "0px 0px -10%", threshold: 0.12 });
   projects.forEach((project) => observer.observe(project));
 }
 
-loadChrome()
+loadSharedChrome()
   .then(() => {
+    setupSharedMenu();
     setupWorkReveal();
     setupVideoButtons();
   })

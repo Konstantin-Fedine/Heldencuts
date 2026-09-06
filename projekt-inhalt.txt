@@ -1,0 +1,3433 @@
+﻿===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\components\about.html =====
+<section class="about section-shell" id="about" aria-labelledby="about-title">
+  <div class="section-heading-row">
+    <div><p class="eyebrow">About the editor</p><h2 id="about-title">The editor<br /><span>behind HeldenCuts.</span></h2></div>
+    <a class="text-link" href="about.html">About me <span>â†—</span></a>
+  </div>
+  <div class="about-layout">
+    <div class="about-main"><p class="about-lead">I'm Heldenhuf, a video editor focused on turning raw footage into clear, engaging stories. My style is clean, modern and minimal, with every cut serving the story.</p></div>
+    <div class="about-brand"><img src="assets/images/logo.avif" alt="Heldenhuf logo" /></div>
+  </div>
+</section>
+
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\components\footer.html =====
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <a class="brand" href="index.html#home">Helden<span>Cuts</span></a>
+      <p>Video editing for creators and brands.</p>
+      <small>Â© 2026 Heldenhuf. All rights reserved.</small>
+    </div>
+    <nav aria-label="Footer sections">
+      <strong>EXPLORE</strong><a href="index.html">Home</a><a href="work/">Work</a
+      ><a href="services.html">Services</a><a href="about.html">About</a><a href="contact.html">Contact</a>
+    </nav>
+    <nav aria-label="Legal">
+      <strong>LEGAL</strong><a href="imprint.html">Imprint</a><a href="privacy-policy.html">Privacy</a>
+    </nav>
+    <nav aria-label="Support">
+      <strong>SUPPORT</strong><a href="mailto:heldenhuf@gmx.net">E-Mail</a
+      ><a href="https://discord.gg/aFdQzYfwF">Discord</a>
+    </nav>
+  </div>
+</footer>
+
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\components\header.html =====
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="logo" aria-label="HeldenCuts home">
+      <div class="logo-text">
+        <p>Helden<span>Cuts</span></p>
+      </div>
+    </a>
+
+    <nav class="header-nav" id="main-navigation" aria-label="Main navigation" aria-hidden="false">
+      <a href="work/" class="nav-link">Work</a>
+      <a href="services.html" class="nav-link">Services</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a class="nav-link button button-header" href="contact.html">Get a Quote <span aria-hidden="true">â†—</span></a>
+    </nav>
+
+    <button class="icon-button header-menu-toggle" type="button" aria-label="Open menu" aria-controls="main-navigation" aria-expanded="false">
+      <svg class="menu-icon" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M4 7h16M4 12h16M4 17h16"></path>
+      </svg>
+    </button>
+  </div>
+</header>
+
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\components\hero.html =====
+<section class="hero section-shell" id="home" aria-labelledby="hero-title">
+  <div class="hero-copy">
+    <p class="eyebrow">Video editor Â· Germany</p>
+    <h1 id="hero-title">Video editing<br /><em>for attention.</em></h1>
+    <p class="hero-intro">Clean editing. Strong storytelling. Built for creators and brands that want to be remembered.</p>
+    <div class="hero-actions">
+      <a class="button button-primary" href="work/">View work <span aria-hidden="true">â†—</span></a>
+      <a class="button button-secondary" href="contact.html">Start a project</a>
+    </div>
+    <div class="hero-stats" aria-label="HeldenCuts statistics">
+      <div class="hero-stat">
+        <span class="stat-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 7v5l3 2M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"></path>
+          </svg>
+        </span>
+        <div><strong>3+</strong><span>Years Experience</span></div>
+      </div>
+      <div class="hero-stat">
+        <span class="stat-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M5 18V9m7 9V5m7 13v-7"></path>
+          </svg>
+        </span>
+        <div><strong>+500%</strong><span>Views on Client Videos</span></div>
+      </div>
+      <div class="hero-stat">
+        <span class="stat-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M16 19a4 4 0 0 0-8 0M12 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm6 8a4 4 0 0 0-2.9-3.9M18 5.5a2.5 2.5 0 1 1-3.5 3.5"></path>
+          </svg>
+        </span>
+        <div><strong>2.5k</strong><span>YouTube Subscribers</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-media" aria-label="HeldenCuts showreel preview">
+    <div class="hero-media-main"><img src="assets/images/client-videos.jpg" alt="Editing project preview" /></div>
+    <div class="hero-media-mini"><img src="assets/images/motion-design.png" alt="Motion design project preview" /><img src="assets/images/thumbnails.jpg" alt="Thumbnail design preview" /></div>
+    <div class="hero-media-note"><span>HeldenCuts / 001</span><strong>Editing that<br />keeps moving.</strong></div>
+    <span class="hero-media-label">Selected work <b>2026</b></span>
+    <span class="hero-media-play">Play reel <i>â†—</i></span>
+  </div>
+</section>
+
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\components\home-cta.html =====
+<section class="home-cta section-shell" aria-labelledby="home-cta-title">
+  <p class="eyebrow">Have a project in mind?</p>
+  <h2 id="home-cta-title">Let's make something<br /><span>worth watching.</span></h2>
+  <a class="button button-primary" href="contact.html">Get a quote <span aria-hidden="true">â†—</span></a>
+</section>
+
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\components\process.html =====
+<section
+  class="process section-shell"
+  id="process"
+  aria-labelledby="process-title"
+>
+  <p class="eyebrow">Process</p>
+  <h2 id="process-title">View The <span>Workflow</span></h2>
+  <p class="process-intro">
+    Take a look at the simple process behind every Client project and look at
+    every step of the Workflow.
+  </p>
+  <ol class="process-list">
+    <li>
+      <div class="step-meta">
+        <span class="step-number">01</span>
+        <span class="step-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M4 12.5 20 4l-3.5 16-4.5-5.5L4 12.5Z"></path>
+          </svg>
+        </span>
+      </div>
+      <strong>Send</strong>
+      <p>Send your footage and share expectations.</p>
+    </li>
+    <li>
+      <div class="step-meta">
+        <span class="step-number">02</span>
+        <span class="step-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M3 17.3 14.5 5.8a2 2 0 0 1 2.8 0l1.8 1.8a2 2 0 0 1 0 2.8L7.6 21H3v-3.7Z"></path>
+            <path d="m13.5 6.5 4 4"></path>
+          </svg>
+        </span>
+      </div>
+      <strong>Edit + feedback</strong>
+      <p>Editing, refinement and your feedback.</p>
+    </li>
+    <li>
+      <div class="step-meta">
+        <span class="step-number">03</span>
+        <span class="step-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 4v10"></path>
+            <path d="m7 19 5 5 5-5"></path>
+            <path d="M4 20h16"></path>
+          </svg>
+        </span>
+      </div>
+      <strong>Deliver</strong>
+      <p>Receive the finished files.</p>
+    </li>
+  </ol>
+</section>
+
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\components\ratings.html =====
+<section
+  class="ratings section-shell"
+  id="ratings"
+  aria-labelledby="ratings-title"
+>
+  <div class="section-heading">
+    <p class="eyebrow">Client-Ratings</p>
+    <h2 id="ratings-title">Read Client <span>Reviews</span></h2>
+  </div>
+  <div class="review-grid">
+    <blockquote>
+      <span class="quote-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 11h5v8H4v-6c0-4 2-7 6-9l1 2c-3 1-5 3-6 5Zm10 0h5v8h-6v-6c0-4 2-7 6-9l1 2c-3 1-5 3-6 5Z"></path></svg></span>
+      <p>
+        â€œHeldenhuf is a great editor who completes his work quickly and
+        carefullyâ€
+      </p>
+      <div class="review-person">
+        <img src="assets/images/reeen96.jpg" alt="Reeen96" /><span
+          ><strong>Reeen96</strong><small>Streamer &amp; YouTuber</small></span
+        >
+      </div>
+    </blockquote>
+    <blockquote>
+      <span class="quote-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 11h5v8H4v-6c0-4 2-7 6-9l1 2c-3 1-5 3-6 5Zm10 0h5v8h-6v-6c0-4 2-7 6-9l1 2c-3 1-5 3-6 5Z"></path></svg></span>
+      <p>
+        â€œAs always your editing is crazy! I swear I like your style so much.â€
+      </p>
+      <div class="review-person">
+        <img src="assets/images/mini-top.jpg" alt="Mini-Top" /><span
+          ><strong>Mini-Top</strong><small>300k+ YouTuber</small></span
+        >
+      </div>
+    </blockquote>
+    <blockquote>
+      <span class="quote-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 11h5v8H4v-6c0-4 2-7 6-9l1 2c-3 1-5 3-6 5Zm10 0h5v8h-6v-6c0-4 2-7 6-9l1 2c-3 1-5 3-6 5Z"></path></svg></span>
+      <p>
+        â€œHeldenhuf works very proffesional, and the videos were always finished
+        very quickly.â€
+      </p>
+      <div class="review-person">
+        <img src="assets/images/sirkobold.jpg" alt="SirKobold" /><span
+          ><strong>SirKobold</strong><small>YouTuber</small></span
+        >
+      </div>
+    </blockquote>
+  </div>
+</section>
+
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\components\services.html =====
+<section class="services section-shell" id="services" aria-labelledby="services-title">
+  <div class="section-heading-row"><div><p class="eyebrow">What I do</p><h2 id="services-title">Services built for<br /><span>the screen.</span></h2></div><a class="text-link" href="services.html">Explore services <span>â†—</span></a></div>
+  <div class="service-list">
+    <a href="contact.html?service=video-editing"><span>01</span><strong>Video editing</strong><small>Long-form / Short-form <i>â†—</i></small></a>
+    <a href="contact.html?service=motion-design"><span>02</span><strong>Motion design</strong><small>Animations / Graphics <i>â†—</i></small></a>
+    <a href="contact.html?service=thumbnails"><span>03</span><strong>Thumbnails</strong><small>Custom thumbnail design <i>â†—</i></small></a>
+  </div>
+</section>
+
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\components\trust.html =====
+<section class="trust section-shell" aria-label="Selected clients">
+  <p class="eyebrow">Worked with</p>
+  <div class="trust-list"><span>Mini-Top</span><span>Meshy AI</span><span>Reeen96</span><span>SirKobold</span></div>
+</section>
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\components\work.html =====
+<section class="work section-shell" id="work" aria-labelledby="work-title">
+  <div class="section-heading-row"><div><p class="eyebrow">Selected work</p><h2 id="work-title">Made to be <span>watched.</span></h2></div><a class="text-link" href="work/">All projects <span>â†—</span></a></div>
+  <div class="work-grid">
+    <a class="project-card card" href="work/client-videos/"
+      ><span class="project-image"><img
+        src="assets/images/client-videos.jpg"
+        alt="Client video project preview"
+      /></span><span class="project-copy"
+        ><strong>Client Videos</strong>
+        <p>Edits for creators and brands.</p>
+        <span class="button-small">View collection <span aria-hidden="true">â†—</span></span></span
+      ></a
+    >
+    <a class="project-card card" href="work/motion-design/"
+      ><span class="project-image"><img
+        src="assets/images/motion-design.png"
+        alt="Motion design project preview"
+      /></span><span class="project-copy"
+        ><strong>Motion Design</strong>
+        <p>Motion, graphics and rhythm.</p>
+        <span class="button-small">View collection <span aria-hidden="true">â†—</span></span></span
+      ></a
+    >
+    <a class="project-card card" href="work/thumbnails/"
+      ><span class="project-image"><img
+        src="assets/images/thumbnails.jpg"
+        alt="Custom thumbnail design preview"
+      /></span><span class="project-copy"
+        ><strong>Thumbnails</strong>
+        <p>Visuals that earn the click.</p>
+        <span class="button-small">View collection <span aria-hidden="true">â†—</span></span></span
+      ></a
+    >
+  </div>
+</section>
+
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\css\footer.css =====
+.site-footer {
+  background: var(--surface);
+  border-top: 1px solid var(--border);
+  margin-top: var(--space-section);
+  padding: 66px 24px 45px;
+}
+.footer-inner {
+  display: grid;
+  gap: clamp(24px, 4vw, 50px);
+  grid-template-columns: minmax(0, 1.5fr) repeat(3, minmax(0, 1fr));
+  margin: auto;
+  max-width: 1180px;
+}
+.footer-inner > div,
+.footer-inner nav {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.brand {
+  font-size: 27px;
+  font-variation-settings:
+    "opsz" 28,
+    "wght" 723;
+  font-weight: 400;
+  line-height: 32.4px;
+}
+.brand span {
+  color: var(--blue);
+}
+.footer-brand p {
+  color: var(--text-secondary);
+  font-size: 13px;
+  line-height: 19.5px;
+  max-width: 240px;
+}
+.footer-brand small {
+  color: var(--text-muted);
+  font-size: 15px;
+  line-height: 16.5px;
+  margin-top: 35px;
+}
+.footer-inner nav strong {
+  color: var(--text-secondary);
+  font-size: 15px;
+  font-variation-settings:
+    "opsz" 28,
+    "wght" 400;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0;
+  margin-bottom: 9px;
+}
+.footer-inner nav a {
+  color: var(--text-muted);
+  font-size: 14px;
+  line-height: 21px;
+  transition: color 0.2s;
+}
+.footer-inner nav a:hover {
+  color: #fff;
+}
+
+@media (max-width: 700px) {
+  .site-footer { margin-top: 72px; padding: 48px 20px 32px; }
+  .footer-inner { grid-template-columns: repeat(2, minmax(0, 1fr)); row-gap: 34px; }
+  .footer-brand { grid-column: 1 / -1; }
+}
+
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\css\global.css =====
+/* =========================================
+   GLOBAL STYLES
+   ========================================= */
+
+@font-face {
+  font-family: "Neutral Sans Variable";
+
+  src: url("../assets/fonts/neutral-sans-variable.woff2") format("woff2");
+
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* =========================================
+   FRAMER COLOR TOKENS
+   ========================================= */
+
+:root {
+  --background: #091017;
+  --surface: #151c25;
+  --surface-elevated: #1b2531;
+  --text-primary: #ffffff;
+  --text-secondary: #d4d4d4;
+  --text-muted: #7d8898;
+  --accent: #2b89fc;
+  --accent-hover: #3098ff;
+  --accent-active: #196aff;
+  --border-strong: rgba(125, 136, 152, 0.42);
+  --accent-subtle: rgba(43, 137, 252, 0.12);
+  --muted: #7d8898;
+
+  --blue: #2b89fc;
+  --blue-light: #3098ff;
+  --blue-dark: #196aff;
+
+  --blue-transparent: #2b89fc9c;
+
+  --text-white: #ffffff;
+  --text-light: #d4d4d4;
+  --text-gray: #9c9c9c;
+  --text-muted: #808080;
+
+  --border: #3b465480;
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --content-width: 1180px;
+  --legal-content-width: 900px;
+  --header-content-width: 1180px;
+  --page-padding-desktop: 32px;
+  --page-padding-mobile: 20px;
+  --space-section: clamp(80px, 8vw, 120px);
+  --duration-fast: 180ms;
+  --duration-normal: 280ms;
+  --duration-slow: 650ms;
+  --ease-standard: ease;
+  --ease-smooth: cubic-bezier(.2, .75, .25, 1);
+  --control-height: 52px;
+  --control-height-small: 40px;
+  --control-padding: 20px;
+  --control-padding-small: 14px;
+  --control-radius: var(--radius-sm);
+  --control-border: var(--border);
+  --control-bg: rgba(255, 255, 255, 0.02);
+  --control-gap: 12px;
+  --control-font-size: 14px;
+  --control-font-weight: 650;
+  --control-transition: var(--duration-normal) var(--ease-standard);
+  --radius: 4px;
+  --transition: var(--duration-normal) ease;
+}
+
+/* =========================================
+   RESET
+   ========================================= */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  margin: 0;
+  overflow-x: hidden;
+  padding: 0;
+
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  background: var(--background);
+  color: var(--text-white);
+
+  font-family:
+    "Neutral Sans Variable", "Neutral Sans Variable Placeholder", sans-serif;
+
+  font-size: 16px;
+  font-weight: 400;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body::before {
+  display: none;
+}
+
+main {
+  overflow: hidden;
+}
+
+main [id] {
+  scroll-margin-top: 90px;
+}
+
+main.is-reveal-ready > section {
+  opacity: 0;
+  transform: translateY(18px);
+  transition:
+    opacity 0.6s ease,
+    transform 0.6s ease;
+}
+
+main.is-reveal-ready > section.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* =========================================
+   TEXT RESET
+   ========================================= */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+p {
+  font-family: inherit;
+}
+
+/* =========================================
+   LINKS
+   ========================================= */
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* =========================================
+   FORM ELEMENTS
+   ========================================= */
+
+button,
+input,
+textarea,
+select {
+  font-family: inherit;
+}
+
+.button,
+.button-small,
+.icon-button {
+  align-items: center;
+  border: 1px solid var(--border);
+  border-radius: var(--control-radius);
+  cursor: pointer;
+  display: inline-flex;
+  font-size: var(--control-font-size);
+  font-weight: var(--control-font-weight);
+  gap: var(--control-gap);
+  justify-content: center;
+  line-height: 1;
+  text-decoration: none;
+  transition:
+    background-color var(--control-transition),
+    border-color var(--control-transition),
+    color var(--control-transition),
+    transform var(--control-transition);
+  white-space: nowrap;
+}
+
+.button {
+  min-height: var(--control-height);
+  padding: 0 var(--control-padding);
+}
+
+.button-small {
+  background: transparent;
+  color: var(--text-secondary);
+  font-size: 11px;
+  min-height: var(--control-height-small);
+  padding: 0 var(--control-padding-small);
+  text-transform: uppercase;
+}
+
+.button span,
+.button-small span {
+  color: currentColor;
+  font-size: 18px;
+  line-height: 1;
+  transition: transform var(--control-transition);
+}
+
+.button-small span { font-size: 16px; }
+
+.button-primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--text-primary);
+}
+
+.button-secondary {
+  background: transparent;
+  border-color: var(--border-strong);
+  color: var(--text-primary);
+}
+
+.button:hover,
+.button-small:hover,
+.icon-button:hover {
+  border-color: var(--accent-hover);
+  transform: translateY(-2px);
+}
+
+.button-primary:hover { background: var(--accent-hover); border-color: var(--accent-hover); }
+.button-secondary:hover, .button-small:hover, .icon-button:hover { background: var(--accent-subtle); }
+.button:hover span, .button-small:hover span { transform: translateX(3px); }
+.button:active, .button-small:active, .icon-button:active { transform: translateY(-1px); }
+
+.icon-button {
+  background: rgba(255, 255, 255, 0.02);
+  color: var(--text-primary);
+  display: inline-grid;
+  height: 42px;
+  padding: 0;
+  place-items: center;
+  width: 42px;
+}
+
+.text-link {
+  align-items: center;
+  color: var(--text-secondary);
+  display: inline-flex;
+  font-size: var(--control-font-size);
+  font-weight: var(--control-font-weight);
+  gap: 8px;
+  transition: color var(--control-transition), transform var(--control-transition);
+}
+
+.text-link span { color: var(--accent-hover); transition: transform var(--control-transition); }
+.text-link:hover { color: var(--text-primary); transform: translateY(-1px); }
+.text-link:hover span { transform: translateX(3px); }
+
+/* =========================================
+   IMAGES
+   ========================================= */
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+
+  main.is-reveal-ready > section {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  .site-header {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent-hover);
+  outline-offset: 4px;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+}
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\css\header.css =====
+/* Fixed navigation bar */
+.site-header {
+  background-color: rgba(9, 16, 23, 0.88);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(125, 136, 152, 0.14);
+  height: 82px;
+  left: 0;
+  opacity: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  transform: translateY(-16px);
+  transition:
+    opacity 0.6s ease,
+    transform 0.6s ease;
+  width: 100%;
+  z-index: 100;
+}
+.site-header.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.header-inner {
+  align-items: center;
+  display: flex;
+  gap: 34px;
+  height: min-content;
+  justify-content: space-between;
+  left: 0;
+  margin: auto;
+  max-width: var(--header-content-width);
+  position: absolute;
+  padding-inline: var(--page-padding-desktop);
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+.header-nav {
+  align-items: center;
+  display: flex;
+  gap: 28px;
+}
+.logo {
+  height: 30px;
+  flex-shrink: 0;
+  position: relative;
+  width: 140px;
+}
+.logo-text {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.logo-text p {
+  font-size: 24px;
+  font-variation-settings:
+    "wght" 723,
+    "opsz" 28;
+  font-weight: 723;
+  margin: 0;
+}
+.logo-text span {
+  color: var(--accent);
+}
+.nav-link {
+  color: var(--text-secondary);
+  font-size: 14px;
+  line-height: 1.5em;
+  transition: color 0.2s ease;
+  white-space: nowrap;
+}
+.button-header {
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  min-height: 42px;
+  padding: 0 15px;
+  text-transform: uppercase;
+}
+.button-header span { font-size: 16px; }
+.header-nav .button-header {
+  align-self: center;
+  transition: background-color var(--control-transition), border-color var(--control-transition), color var(--control-transition), transform var(--control-transition);
+}
+.header-nav .button-header:hover { background: var(--accent); border-color: var(--accent); color: var(--text-primary); transform: translateY(-2px); }
+.nav-link:hover {
+  color: var(--text-primary);
+}
+.header-menu-toggle {
+  align-items: center;
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  height: 38px;
+  justify-content: center;
+  margin-left: auto;
+  width: 42px;
+}
+.menu-icon {
+  display: block;
+  height: 20px;
+  width: 20px;
+}
+.menu-icon path {
+  fill: none;
+  stroke: #edf5ff;
+  stroke-linecap: round;
+  stroke-width: 2;
+}
+
+@media (max-width: 760px) {
+  .site-header { height: 68px; }
+  .header-inner { padding-inline: var(--page-padding-mobile); }
+  .logo { width: 125px; }
+  .logo-text p { font-size: 21px; }
+  .header-nav {
+    align-items: flex-start;
+    background: rgba(9, 16, 23, .98);
+    border: 1px solid var(--border);
+    border-top: 1px solid var(--border);
+    border-radius: 0 0 18px 18px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.22);
+    flex-direction: column;
+    gap: 18px;
+    inset: 68px 0 auto;
+    opacity: 0;
+    padding: 26px var(--page-padding-mobile) 28px;
+    pointer-events: none;
+    position: absolute;
+    transform: translateY(-8px);
+    transition: opacity var(--duration-normal) var(--ease-standard), transform var(--duration-normal) var(--ease-standard);
+  }
+  .site-header.is-open .header-nav { opacity: 1; pointer-events: auto; transform: translateY(0); }
+  .nav-link { font-size: 24px; letter-spacing: -.05em; }
+  .button-header {
+    align-self: flex-start;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    margin-top: 6px;
+    min-height: 42px;
+    text-transform: uppercase;
+    width: auto;
+  }
+  .header-menu-toggle { display: flex; }
+}
+
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\css\legal.css =====
+.legal-page-shell {
+  margin: 0 auto;
+  max-width: var(--legal-content-width);
+  padding: 140px 24px 80px;
+}
+
+.legal-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  box-shadow: none;
+  padding: 36px 32px 42px;
+}
+
+.legal-card h1 {
+  color: var(--text-primary);
+  font-size: clamp(32px, 4vw, 48px);
+  font-variation-settings: "opsz" 28, "wght" 723;
+  font-weight: 723;
+  line-height: 1.1;
+  margin-bottom: 18px;
+}
+
+.legal-meta {
+  color: var(--text-muted);
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  margin-bottom: 22px;
+  text-transform: uppercase;
+}
+
+.legal-copy {
+  color: var(--text-secondary);
+  font-size: 17px;
+  line-height: 1.75;
+}
+
+.legal-copy h2,
+.legal-copy h3 {
+  color: var(--text-primary);
+  font-size: 22px;
+  font-variation-settings: "opsz" 28, "wght" 650;
+  line-height: 1.3;
+  margin: 26px 0 12px;
+}
+
+.legal-copy p,
+.legal-copy li {
+  color: var(--text-secondary);
+  font-size: 17px;
+  line-height: 1.75;
+  margin: 0 0 16px;
+}
+
+.legal-copy ul,
+.legal-copy ol {
+  margin: 12px 0 18px 20px;
+  padding-left: 20px;
+}
+
+.legal-copy strong {
+  color: var(--text-primary);
+  font-weight: 700;
+}
+
+.legal-copy a {
+  color: var(--accent-hover);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.legal-copy a:hover {
+  color: var(--text-primary);
+}
+
+.legal-copy em {
+  color: var(--accent-hover);
+  font-style: italic;
+}
+
+@media (max-width: 700px) {
+  .legal-page-shell {
+    padding: 110px 18px 60px;
+  }
+
+  .legal-card {
+    padding: 24px 20px 30px;
+  }
+
+  .legal-copy {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  .legal-copy p,
+  .legal-copy li,
+  .legal-copy h2,
+  .legal-copy h3 {
+    font-size: inherit;
+  }
+}
+
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\css\pages.css =====
+.service-page h1, .about-page h1, .contact-page h1 { font-size: clamp(58px, 9vw, 120px); letter-spacing: -.07em; line-height: .88; }
+.page-lead { color: var(--text-light); font-size: 20px; margin-top: 28px; max-width: 520px; }
+.service-page .service-list { margin-top: 90px; }
+.service-list-detailed a { align-items: start; grid-template-columns: 56px minmax(180px, .8fr) minmax(0, 1fr); }
+.service-list-detailed a > div { display: grid; gap: 16px; }
+.service-list-detailed a p { color: var(--text-light); font-size: 15px; line-height: 1.45; margin: 0; max-width: 390px; }
+.service-list-detailed a small { text-align: left; }
+.page-cta { border-top: 1px solid var(--border); margin-top: 120px; padding-top: 28px; }
+.page-cta h2 { margin: 16px 0 28px; }
+.portfolio-grid { display: grid; gap: 18px; grid-template-columns: 1.15fr .85fr; margin-top: 26px; }
+.portfolio-tile { aspect-ratio: 1.25; overflow: hidden; position: relative; }
+.portfolio-tile-large { aspect-ratio: auto; grid-row: span 2; min-height: 620px; }
+.portfolio-tile img { height: 100%; object-fit: cover; transition: transform .7s cubic-bezier(.2,.75,.25,1); width: 100%; }
+.portfolio-tile:hover img { transform: scale(1.05); }
+.portfolio-tile::after { background: linear-gradient(180deg, transparent 40%, rgba(9,16,23,.9)); content: ""; inset: 0; position: absolute; }
+.portfolio-tile span { bottom: 22px; left: 24px; position: absolute; z-index: 1; }
+.portfolio-tile small { color: var(--blue-light); display: block; font-size: 10px; text-transform: uppercase; }
+.portfolio-tile strong { display: block; font-size: 27px; font-weight: 500; margin-top: 7px; }
+.contact-layout { display: grid; gap: 90px; grid-template-columns: minmax(0, 1fr) .65fr; margin-top: 78px; }
+.quote-form { display: grid; gap: 23px; }
+.quote-form label { color: var(--muted); display: grid; font-size: 11px; gap: 9px; text-transform: uppercase; }
+.quote-form input, .quote-form select, .quote-form textarea { background: transparent; border: 0; border-bottom: 1px solid var(--border); border-radius: 0; color: var(--text-primary); font-size: 16px; outline: 0; padding: 12px 0; resize: vertical; width: 100%; }
+.quote-form option { background: var(--surface); }
+.quote-form input:focus, .quote-form select:focus, .quote-form textarea:focus { border-color: var(--blue-light); }
+.form-row { display: grid; gap: 24px; grid-template-columns: 1fr 1fr; }
+.contact-aside { border-left: 1px solid var(--border); display: flex; flex-direction: column; gap: 20px; padding: 8px 0 8px 28px; }
+.contact-aside p { color: var(--text-light); font-size: 20px; line-height: 1.35; margin-bottom: 20px; max-width: 280px; }
+.contact-aside a { color: var(--blue-light); font-size: 14px; }
+.contact-page .faq-list { margin-top: 100px; max-width: 720px; }
+.faq-list details { border-top: 1px solid var(--border); padding: 19px 0; }
+.faq-list details:last-child { border-bottom: 1px solid var(--border); }
+.faq-list summary { cursor: pointer; font-size: 16px; list-style: none; }
+.faq-list summary::-webkit-details-marker { display: none; }
+.faq-list details p { color: var(--muted); font-size: 14px; margin: 14px 0 0; }
+@media (max-width: 760px) {
+  .portfolio-grid { display: block; }
+  .portfolio-tile, .portfolio-tile-large { min-height: 320px; margin-bottom: 14px; }
+  .contact-layout { display: block; margin-top: 54px; }
+  .contact-aside { border-left: 0; border-top: 1px solid var(--border); margin-top: 60px; padding: 24px 0 0; }
+  .form-row { grid-template-columns: 1fr; }
+  .service-list-detailed a { grid-template-columns: 34px 1fr; }
+  .service-list-detailed a > div { grid-column: 2; }
+}
+
+
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\css\site.css =====
+@import url("pages.css");
+
+/* Shared editorial layer for the multi-page portfolio. */
+:root { --blue-wash: var(--accent-subtle); }
+
+body { color: var(--text-primary); line-height: 1.5; }
+
+body::after {
+  background: radial-gradient(circle at 85% 0%, rgba(43, 137, 252, 0.14), transparent 27rem);
+  content: "";
+  inset: 0 0 auto;
+  height: 70vh;
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+}
+
+.section-shell { margin-inline: auto; max-width: var(--content-width); padding: var(--space-section) var(--page-padding-desktop); width: 100%; }
+.eyebrow { color: var(--blue-light); font-size: 11px; font-weight: 700; letter-spacing: .2em; line-height: 1.2; }
+h2 { font-size: clamp(42px, 5vw, 72px); font-weight: 500; letter-spacing: -.04em; line-height: .98; margin: 16px 0 0; text-align: left; }
+h2 span, h1 em { color: var(--blue-light); font-style: normal; }
+.section-heading-row { align-items: end; display: flex; justify-content: space-between; gap: 24px; }
+
+.hero { align-items: center; display: grid; gap: clamp(40px, 7vw, 110px); grid-template-columns: minmax(0, .9fr) minmax(360px, 1.1fr); min-height: 760px; padding-bottom: 100px; padding-top: 150px; }
+.hero h1 { font-size: clamp(58px, 8.5vw, 112px); font-weight: 520; letter-spacing: -.075em; line-height: .86; margin: 22px 0 30px; text-align: left; }
+.hero-intro { color: var(--text-light); font-size: clamp(17px, 1.8vw, 20px); line-height: 1.45; max-width: 420px; }
+.hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 32px; }
+.hero-stats { border-top: 1px solid var(--border); display: grid; gap: 18px; grid-template-columns: repeat(3, minmax(0, 1fr)); margin-top: 58px; padding-top: 18px; }
+.hero-stat { align-items: center; display: flex; gap: 12px; min-width: 80px; }
+.stat-icon {
+  align-items: center;
+  background: rgba(43, 137, 252, 0.08);
+  border: 1px solid rgba(43, 137, 252, 0.24);
+  border-radius: 10px;
+  color: var(--blue-light);
+  display: inline-flex;
+  flex-shrink: 0;
+  height: 34px;
+  justify-content: center;
+  width: 34px;
+}
+.stat-icon svg {
+  fill: none;
+  height: 15px;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.8;
+  width: 15px;
+}
+.hero-stats strong { display: block; font-size: 24px; font-weight: 500; }
+.hero-stats span { color: var(--muted); display: block; font-size: 10px; line-height: 1.25; margin-top: 3px; text-transform: uppercase; }
+.hero-media { aspect-ratio: 4 / 5; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-sm); display: grid; grid-template-rows: minmax(0, 1fr) auto; overflow: hidden; position: relative; }
+.hero-media::after { background: linear-gradient(180deg, transparent 45%, rgba(9, 16, 23, .82)); content: ""; inset: 0; position: absolute; }
+.hero-media-main { min-height: 0; overflow: hidden; }
+.hero-media-main img { height: 100%; object-fit: cover; transition: transform .8s cubic-bezier(.2,.75,.25,1); width: 100%; }
+.hero-media:hover .hero-media-main img { transform: scale(1.045); }
+.hero-media-mini { display: grid; gap: 8px; grid-template-columns: 1fr 1fr; height: 78px; padding: 8px; position: relative; z-index: 2; }
+.hero-media-mini img { height: 100%; object-fit: cover; width: 100%; }
+.hero-media-note { bottom: 102px; left: 22px; position: absolute; z-index: 3; }
+.hero-media-note span { color: var(--blue-light); font-size: 10px; letter-spacing: .12em; text-transform: uppercase; }
+.hero-media-note strong { display: block; font-size: clamp(22px, 3vw, 36px); font-weight: 500; letter-spacing: -.04em; line-height: .98; margin-top: 9px; }
+.hero-media-label, .hero-media-play { bottom: 20px; font-size: 11px; letter-spacing: .08em; position: absolute; text-transform: uppercase; z-index: 1; }
+.hero-media-label { left: 20px; }
+.hero-media-label b { color: var(--blue-light); font-weight: 500; margin-left: 18px; }
+.hero-media-play { align-items: center; display: flex; gap: 9px; right: 20px; }
+.hero-media-play i { color: var(--blue-light); font-size: 18px; font-style: normal; }
+.hero-copy > * { opacity: 0; transform: translateY(14px); transition: opacity .6s ease, transform .6s ease; }
+.hero.is-visible .hero-copy > * { opacity: 1; transform: translateY(0); }
+.hero.is-visible .hero-copy > .hero-intro { transition-delay: .08s; }
+.hero.is-visible .hero-copy > .hero-actions { transition-delay: .16s; }
+.hero.is-visible .hero-copy > .hero-stats { transition-delay: .24s; }
+.hero-media { opacity: 0; transform: translateY(18px) scale(.985); transition: opacity .8s ease .3s, transform .8s ease .3s; }
+.hero.is-visible .hero-media { opacity: 1; transform: translateY(0) scale(1); }
+.trust { border-bottom: 1px solid var(--border); border-top: 1px solid var(--border); display: flex; gap: 70px; padding-bottom: 28px; padding-top: 28px; }
+.trust-list { display: flex; flex: 1; justify-content: space-between; gap: 20px; }
+.trust-list span { color: var(--text-light); font-size: 15px; }
+
+.work { padding-top: 130px; }
+.work-grid { display: grid; gap: 18px; grid-template-columns: 1.2fr .8fr; grid-template-rows: repeat(2, minmax(250px, 1fr)); margin-top: 58px; }
+.project-card { display: grid; grid-template-rows: minmax(0, 1fr) auto; height: auto; min-height: 0; overflow: hidden; }
+.project-card:first-child { grid-row: span 2; }
+.project-image { display: block; min-height: 0; overflow: hidden; }
+.project-card img { height: 100%; object-fit: cover; position: static; transition: transform .7s cubic-bezier(.2,.75,.25,1); width: 100%; }
+.project-card:hover img { transform: scale(1.045); }
+.project-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-sm); transform: translateY(0); transition: border-color var(--duration-normal) var(--ease-standard), transform var(--duration-normal) var(--ease-standard); }
+.project-card:hover { border-color: var(--border-strong); transform: translateY(-2px); }
+.project-copy { background: var(--surface); border-top: 1px solid var(--border); display: block; padding: 18px 20px 20px; position: static; }
+.project-copy strong { display: block; font-size: clamp(24px, 3vw, 38px); font-weight: 500; letter-spacing: -.04em; }
+.project-copy p { color: var(--text-light); font-size: 14px; margin: 4px 0 14px; }
+.project-copy .button-small { margin-top: 4px; }
+
+.services { background: rgba(21, 28, 37, .42); max-width: none; padding-left: max(32px, calc((100vw - var(--content-width)) / 2 + 32px)); padding-right: max(32px, calc((100vw - var(--content-width)) / 2 + 32px)); }
+.service-list { margin-top: 52px; max-width: 1000px; }
+.service-list a { align-items: center; border-top: 1px solid var(--border); display: grid; gap: 24px; grid-template-columns: 56px 1fr auto; padding: 25px 0; transition: border-color var(--duration-normal) var(--ease-standard), color var(--duration-normal) var(--ease-standard), padding-left var(--duration-normal) var(--ease-standard); }
+.service-list a:last-child { border-bottom: 1px solid var(--border); }
+.service-list a:hover { color: var(--blue-light); padding-left: 12px; }
+.service-list a > span, .service-list small { color: var(--muted); font-size: 11px; }
+.service-list strong { font-size: clamp(26px, 4vw, 44px); font-weight: 450; letter-spacing: -.04em; }
+.service-list small { text-align: right; }
+.service-list i { color: var(--blue-light); font-size: 18px; font-style: normal; margin-left: 18px; }
+
+.about-layout { align-items: center; display: grid; gap: 70px; grid-template-columns: 1fr .8fr; margin-top: 54px; }
+.about-lead { color: var(--text-light); font-size: clamp(22px, 2.4vw, 32px); letter-spacing: -.03em; line-height: 1.25; max-width: 650px; }
+.profile-grid { display: grid; gap: 10px; grid-template-columns: repeat(3, 1fr); margin-top: 38px; }
+.profile-card { align-items: center; border-color: var(--border); display: grid; gap: 16px; grid-template-columns: 56px minmax(0, 1fr); min-height: 108px; overflow: visible; padding: 18px; }
+.profile-card .profile-icon { align-items: center; display: grid; height: 40px; justify-content: center; position: static; transform: none; width: 40px; }
+.profile-card .profile-icon svg { height: 30px; width: 30px; }
+.profile-card .profile-icon { grid-column: 1; grid-row: 1 / span 2; }
+.profile-card > strong, .profile-card > p { grid-column: 2; }
+.profile-card strong { color: var(--text-white); display: block; font-size: 18px; margin: 0; }
+.profile-card p { color: var(--text-light); font-size: 13px; }
+.about-brand { align-items: center; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-sm); display: flex; justify-content: center; min-height: 330px; }
+.about-brand img { max-width: 78%; width: min(260px, 78%); opacity: .82; }
+
+.ratings { padding-top: 70px; }
+.review-grid { display: grid; gap: 14px; grid-template-columns: 1.35fr .8fr .8fr; margin-top: 50px; }
+.review-grid blockquote { border-left: 2px solid var(--blue); margin: 0; padding: 10px 24px 20px; }
+.review-grid blockquote:first-child { background: var(--surface); border: 1px solid var(--border); border-left: 2px solid var(--accent); grid-row: span 2; padding: 30px; }
+.review-grid blockquote:first-child p { font-size: clamp(22px, 2.4vw, 32px); line-height: 1.18; }
+.quote-icon { color: var(--blue-light); display: block; height: 22px; margin-bottom: 28px; width: 22px; }
+.quote-icon svg { fill: currentColor; height: 100%; width: 100%; }
+.review-grid blockquote p { color: var(--text-light); font-size: 18px; line-height: 1.35; }
+.review-person { align-items: center; display: flex; gap: 12px; margin-top: 28px; }
+.review-person img { border-radius: 50%; height: 38px; object-fit: cover; width: 38px; }
+.review-person strong, .review-person small { display: block; }
+.review-person strong { font-size: 13px; }
+.review-person small { color: var(--muted); font-size: 11px; margin-top: 2px; }
+.process { border-top: 1px solid var(--border); }
+.process-intro { color: var(--muted); margin-top: 22px; max-width: 430px; }
+.process-list { display: grid; gap: 0; grid-template-columns: repeat(3, 1fr); list-style: none; margin: 58px 0 0; padding: 0; }
+.process-list li { border-top: 1px solid var(--border); padding: 18px 28px 0 0; position: relative; }
+.process-list li:not(:last-child)::after { background: var(--border); content: ""; height: 1px; position: absolute; right: 0; top: -1px; width: 28px; }
+.step-meta {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 45px;
+}
+.step-number { color: var(--blue-light); display: block; font-size: 12px; }
+.step-icon {
+  align-items: center;
+  background: rgba(43, 137, 252, 0.08);
+  border: 1px solid rgba(43, 137, 252, 0.24);
+  border-radius: 999px;
+  color: var(--blue-light);
+  display: inline-flex;
+  height: 26px;
+  justify-content: center;
+  width: 26px;
+}
+.step-icon svg {
+  fill: none;
+  height: 12px;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.8;
+  width: 12px;
+}
+.process-list strong { font-size: 17px; font-weight: 500; }
+.process-list p { color: var(--muted); font-size: 13px; margin-top: 8px; }
+.home-cta { padding-bottom: 150px; text-align: center; }
+.home-cta h2 { margin: 18px auto 34px; text-align: center; }
+
+@media (max-width: 760px) {
+  .section-shell { padding: 76px var(--page-padding-mobile); }
+  .hero { display: block; min-height: 0; padding-top: 124px; }
+  .hero h1 { font-size: clamp(54px, 16vw, 82px); line-height: .9; }
+  .hero-intro { max-width: 100%; }
+  .hero-actions { flex-direction: column; }
+  .hero-actions .button {
+    width: 100%;
+  }
+  .hero-stats { gap: 10px; margin-top: 48px; }
+  .hero-stats span { font-size: 8px; }
+  .hero-media { margin-top: 48px; }
+  .hero-media-mini { height: 64px; }
+  .hero-media-note { bottom: 86px; left: 16px; }
+  .trust { display: block; }
+  .trust-list { flex-wrap: wrap; gap: 16px 28px; margin-top: 18px; }
+  .section-heading-row { align-items: flex-start; flex-direction: column; }
+  .work-grid { display: grid; grid-template-columns: 1fr; grid-template-rows: none; margin-top: 38px; }
+  .project-card, .project-card:first-child { min-height: 330px; margin-bottom: 0; }
+  .service-list a { gap: 12px; grid-template-columns: 32px 1fr; }
+  .service-list small { grid-column: 2; text-align: left; }
+  .about-layout { display: flex; flex-direction: column; gap: 35px; }
+  .about-brand { min-height: 230px; order: -1; width: 100%; }
+  .profile-grid, .review-grid, .process-list { grid-template-columns: 1fr; }
+  .review-grid blockquote:first-child { grid-row: auto; padding: 24px; }
+  .profile-card { display: grid; gap: 14px; grid-template-columns: 48px minmax(0, 1fr); justify-content: initial; }
+  .profile-card .profile-icon { position: static; }
+  .process-list { gap: 0; grid-template-columns: 1fr; }
+  .process-list li { padding-bottom: 24px; }
+  .process-list li:not(:last-child)::after { height: 24px; left: 6px; right: auto; top: 36px; width: 1px; }
+  .step-number { margin-bottom: 18px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-copy > *, .hero-media { opacity: 1; transform: none; transition: none; }
+}
+
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\css\work-pages.css =====
+body { color: var(--text-primary); line-height: 1.5; }
+.work-page { min-height: 70vh; padding: 155px var(--page-padding-desktop) 100px; }
+.work-page-shell { margin: 0 auto; max-width: var(--content-width, 1180px); }
+.work-page h1 { font-size: clamp(58px, 9vw, 120px); letter-spacing: -.07em; line-height: .87; margin: 0; text-align: left; }
+.work-page h1 span { color: var(--blue-light); }
+.work-page-intro { color: var(--text-light); font-size: 19px; line-height: 1.45; margin: 28px 0 0; max-width: 480px; }
+.case-study-list { display: flex; flex-direction: column; gap: 110px; margin-top: 90px; }
+.case-study { align-items: center; display: grid; gap: clamp(30px, 7vw, 100px); grid-template-columns: minmax(0, .58fr) minmax(0, 1fr); opacity: 1; transform: translateY(0); transition: opacity .6s ease, transform .6s ease; }
+.work-page.is-ready .case-study:not(.is-visible) { opacity: 0; transform: translateY(18px); }
+.case-study.is-reverse { grid-template-columns: minmax(0, 1fr) minmax(0, .58fr); }
+.case-study.is-reverse .case-copy { order: 2; }
+.case-study.is-reverse .case-media { order: 1; }
+.case-copy h2 { font-size: clamp(30px, 4vw, 56px); margin: 0; }
+.case-copy h2 span { color: var(--blue-light); }
+.case-copy p { color: var(--text-light); font-size: 16px; line-height: 1.5; margin: 14px 0 0; }
+.case-copy .case-role { color: var(--blue-light); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; }
+.video-frame, .media-frame { aspect-ratio: 16 / 9; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-sm); overflow: hidden; position: relative; }
+.video-frame img, .video-frame iframe, .media-frame img, .media-frame video { border: 0; display: block; height: 100%; object-fit: cover; width: 100%; }
+.media-frame video { object-fit: contain; }
+.video-play { align-items: center; background: rgba(9, 16, 23, .82); border: 1px solid var(--border-strong); border-radius: 50%; color: var(--text-primary); cursor: pointer; display: grid; height: 52px; left: 50%; padding: 0; place-items: center; position: absolute; top: 50%; transform: translate(-50%, -50%); transition: background-color var(--duration-normal) var(--ease-standard), border-color var(--duration-normal) var(--ease-standard), transform var(--duration-normal) var(--ease-standard); width: 52px; }
+.video-play:hover { background: var(--accent); border-color: var(--accent); transform: translate(-50%, -50%) scale(1.05); }
+.video-play svg { fill: currentColor; height: 20px; width: 20px; }
+.video-dialog { background: rgba(9, 16, 23, .96); border: 1px solid var(--border); border-radius: var(--radius-sm); color: var(--text-primary); max-width: min(1100px, calc(100vw - 32px)); padding: 0; width: 100%; z-index: 1000; }
+.video-dialog::backdrop { background: rgba(0, 0, 0, .82); }
+.video-dialog-shell { padding: 18px; position: relative; }
+.video-dialog-frame { aspect-ratio: 16 / 9; background: #000; }
+.video-dialog-frame iframe { border: 0; display: block; height: 100%; width: 100%; }
+.video-dialog-close { font-size: 24px; height: 38px; line-height: 1; padding: 0; position: absolute; right: 8px; top: 8px; width: 38px; z-index: 1; }
+.video-dialog-close:hover { background: var(--blue); }
+.has-video-dialog { overflow: hidden; }
+.work-page-back { margin-top: 90px; }
+.gallery-page .case-study-list { display: grid; gap: 18px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.gallery-page .case-study { display: block; }
+.gallery-page .case-copy { margin-bottom: 16px; }
+.gallery-page .case-copy h2 { font-size: 24px; }
+.gallery-page .case-study.is-reverse .case-copy, .gallery-page .case-study.is-reverse .case-media { order: initial; }
+@media (max-width: 760px) {
+  .work-page { padding: 125px var(--page-padding-mobile) 76px; }
+  .case-study-list { gap: 72px; margin-top: 60px; }
+  .case-study, .case-study.is-reverse { display: flex; flex-direction: column; gap: 24px; }
+  .case-study.is-reverse .case-copy, .case-study.is-reverse .case-media { order: initial; }
+  .gallery-page .case-study-list { grid-template-columns: 1fr; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .work-page.is-ready .case-study:not(.is-visible) { opacity: 1; transform: none; }
+}
+
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\js\main.js =====
+import { loadSharedChrome, setupSharedMenu } from "./site-loader.js?v=20260918";
+
+function scrollToHashTarget() {
+  const hash = window.location.hash.slice(1);
+  if (!hash) return;
+
+  const target = document.getElementById(decodeURIComponent(hash));
+  if (!target) return;
+
+  requestAnimationFrame(() => {
+    requestAnimationFrame(() => {
+      window.setTimeout(() => {
+        const scrollContainer = document.scrollingElement;
+        const top = target.getBoundingClientRect().top + scrollContainer.scrollTop - 90;
+        const previousBehavior = document.documentElement.style.scrollBehavior;
+        document.documentElement.style.scrollBehavior = "auto";
+        scrollContainer.scrollTop = Math.max(0, top);
+        document.documentElement.style.scrollBehavior = previousBehavior;
+      }, 50);
+    });
+  });
+}
+
+function setupMainReveal() {
+  const main = document.querySelector("main");
+  if (!main) return;
+
+  const sections = main.querySelectorAll(":scope > section");
+  main.classList.add("is-reveal-ready");
+
+  const revealVisibleSections = () => {
+    sections.forEach((section) => {
+      const rect = section.getBoundingClientRect();
+      if (rect.top < window.innerHeight * 0.92 && rect.bottom > 0) {
+        section.classList.add("is-visible");
+      }
+    });
+  };
+
+  requestAnimationFrame(() => {
+    sections[0]?.classList.add("is-visible");
+    revealVisibleSections();
+  });
+  window.addEventListener("scroll", revealVisibleSections, { passive: true });
+
+  if (!("IntersectionObserver" in window)) {
+    sections.forEach((section) => section.classList.add("is-visible"));
+    return;
+  }
+
+  const observer = new IntersectionObserver(
+    (entries, currentObserver) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add("is-visible");
+        currentObserver.unobserve(entry.target);
+      });
+    },
+    { rootMargin: "0px 0px -10%", threshold: 0.08 },
+  );
+
+  sections.forEach((section) => observer.observe(section));
+}
+
+async function loadPage() {
+  const components = [
+    ["[data-component='hero']", "components/hero.html"],
+    ["[data-component='trust']", "components/trust.html"],
+    ["[data-component='work']", "components/work.html"],
+    ["[data-component='services']", "components/services.html"],
+    ["[data-component='about']", "components/about.html"],
+    ["[data-component='ratings']", "components/ratings.html"],
+    ["[data-component='process']", "components/process.html"],
+    ["[data-component='home-cta']", "components/home-cta.html"],
+  ];
+
+  await Promise.all([
+    loadSharedChrome(),
+    ...components.map(async ([selector, path]) => {
+      const target = document.querySelector(selector);
+      if (!target) return;
+      const response = await fetch(path, { cache: "no-store" });
+      if (!response.ok) throw new Error(`Could not load component: ${path}`);
+      target.outerHTML = await response.text();
+    }),
+  ]);
+
+  setupSharedMenu();
+  setupMainReveal();
+  scrollToHashTarget();
+}
+
+loadPage().catch((error) => console.error(error));
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\js\page.js =====
+import { loadSharedChrome, setupSharedMenu } from "./site-loader.js?v=20260918";
+
+function applyServiceQuery() {
+  const serviceSelect = document.querySelector('select[name="service"]');
+  const service = new URLSearchParams(window.location.search).get("service");
+  const serviceMap = {
+    "video-editing": "Video Editing",
+    "motion-design": "Motion Design",
+    thumbnails: "Thumbnail",
+  };
+  const targetValue = serviceMap[service];
+  if (serviceSelect && targetValue) serviceSelect.value = targetValue;
+}
+
+loadSharedChrome()
+  .then(() => {
+    setupSharedMenu();
+    applyServiceQuery();
+  })
+  .catch((error) => console.error(error));
+
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\js\site-loader.js =====
+function getPathPrefix() {
+  const segments = window.location.pathname.split("/").filter(Boolean);
+  const isDirectoryPage = window.location.pathname.endsWith("/");
+  const depth = isDirectoryPage ? segments.length : Math.max(segments.length - 1, 0);
+  return "../".repeat(depth);
+}
+
+async function loadFragment(selector, path) {
+  const target = document.querySelector(selector);
+  if (!target) return;
+  const response = await fetch(path, { cache: "no-store" });
+  if (!response.ok) throw new Error(`Could not load component: ${path}`);
+  target.outerHTML = await response.text();
+}
+
+function rewriteRootLinks(prefix) {
+  if (!prefix) return;
+
+  document.querySelectorAll("a[href]").forEach((link) => {
+    const href = link.getAttribute("href");
+    if (!href || /^(?:[a-z]+:|\/|#)/i.test(href)) return;
+    if (href.startsWith(prefix)) return;
+    const isRootLink = /^(?:index\.html(?:#.*)?|work\/(?:#.*)?|services\.html(?:\?.*)?|about\.html(?:\?.*)?|contact\.html(?:\?.*)?|imprint\.html|privacy-policy\.html)$/.test(href);
+    if (isRootLink) link.setAttribute("href", `${prefix}${href}`);
+  });
+}
+
+export async function loadSharedChrome() {
+  const prefix = getPathPrefix();
+  await Promise.all([
+    loadFragment("[data-component='header'], [data-page-header]", `${prefix}components/header.html`),
+    loadFragment("[data-component='footer'], [data-page-footer]", `${prefix}components/footer.html`),
+  ]);
+  rewriteRootLinks(prefix);
+}
+
+export function setupSharedMenu() {
+  const header = document.querySelector(".site-header");
+  const toggle = document.querySelector(".header-menu-toggle");
+  if (!header) return;
+
+  const navigation = header.querySelector(".header-nav");
+  const mobileQuery = window.matchMedia("(max-width: 760px)");
+  const syncNavigationAccessibility = () => {
+    navigation?.setAttribute("aria-hidden", String(mobileQuery.matches && !header.classList.contains("is-open")));
+  };
+
+  header.classList.add("is-visible");
+  syncNavigationAccessibility();
+  if (!toggle) return;
+
+  const closeMenu = () => {
+    header.classList.remove("is-open");
+    toggle.setAttribute("aria-expanded", "false");
+    toggle.setAttribute("aria-label", "Open menu");
+    syncNavigationAccessibility();
+  };
+
+  toggle.addEventListener("click", () => {
+    const isOpen = header.classList.toggle("is-open");
+    toggle.setAttribute("aria-expanded", String(isOpen));
+    toggle.setAttribute("aria-label", isOpen ? "Close menu" : "Open menu");
+    syncNavigationAccessibility();
+    if (isOpen) navigation?.querySelector(".nav-link")?.focus();
+  });
+
+  header.querySelectorAll(".nav-link").forEach((link) => link.addEventListener("click", closeMenu));
+  document.addEventListener("click", (event) => {
+    if (!header.contains(event.target) && header.classList.contains("is-open")) closeMenu();
+  });
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") closeMenu();
+  });
+  mobileQuery.addEventListener?.("change", syncNavigationAccessibility);
+}
+
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\js\work-pages.js =====
+import { loadSharedChrome, setupSharedMenu } from "./site-loader.js?v=20260918";
+
+function createVideoDialog() {
+  const dialog = document.createElement("dialog");
+  dialog.className = "video-dialog";
+  dialog.innerHTML = '<div class="video-dialog-shell"><button class="icon-button video-dialog-close" type="button" aria-label="Close video">&times;</button><div class="video-dialog-frame"></div></div>';
+  document.body.append(dialog);
+  return dialog;
+}
+
+function setupVideoButtons() {
+  document.querySelectorAll(".video-frame img, .media-frame img").forEach((image) => {
+    image.loading = "lazy";
+  });
+  const dialog = createVideoDialog();
+  const frame = dialog.querySelector(".video-dialog-frame");
+  const close = () => {
+    dialog.close();
+    frame.replaceChildren();
+    document.body.classList.remove("has-video-dialog");
+  };
+
+  dialog.querySelector(".video-dialog-close").addEventListener("click", close);
+  dialog.addEventListener("click", (event) => {
+    if (event.target === dialog) close();
+  });
+
+  document.querySelectorAll("[data-video-id]").forEach((project) => {
+    const button = project.querySelector(".video-play");
+    const videoId = project.dataset.videoId;
+    button?.addEventListener("click", () => {
+      const iframe = document.createElement("iframe");
+      iframe.src = `https://www.youtube.com/embed/${videoId}?rel=0&playsinline=1`;
+      iframe.title = project.dataset.videoTitle || "YouTube video";
+      iframe.loading = "lazy";
+      iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+      iframe.allowFullscreen = true;
+      frame.replaceChildren(iframe);
+      dialog.showModal();
+      document.body.classList.add("has-video-dialog");
+      dialog.querySelector(".video-dialog-close").focus();
+    });
+  });
+
+  dialog.addEventListener("cancel", (event) => {
+    event.preventDefault();
+    close();
+  });
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && dialog.open) close();
+  });
+}
+
+function setupWorkReveal() {
+  const projects = document.querySelectorAll(".case-study");
+  if (!projects.length) return;
+  const workPage = document.querySelector(".work-page");
+  workPage?.classList.add("is-ready");
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    document.querySelectorAll("video[autoplay]").forEach((video) => {
+      video.pause();
+      video.removeAttribute("autoplay");
+    });
+  }
+  if (!("IntersectionObserver" in window)) {
+    projects.forEach((project) => project.classList.add("is-visible"));
+    return;
+  }
+  const observer = new IntersectionObserver((entries, currentObserver) => {
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) return;
+      entry.target.classList.add("is-visible");
+      currentObserver.unobserve(entry.target);
+    });
+  }, { rootMargin: "0px 0px -10%", threshold: 0.12 });
+  projects.forEach((project) => observer.observe(project));
+}
+
+loadSharedChrome()
+  .then(() => {
+    setupSharedMenu();
+    setupWorkReveal();
+    setupVideoButtons();
+  })
+  .catch((error) => console.error(error));
+
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\work\client-videos\index.html =====
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Client video editing projects by HeldenCuts for creators and brands." />
+    <meta name="theme-color" content="#091017" />
+    <link rel="canonical" href="/work/client-videos/" />
+    <link rel="icon" href="../../assets/images/logo.avif" type="image/avif" />
+    <link rel="stylesheet" href="../../css/global.css" />
+    <link rel="stylesheet" href="../../css/header.css" />
+    <link rel="stylesheet" href="../../css/footer.css" />
+    <link rel="stylesheet" href="../../css/work-pages.css" />
+    <title>Client Videos | HeldenCuts</title>
+  </head>
+  <body>
+    <div data-page-header></div>
+    <main class="work-page">
+      <div class="work-page-shell">
+        <p class="eyebrow">Selected work / Video</p>
+        <h1>Client <span>videos.</span></h1>
+        <p class="work-page-intro">Edits made for creators and brands, from fast-paced gaming videos to product-focused content.</p>
+        <div class="case-study-list">
+          <article class="case-study" data-video-id="t7nDj_Aqdyo" data-video-title="How to Get PRESTIGE in Brawl Stars (Step-by-Step Guide!)"><div class="case-copy"><h2>Mini-Top</h2><p class="case-role">YouTuber / Gaming</p><p>Fast-paced gaming edit for a Brawl Stars video.</p></div><div class="case-media"><div class="video-frame"><img src="https://i.ytimg.com/vi_webp/t7nDj_Aqdyo/sddefault.webp" alt="Mini-Top client video preview" /><button class="video-play" type="button" aria-label="Play Mini-Top client video"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 9 6-9 6Z"></path></svg></button></div></div></article>
+          <article class="case-study is-reverse" data-video-id="Hkb6z5TDlFY" data-video-title="This TOOL Just Changed 3D Modelling FOREVER"><div class="case-copy"><h2>Meshy AI</h2><p class="case-role">Brand / AI</p><p>Product-focused video about 3D modelling.</p></div><div class="case-media"><div class="video-frame"><img src="https://i.ytimg.com/vi_webp/Hkb6z5TDlFY/sddefault.webp" alt="Meshy AI client video preview" /><button class="video-play" type="button" aria-label="Play Meshy AI client video"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 9 6-9 6Z"></path></svg></button></div></div></article>
+          <article class="case-study" data-video-id="Ekvk8C4PW6g" data-video-title="Reeen96 client video"><div class="case-copy"><h2>Reeen96</h2><p class="case-role">Streamer / YouTuber</p><p>Client video edit created for a creator.</p></div><div class="case-media"><div class="video-frame"><img src="https://i.ytimg.com/vi_webp/Ekvk8C4PW6g/sddefault.webp" alt="Reeen96 client video preview" /><button class="video-play" type="button" aria-label="Play Reeen96 client video"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 9 6-9 6Z"></path></svg></button></div></div></article>
+          <article class="case-study is-reverse" data-video-id="5K9wqWVnvKY" data-video-title="SirKobold client video"><div class="case-copy"><h2>SirKobold</h2><p class="case-role">YouTuber</p><p>Client video edit created for a YouTube creator.</p></div><div class="case-media"><div class="video-frame"><img src="https://i.ytimg.com/vi_webp/5K9wqWVnvKY/sddefault.webp" alt="SirKobold client video preview" /><button class="video-play" type="button" aria-label="Play SirKobold client video"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 9 6-9 6Z"></path></svg></button></div></div></article>
+        </div>
+        <a class="text-link work-page-back" href="../../work/">Back to Work <span aria-hidden="true">â†—</span></a>
+      </div>
+    </main>
+    <div data-page-footer></div>
+    <script type="module" src="../../js/work-pages.js?v=20260918"></script>
+  </body>
+</html>
+
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\work\motion-design\index.html =====
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Motion design and animation work by HeldenCuts." />
+    <meta name="theme-color" content="#091017" />
+    <link rel="canonical" href="/work/motion-design/" />
+    <link rel="icon" href="../../assets/images/logo.avif" type="image/avif" />
+    <link rel="stylesheet" href="../../css/global.css" />
+    <link rel="stylesheet" href="../../css/header.css" />
+    <link rel="stylesheet" href="../../css/footer.css" />
+    <link rel="stylesheet" href="../../css/work-pages.css" />
+    <title>Motion Design | HeldenCuts</title>
+  </head>
+  <body>
+    <div data-page-header></div>
+    <main class="work-page">
+      <div class="work-page-shell">
+        <p class="eyebrow">Selected work / Motion</p>
+        <h1>Motion <span>design.</span></h1>
+        <p class="work-page-intro">A visual selection of animation and motion design studies.</p>
+        <div class="case-study-list">
+          <article class="case-study"><div class="case-copy"><h2>Motion study 01</h2><p class="case-role">Animation / Graphics</p></div><div class="case-media"><div class="media-frame"><video src="https://framerusercontent.com/assets/BQHSZYO0Zq1ydsMFDjEZSJOa0.mp4" autoplay muted loop playsinline></video></div></div></article>
+          <article class="case-study is-reverse"><div class="case-copy"><h2>Motion study 02</h2><p class="case-role">Animation / Graphics</p></div><div class="case-media"><div class="media-frame"><video src="https://framerusercontent.com/assets/K8xSpatXdPZe8CMZiXu1gNCykY.mp4" autoplay muted loop playsinline></video></div></div></article>
+          <article class="case-study"><div class="case-copy"><h2>Motion study 03</h2><p class="case-role">Animation / Graphics</p></div><div class="case-media"><div class="media-frame"><video src="https://framerusercontent.com/assets/2d13quhJvk8pQAHkHPNQ2fQmTM.mp4" autoplay muted loop playsinline></video></div></div></article>
+          <article class="case-study is-reverse"><div class="case-copy"><h2>Motion study 04</h2><p class="case-role">Animation / Graphics</p></div><div class="case-media"><div class="media-frame"><video src="https://framerusercontent.com/assets/pzVCn1o9Fz3VEC4Mv0hbldqnQA.mp4" autoplay muted loop playsinline></video></div></div></article>
+        </div>
+        <a class="text-link work-page-back" href="../../work/">Back to Work <span aria-hidden="true">â†—</span></a>
+      </div>
+    </main>
+    <div data-page-footer></div>
+    <script type="module" src="../../js/work-pages.js?v=20260918"></script>
+  </body>
+</html>
+
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\work\thumbnails\index.html =====
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Thumbnail design gallery by HeldenCuts." />
+    <meta name="theme-color" content="#091017" />
+    <link rel="canonical" href="/work/thumbnails/" />
+    <link rel="icon" href="../../assets/images/logo.avif" type="image/avif" />
+    <link rel="stylesheet" href="../../css/global.css" />
+    <link rel="stylesheet" href="../../css/header.css" />
+    <link rel="stylesheet" href="../../css/footer.css" />
+    <link rel="stylesheet" href="../../css/work-pages.css" />
+    <title>Thumbnails | HeldenCuts</title>
+  </head>
+  <body>
+    <div data-page-header></div>
+    <main class="work-page gallery-page">
+      <div class="work-page-shell">
+        <p class="eyebrow">Selected work / Thumbnails</p>
+        <h1>Thumbnail <span>gallery.</span></h1>
+        <p class="work-page-intro">A selection of custom thumbnail designs created for client projects.</p>
+        <div class="case-study-list">
+          <article class="case-study"><div class="case-copy"><h2>Thumbnail study 01</h2></div><div class="case-media"><div class="media-frame"><img src="https://framerusercontent.com/images/5xMsQjirVBhcmekNNZHcE5kEmLk.jpg?width=1280&amp;height=720" alt="Custom thumbnail design study 01" /></div></div></article>
+          <article class="case-study"><div class="case-copy"><h2>Thumbnail study 02</h2></div><div class="case-media"><div class="media-frame"><img src="https://framerusercontent.com/images/HVglpJLvDz453UU4fexcsWMtlU.png?width=1280&amp;height=720" alt="Custom thumbnail design study 02" /></div></div></article>
+          <article class="case-study"><div class="case-copy"><h2>Thumbnail study 03</h2></div><div class="case-media"><div class="media-frame"><img src="https://framerusercontent.com/images/ZwLu6RlLiKW0Q81YTc7SokzoTM.jpeg?width=2388&amp;height=1339" alt="Custom thumbnail design study 03" /></div></div></article>
+          <article class="case-study"><div class="case-copy"><h2>Thumbnail study 04</h2></div><div class="case-media"><div class="media-frame"><img src="https://framerusercontent.com/images/XmhJtSdDvgIH1FEKEVtKeWzJLnw.jpeg?width=1668&amp;height=933" alt="Custom thumbnail design study 04" /></div></div></article>
+        </div>
+        <a class="text-link work-page-back" href="../../work/">Back to Work <span aria-hidden="true">â†—</span></a>
+      </div>
+    </main>
+    <div data-page-footer></div>
+    <script type="module" src="../../js/work-pages.js?v=20260918"></script>
+  </body>
+</html>
+
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\work\index.html =====
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Selected video editing, motion design and thumbnail work by HeldenCuts." />
+    <meta name="theme-color" content="#091017" />
+    <link rel="icon" href="../assets/images/logo.avif" type="image/avif" />
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/site.css" />
+    <link rel="stylesheet" href="../css/work-pages.css" />
+    <title>Work | HeldenCuts</title>
+  </head>
+  <body>
+    <div data-page-header></div>
+    <main class="work-page">
+      <div class="work-page-shell">
+        <p class="eyebrow">Portfolio</p>
+        <h1>My <span>work.</span></h1>
+        <p class="work-page-intro">A selection of projects, edits and creative work made for creators and brands.</p>
+        <div class="portfolio-grid">
+          <a class="portfolio-tile portfolio-tile-large" href="client-videos/"><img src="../assets/images/client-videos.jpg" alt="Client video editing work" /><span><small>01 / Video</small><strong>Client videos</strong></span></a>
+          <a class="portfolio-tile" href="motion-design/"><img src="../assets/images/motion-design.png" alt="Motion design work" /><span><small>02 / Motion</small><strong>Motion design</strong></span></a>
+          <a class="portfolio-tile" href="thumbnails/"><img src="../assets/images/thumbnails.jpg" alt="Thumbnail design work" /><span><small>03 / Thumbnails</small><strong>Thumbnail design</strong></span></a>
+        </div>
+      </div>
+    </main>
+    <div data-page-footer></div>
+    <script type="module" src="../js/page.js?v=20260918"></script>
+  </body>
+</html>
+
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\about.html =====
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Meet Simon, the editor behind HeldenCuts." />
+    <meta name="theme-color" content="#091017" />
+    <link rel="icon" href="assets/images/logo.avif" type="image/avif" />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/site.css" />
+    <title>About | HeldenCuts</title>
+  </head>
+  <body>
+    <div data-page-header></div>
+    <main class="about-page">
+      <section class="section-shell">
+        <p class="eyebrow">About the editor</p>
+        <h1>The editor<br /><span>behind HeldenCuts.</span></h1>
+        <div class="about-layout">
+          <div>
+            <p class="about-lead">I'm Heldenhuf, a video editor focused on turning raw footage into clear, engaging stories. My style is clean, modern and minimal, with every cut serving the story.</p>
+            <div class="profile-grid">
+              <article class="profile-card"><strong>01</strong><p>English and German</p></article>
+              <article class="profile-card"><strong>02</strong><p>Clean, modern &amp; minimal editing</p></article>
+              <article class="profile-card"><strong>03</strong><p>DaVinci, Alight Motion &amp; CapCut</p></article>
+            </div>
+          </div>
+          <div class="about-brand"><img src="assets/images/logo.avif" alt="Heldenhuf logo" /></div>
+        </div>
+      </section>
+    </main>
+    <div data-page-footer></div>
+    <script type="module" src="js/page.js?v=20260918"></script>
+  </body>
+</html>
+
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\alle-html-css.txt =====
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\components\about.html =====
+
+<section class="about section-shell" id="about" aria-labelledby="about-title">
+  <div class="section-heading-row">
+    <div><p class="eyebrow">About the editor</p><h2 id="about-title">The editor<br /><span>behind HeldenCuts.</span></h2></div>
+    <a class="text-link" href="about.html">About me <span>â†—</span></a>
+  </div>
+  <div class="about-layout">
+    <div class="about-main"><p class="about-lead">I'm Heldenhuf, a video editor focused on turning raw footage into clear, engaging stories. My style is clean, modern and minimal, with every cut serving the story.</p></div>
+    <div class="about-brand"><img src="assets/images/logo.avif" alt="Heldenhuf logo" /></div>
+  </div>
+</section>
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\components\footer.html =====
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <a class="brand" href="index.html#home">Helden<span>Cuts</span></a>
+      <p>Video editing for creators and brands.</p>
+      <small>Â© 2026 Heldenhuf. All rights reserved.</small>
+    </div>
+    <nav aria-label="Footer sections">
+      <strong>EXPLORE</strong><a href="index.html">Home</a><a href="work/">Work</a
+      ><a href="services.html">Services</a><a href="about.html">About</a><a href="contact.html">Contact</a>
+    </nav>
+    <nav aria-label="Legal">
+      <strong>LEGAL</strong><a href="imprint.html">Imprint</a><a href="privacy-policy.html">Privacy</a>
+    </nav>
+    <nav aria-label="Support">
+      <strong>SUPPORT</strong><a href="mailto:heldenhuf@gmx.net">E-Mail</a
+      ><a href="https://discord.gg/aFdQzYfwF">Discord</a>
+    </nav>
+  </div>
+</footer>
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\components\header.html =====
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="logo" aria-label="HeldenCuts home">
+      <div class="logo-text">
+        <p>Helden<span>Cuts</span></p>
+      </div>
+    </a>
+
+    <nav class="header-nav" id="main-navigation" aria-label="Main navigation" aria-hidden="false">
+      <a href="work/" class="nav-link">Work</a>
+      <a href="services.html" class="nav-link">Services</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a class="nav-link nav-cta" href="contact.html">Get a Quote <span aria-hidden="true">â†—</span></a>
+    </nav>
+
+    <button class="header-menu-toggle" type="button" aria-label="Open menu" aria-controls="main-navigation" aria-expanded="false">
+      <svg class="menu-icon" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M4 7h16M4 12h16M4 17h16"></path>
+      </svg>
+    </button>
+  </div>
+</header>
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\components\hero.html =====
+
+<section class="hero section-shell" id="home" aria-labelledby="hero-title">
+  <div class="hero-copy">
+    <p class="eyebrow">Video editor Â· Germany</p>
+    <h1 id="hero-title">Video editing<br /><em>for attention.</em></h1>
+    <p class="hero-intro">Clean editing. Strong storytelling. Built for creators and brands that want to be remembered.</p>
+    <div class="hero-actions">
+      <a class="button button-primary" href="work/">View work <span aria-hidden="true">â†—</span></a>
+      <a class="button button-secondary" href="contact.html">Start a project</a>
+    </div>
+    <div class="hero-stats" aria-label="HeldenCuts statistics">
+      <div><strong>3+</strong><span>Years Experience</span></div>
+      <div><strong>+500%</strong><span>Views on Client Videos</span></div>
+      <div><strong>2.5k</strong><span>YouTube Subscribers</span></div>
+    </div>
+  </div>
+  <div class="hero-media" aria-label="HeldenCuts showreel preview">
+    <div class="hero-media-main"><img src="assets/images/client-videos.jpg" alt="Editing project preview" /></div>
+    <div class="hero-media-mini"><img src="assets/images/motion-design.png" alt="Motion design project preview" /><img src="assets/images/thumbnails.jpg" alt="Thumbnail design preview" /></div>
+    <div class="hero-media-note"><span>HeldenCuts / 001</span><strong>Editing that<br />keeps moving.</strong></div>
+    <span class="hero-media-label">Selected work <b>2026</b></span>
+    <span class="hero-media-play">Play reel <i>â†—</i></span>
+  </div>
+</section>
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\components\home-cta.html =====
+
+<section class="home-cta section-shell" aria-labelledby="home-cta-title">
+  <p class="eyebrow">Have a project in mind?</p>
+  <h2 id="home-cta-title">Let's make something<br /><span>worth watching.</span></h2>
+  <a class="button button-primary" href="contact.html">Get a quote <span aria-hidden="true">â†—</span></a>
+</section>
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\components\process.html =====
+
+<section
+  class="process section-shell"
+  id="process"
+  aria-labelledby="process-title"
+>
+  <p class="eyebrow">Process</p>
+  <h2 id="process-title">View The <span>Workflow</span></h2>
+  <p class="process-intro">
+    Take a look at the simple process behind every Client project and look at
+    every step of the Workflow.
+  </p>
+  <ol class="process-list">
+    <li><span class="step-number">01</span><strong>Send</strong><p>Send your footage and share expectations.</p></li>
+    <li><span class="step-number">02</span><strong>Edit + feedback</strong><p>Editing, refinement and your feedback.</p></li>
+    <li><span class="step-number">03</span><strong>Deliver</strong><p>Receive the finished files.</p></li>
+  </ol>
+</section>
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\components\ratings.html =====
+
+<section
+  class="ratings section-shell"
+  id="ratings"
+  aria-labelledby="ratings-title"
+>
+  <div class="section-heading">
+    <p class="eyebrow">Client-Ratings</p>
+    <h2 id="ratings-title">Read Client <span>Reviews</span></h2>
+  </div>
+  <div class="review-grid">
+    <blockquote>
+      <span class="quote-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 11h5v8H4v-6c0-4 2-7 6-9l1 2c-3 1-5 3-6 5Zm10 0h5v8h-6v-6c0-4 2-7 6-9l1 2c-3 1-5 3-6 5Z"></path></svg></span>
+      <p>
+        â€œHeldenhuf is a great editor who completes his work quickly and
+        carefullyâ€
+      </p>
+      <div class="review-person">
+        <img src="assets/images/reeen96.jpg" alt="Reeen96" /><span
+          ><strong>Reeen96</strong><small>Streamer &amp; YouTuber</small></span
+        >
+      </div>
+    </blockquote>
+    <blockquote>
+      <span class="quote-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 11h5v8H4v-6c0-4 2-7 6-9l1 2c-3 1-5 3-6 5Zm10 0h5v8h-6v-6c0-4 2-7 6-9l1 2c-3 1-5 3-6 5Z"></path></svg></span>
+      <p>
+        â€œAs always your editing is crazy! I swear I like your style so much.â€
+      </p>
+      <div class="review-person">
+        <img src="assets/images/mini-top.jpg" alt="Mini-Top" /><span
+          ><strong>Mini-Top</strong><small>300k+ YouTuber</small></span
+        >
+      </div>
+    </blockquote>
+    <blockquote>
+      <span class="quote-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 11h5v8H4v-6c0-4 2-7 6-9l1 2c-3 1-5 3-6 5Zm10 0h5v8h-6v-6c0-4 2-7 6-9l1 2c-3 1-5 3-6 5Z"></path></svg></span>
+      <p>
+        â€œHeldenhuf works very proffesional, and the videos were always finished
+        very quickly.â€
+      </p>
+      <div class="review-person">
+        <img src="assets/images/sirkobold.jpg" alt="SirKobold" /><span
+          ><strong>SirKobold</strong><small>YouTuber</small></span
+        >
+      </div>
+    </blockquote>
+  </div>
+</section>
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\components\services.html =====
+
+<section class="services section-shell" id="services" aria-labelledby="services-title">
+  <div class="section-heading-row"><div><p class="eyebrow">What I do</p><h2 id="services-title">Services built for<br /><span>the screen.</span></h2></div><a class="text-link" href="services.html">Explore services <span>â†—</span></a></div>
+  <div class="service-list">
+    <a href="contact.html?service=video-editing"><span>01</span><strong>Video editing</strong><small>Long-form / Short-form <i>â†—</i></small></a>
+    <a href="contact.html?service=motion-design"><span>02</span><strong>Motion design</strong><small>Animations / Graphics <i>â†—</i></small></a>
+    <a href="contact.html?service=thumbnails"><span>03</span><strong>Thumbnails</strong><small>Custom thumbnail design <i>â†—</i></small></a>
+  </div>
+</section>
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\components\trust.html =====
+
+<section class="trust section-shell" aria-label="Selected clients">
+  <p class="eyebrow">Worked with</p>
+  <div class="trust-list"><span>Mini-Top</span><span>Meshy AI</span><span>Reeen96</span><span>SirKobold</span></div>
+</section>
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\components\work.html =====
+
+<section class="work section-shell" id="work" aria-labelledby="work-title">
+  <div class="section-heading-row"><div><p class="eyebrow">Selected work</p><h2 id="work-title">Made to be <span>watched.</span></h2></div><a class="text-link" href="work/">All projects <span>â†—</span></a></div>
+  <div class="work-grid">
+    <a class="project-card card" href="work/client-videos/"
+      ><span class="project-image"><img
+        src="assets/images/client-videos.jpg"
+        alt="Client video project preview"
+      /></span><span class="project-copy"
+        ><strong>Client Videos</strong>
+        <p>Edits for creators and brands.</p>
+        <small>View collection â†—</small></span
+      ></a
+    >
+    <a class="project-card card" href="work/motion-design/"
+      ><span class="project-image"><img
+        src="assets/images/motion-design.png"
+        alt="Motion design project preview"
+      /></span><span class="project-copy"
+        ><strong>Motion Design</strong>
+        <p>Motion, graphics and rhythm.</p>
+        <small>View collection â†—</small></span
+      ></a
+    >
+    <a class="project-card card" href="work/thumbnails/"
+      ><span class="project-image"><img
+        src="assets/images/thumbnails.jpg"
+        alt="Custom thumbnail design preview"
+      /></span><span class="project-copy"
+        ><strong>Thumbnails</strong>
+        <p>Visuals that earn the click.</p>
+        <small>View collection â†—</small></span
+      ></a
+    >
+  </div>
+</section>
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\css\footer.css =====
+
+.site-footer {
+  background: #121212;
+  border-top: 1px solid #2a2a2a;
+  margin-top: 120px;
+  padding: 66px 24px 45px;
+}
+.footer-inner {
+  display: grid;
+  gap: clamp(24px, 4vw, 50px);
+  grid-template-columns: minmax(0, 1.5fr) repeat(3, minmax(0, 1fr));
+  margin: auto;
+  max-width: 1180px;
+}
+.footer-inner > div,
+.footer-inner nav {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.brand {
+  font-size: 27px;
+  font-variation-settings:
+    "opsz" 28,
+    "wght" 723;
+  font-weight: 400;
+  line-height: 32.4px;
+}
+.brand span {
+  color: var(--blue);
+}
+.footer-brand p {
+  color: #a6a6a6;
+  font-size: 13px;
+  line-height: 19.5px;
+  max-width: 240px;
+}
+.footer-brand small {
+  color: #545454;
+  font-size: 15px;
+  line-height: 16.5px;
+  margin-top: 35px;
+}
+.footer-inner nav strong {
+  color: #c9c9c9;
+  font-size: 15px;
+  font-variation-settings:
+    "opsz" 28,
+    "wght" 400;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0;
+  margin-bottom: 9px;
+}
+.footer-inner nav a {
+  color: #a6a6a6;
+  font-size: 14px;
+  line-height: 21px;
+  transition: color 0.2s;
+}
+.footer-inner nav a:hover {
+  color: #fff;
+}
+
+@media (max-width: 700px) {
+  .site-footer { margin-top: 72px; padding: 48px 20px 32px; }
+  .footer-inner { grid-template-columns: repeat(2, minmax(0, 1fr)); row-gap: 34px; }
+  .footer-brand { grid-column: 1 / -1; }
+}
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\css\global.css =====
+
+/* =========================================
+   GLOBAL STYLES
+   ========================================= */
+
+@font-face {
+  font-family: "Neutral Sans Variable";
+
+  src: url("../assets/fonts/neutral-sans-variable.woff2") format("woff2");
+
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* =========================================
+   FRAMER COLOR TOKENS
+   ========================================= */
+
+:root {
+  --background: #091017;
+  --surface: #151c25;
+  --muted: #7d8898;
+
+  --blue: #2b89fc;
+  --blue-light: #3098ff;
+  --blue-dark: #196aff;
+
+  --blue-transparent: #2b89fc9c;
+
+  --text-white: #ffffff;
+  --text-light: #d4d4d4;
+  --text-gray: #9c9c9c;
+  --text-muted: #808080;
+
+  --border: #3b465480;
+  --surface-elevated: #1b2531;
+  --radius-small: 3px;
+  --radius-medium: 8px;
+  --radius-large: 12px;
+  --content-width: 1180px;
+  --space-section: clamp(82px, 9vw, 130px);
+  --duration-fast: 0.2s;
+  --duration-normal: 0.35s;
+  --duration-slow: 0.8s;
+  --radius: 4px;
+  --transition: var(--duration-normal) ease;
+}
+
+/* =========================================
+   RESET
+   ========================================= */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  margin: 0;
+  overflow-x: hidden;
+  padding: 0;
+
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  background: var(--background);
+  color: var(--text-white);
+
+  font-family:
+    "Neutral Sans Variable", "Neutral Sans Variable Placeholder", sans-serif;
+
+  font-size: 12px;
+  font-weight: 400;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body::before {
+  display: none;
+}
+
+main {
+  overflow: hidden;
+}
+
+main [id] {
+  scroll-margin-top: 90px;
+}
+
+main.is-reveal-ready > section {
+  opacity: 0;
+  transform: translateY(18px);
+  transition:
+    opacity 0.6s ease,
+    transform 0.6s ease;
+}
+
+main.is-reveal-ready > section.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* =========================================
+   TEXT RESET
+   ========================================= */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+p {
+  font-family: inherit;
+}
+
+/* =========================================
+   LINKS
+   ========================================= */
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* =========================================
+   FORM ELEMENTS
+   ========================================= */
+
+button,
+input,
+textarea,
+select {
+  font-family: inherit;
+}
+
+/* =========================================
+   IMAGES
+   ========================================= */
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+
+  main.is-reveal-ready > section {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  .site-header {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+/* =========================================
+   CARDS
+   ========================================= */
+.card {
+  --border-bottom-width: 1.5px;
+  --border-color: var(--border);
+  --border-left-width: 1.5px;
+  --border-right-width: 1.5px;
+  --border-style: solid;
+  --border-top-width: 1.5px;
+  border-width: 1.5px;
+}
+
+:focus-visible {
+  outline: 2px solid var(--blue-light);
+  outline-offset: 4px;
+}
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\css\header.css =====
+
+/* Fixed navigation bar */
+.site-header {
+  background-color: #091017cc;
+  backdrop-filter: blur(6px);
+  height: 82px;
+  left: 0;
+  opacity: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  transform: translateY(-16px);
+  transition:
+    opacity 0.6s ease,
+    transform 0.6s ease;
+  width: 100%;
+  z-index: 5;
+}
+.site-header.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.header-inner {
+  align-items: center;
+  display: flex;
+  gap: 34px;
+  height: min-content;
+  justify-content: space-between;
+  left: 0;
+  margin: auto;
+  max-width: 1244px;
+  position: absolute;
+  padding: 0 24px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+.header-nav {
+  align-items: center;
+  display: flex;
+  gap: 28px;
+}
+.logo {
+  height: 30px;
+  flex-shrink: 0;
+  position: relative;
+  width: 140px;
+}
+.logo-text {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.logo-text p {
+  font-size: 24px;
+  font-variation-settings:
+    "wght" 723,
+    "opsz" 28;
+  font-weight: 723;
+  margin: 0;
+}
+.logo-text span {
+  color: var(--blue);
+}
+.nav-link {
+  color: #aeb8c6;
+  font-size: 14px;
+  line-height: 1.5em;
+  transition: color 0.2s ease;
+  white-space: nowrap;
+}
+.nav-cta { border: 1px solid rgba(43, 137, 252, .65); color: #fff; padding: 11px 15px; }
+.nav-cta span { color: var(--blue-light); margin-left: 10px; }
+.nav-cta:hover { background: rgba(43, 137, 252, .12); }
+.nav-link:hover {
+  color: #fff;
+}
+.header-menu-toggle {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(122, 138, 160, 0.32);
+  border-radius: 10px;
+  cursor: pointer;
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  height: 38px;
+  justify-content: center;
+  margin-left: auto;
+  width: 42px;
+}
+.menu-icon {
+  display: block;
+  height: 20px;
+  width: 20px;
+}
+.menu-icon path {
+  fill: none;
+  stroke: #edf5ff;
+  stroke-linecap: round;
+  stroke-width: 2;
+}
+
+@media (max-width: 760px) {
+  .site-header { height: 68px; }
+  .header-inner { padding: 0 20px; }
+  .logo { width: 125px; }
+  .logo-text p { font-size: 21px; }
+  .header-nav { align-items: flex-start; background: rgba(9, 16, 23, .98); flex-direction: column; gap: 24px; inset: 68px 0 auto; opacity: 0; padding: 36px 20px 44px; pointer-events: none; position: absolute; transform: translateY(-12px); transition: opacity .25s ease, transform .25s ease; }
+  .site-header.is-open .header-nav { opacity: 1; pointer-events: auto; transform: translateY(0); }
+  .nav-link { font-size: 28px; letter-spacing: -.04em; }
+  .nav-cta { font-size: 15px; margin-top: 8px; }
+  .header-menu-toggle { display: flex; }
+}
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\css\legal.css =====
+
+.legal-page-shell {
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 140px 24px 80px;
+}
+
+.legal-card {
+  background: rgba(17, 24, 34, 0.8);
+  border: 1px solid rgba(122, 138, 160, 0.3);
+  border-radius: 18px;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.22);
+  padding: 36px 32px 42px;
+}
+
+.legal-card h1 {
+  color: #fff;
+  font-size: clamp(32px, 4vw, 48px);
+  font-variation-settings: "opsz" 28, "wght" 723;
+  font-weight: 723;
+  line-height: 1.1;
+  margin-bottom: 18px;
+}
+
+.legal-meta {
+  color: #8ea0b8;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  margin-bottom: 22px;
+  text-transform: uppercase;
+}
+
+.legal-copy {
+  color: #dfe7f2;
+  font-size: 17px;
+  line-height: 1.75;
+}
+
+.legal-copy h2,
+.legal-copy h3 {
+  color: #fff;
+  font-size: 22px;
+  font-variation-settings: "opsz" 28, "wght" 650;
+  line-height: 1.3;
+  margin: 26px 0 12px;
+}
+
+.legal-copy p,
+.legal-copy li {
+  color: #dfe7f2;
+  font-size: 17px;
+  line-height: 1.75;
+  margin: 0 0 16px;
+}
+
+.legal-copy ul,
+.legal-copy ol {
+  margin: 12px 0 18px 20px;
+  padding-left: 20px;
+}
+
+.legal-copy strong {
+  color: #fff;
+  font-weight: 700;
+}
+
+.legal-copy a {
+  color: #5aa8ff;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.legal-copy a:hover {
+  color: #9ecbff;
+}
+
+.legal-copy em {
+  color: #bfe0ff;
+  font-style: italic;
+}
+
+@media (max-width: 700px) {
+  .legal-page-shell {
+    padding: 110px 18px 60px;
+  }
+
+  .legal-card {
+    padding: 24px 20px 30px;
+  }
+
+  .legal-copy {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  .legal-copy p,
+  .legal-copy li,
+  .legal-copy h2,
+  .legal-copy h3 {
+    font-size: inherit;
+  }
+}
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\css\pages.css =====
+
+.service-page h1, .about-page h1, .contact-page h1 { font-size: clamp(58px, 9vw, 120px); letter-spacing: -.07em; line-height: .88; }
+.page-lead { color: var(--text-light); font-size: 20px; margin-top: 28px; max-width: 520px; }
+.service-page .service-list { margin-top: 90px; }
+.service-list-detailed a { align-items: start; grid-template-columns: 56px minmax(180px, .8fr) minmax(0, 1fr); }
+.service-list-detailed a > div { display: grid; gap: 16px; }
+.service-list-detailed a p { color: var(--text-light); font-size: 15px; line-height: 1.45; margin: 0; max-width: 390px; }
+.service-list-detailed a small { text-align: left; }
+.page-cta { border-top: 1px solid var(--line); margin-top: 120px; padding-top: 28px; }
+.page-cta h2 { margin: 16px 0 28px; }
+.portfolio-grid { display: grid; gap: 18px; grid-template-columns: 1.15fr .85fr; margin-top: 26px; }
+.portfolio-tile { aspect-ratio: 1.25; overflow: hidden; position: relative; }
+.portfolio-tile-large { aspect-ratio: auto; grid-row: span 2; min-height: 620px; }
+.portfolio-tile img { height: 100%; object-fit: cover; transition: transform .7s cubic-bezier(.2,.75,.25,1); width: 100%; }
+.portfolio-tile:hover img { transform: scale(1.05); }
+.portfolio-tile::after { background: linear-gradient(180deg, transparent 40%, rgba(9,16,23,.9)); content: ""; inset: 0; position: absolute; }
+.portfolio-tile span { bottom: 22px; left: 24px; position: absolute; z-index: 1; }
+.portfolio-tile small { color: var(--blue-light); display: block; font-size: 10px; text-transform: uppercase; }
+.portfolio-tile strong { display: block; font-size: 27px; font-weight: 500; margin-top: 7px; }
+.contact-layout { display: grid; gap: 90px; grid-template-columns: minmax(0, 1fr) .65fr; margin-top: 78px; }
+.quote-form { display: grid; gap: 23px; }
+.quote-form label { color: var(--muted); display: grid; font-size: 11px; gap: 9px; text-transform: uppercase; }
+.quote-form input, .quote-form select, .quote-form textarea { background: transparent; border: 0; border-bottom: 1px solid var(--line); border-radius: 0; color: var(--text-white); font-size: 16px; outline: 0; padding: 10px 0; resize: vertical; }
+.quote-form option { background: var(--surface); }
+.quote-form input:focus, .quote-form select:focus, .quote-form textarea:focus { border-color: var(--blue-light); }
+.form-row { display: grid; gap: 24px; grid-template-columns: 1fr 1fr; }
+.contact-aside { border-left: 1px solid var(--line); display: flex; flex-direction: column; gap: 20px; padding: 8px 0 8px 28px; }
+.contact-aside p { color: var(--text-light); font-size: 20px; line-height: 1.35; margin-bottom: 20px; max-width: 280px; }
+.contact-aside a { color: var(--blue-light); font-size: 14px; }
+.contact-page .faq-list { margin-top: 100px; max-width: 720px; }
+.faq-list details { border-top: 1px solid var(--line); padding: 19px 0; }
+.faq-list details:last-child { border-bottom: 1px solid var(--line); }
+.faq-list summary { cursor: pointer; font-size: 16px; list-style: none; }
+.faq-list summary::-webkit-details-marker { display: none; }
+.faq-list details p { color: var(--muted); font-size: 14px; margin: 14px 0 0; }
+@media (max-width: 760px) {
+  .portfolio-grid { display: block; }
+  .portfolio-tile, .portfolio-tile-large { min-height: 320px; margin-bottom: 14px; }
+  .contact-layout { display: block; margin-top: 54px; }
+  .contact-aside { border-left: 0; border-top: 1px solid var(--line); margin-top: 60px; padding: 24px 0 0; }
+  .form-row { grid-template-columns: 1fr; }
+  .service-list-detailed a { grid-template-columns: 34px 1fr; }
+  .service-list-detailed a > div { grid-column: 2; }
+}
+
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\css\site.css =====
+
+@import url("pages.css");
+
+/* Shared editorial layer for the multi-page portfolio. */
+:root { --line: rgba(125, 136, 152, 0.28); --blue-wash: rgba(43, 137, 252, 0.12); }
+
+body { color: var(--text-white); font-size: 16px; line-height: 1.5; }
+
+body::after {
+  background: radial-gradient(circle at 85% 0%, rgba(43, 137, 252, 0.14), transparent 27rem);
+  content: "";
+  inset: 0 0 auto;
+  height: 70vh;
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+}
+
+.section-shell { max-width: var(--content-width); padding: var(--space-section) 32px; }
+.eyebrow { color: var(--blue-light); font-size: 11px; font-weight: 700; letter-spacing: .2em; line-height: 1.2; }
+h2 { font-size: clamp(42px, 5vw, 72px); font-weight: 500; letter-spacing: -.04em; line-height: .98; margin: 16px 0 0; text-align: left; }
+h2 span, h1 em { color: var(--blue-light); font-style: normal; }
+.section-heading-row { align-items: end; display: flex; justify-content: space-between; gap: 24px; }
+.text-link { color: var(--text-light); font-size: 14px; transition: color .25s ease; }
+.text-link span { color: var(--blue-light); margin-left: 8px; }
+.text-link:hover { color: var(--blue-light); }
+.button { align-items: center; border: 1px solid var(--line); border-radius: 3px; font-size: 14px; font-weight: 650; gap: 18px; height: 52px; padding: 0 21px; transition: border-color .25s ease, background .25s ease, transform .25s ease; white-space: nowrap; width: auto; }
+.button span { color: currentColor; font-size: 18px; }
+.button:hover { border-color: var(--blue-light); transform: translateY(-3px); }
+.button-primary { background: var(--blue); border-color: var(--blue); }
+.button-secondary { background: transparent; }
+
+.hero { align-items: center; display: grid; gap: clamp(40px, 7vw, 110px); grid-template-columns: minmax(0, .9fr) minmax(360px, 1.1fr); min-height: 760px; padding-bottom: 100px; padding-top: 150px; }
+.hero h1 { font-size: clamp(58px, 8.5vw, 112px); font-weight: 520; letter-spacing: -.075em; line-height: .86; margin: 22px 0 30px; text-align: left; }
+.hero-intro { color: var(--text-light); font-size: clamp(17px, 1.8vw, 20px); line-height: 1.45; max-width: 420px; }
+.hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 32px; }
+.hero-stats { border-top: 1px solid var(--line); display: grid; gap: 18px; grid-template-columns: repeat(3, minmax(0, 1fr)); margin-top: 58px; padding-top: 18px; }
+.hero-stats div { min-width: 80px; }
+.hero-stats strong { display: block; font-size: 24px; font-weight: 500; }
+.hero-stats span { color: var(--muted); display: block; font-size: 10px; line-height: 1.25; margin-top: 3px; text-transform: uppercase; }
+.hero-media { aspect-ratio: 4 / 5; background: var(--surface); border: 1px solid var(--line); display: grid; grid-template-rows: minmax(0, 1fr) auto; overflow: hidden; position: relative; }
+.hero-media::after { background: linear-gradient(180deg, transparent 45%, rgba(9, 16, 23, .82)); content: ""; inset: 0; position: absolute; }
+.hero-media-main { min-height: 0; overflow: hidden; }
+.hero-media-main img { height: 100%; object-fit: cover; transition: transform .8s cubic-bezier(.2,.75,.25,1); width: 100%; }
+.hero-media:hover .hero-media-main img { transform: scale(1.045); }
+.hero-media-mini { display: grid; gap: 8px; grid-template-columns: 1fr 1fr; height: 78px; padding: 8px; position: relative; z-index: 2; }
+.hero-media-mini img { height: 100%; object-fit: cover; width: 100%; }
+.hero-media-note { bottom: 102px; left: 22px; position: absolute; z-index: 3; }
+.hero-media-note span { color: var(--blue-light); font-size: 10px; letter-spacing: .12em; text-transform: uppercase; }
+.hero-media-note strong { display: block; font-size: clamp(22px, 3vw, 36px); font-weight: 500; letter-spacing: -.04em; line-height: .98; margin-top: 9px; }
+.hero-media-label, .hero-media-play { bottom: 20px; font-size: 11px; letter-spacing: .08em; position: absolute; text-transform: uppercase; z-index: 1; }
+.hero-media-label { left: 20px; }
+.hero-media-label b { color: var(--blue-light); font-weight: 500; margin-left: 18px; }
+.hero-media-play { align-items: center; display: flex; gap: 9px; right: 20px; }
+.hero-media-play i { color: var(--blue-light); font-size: 18px; font-style: normal; }
+.hero-copy > * { opacity: 0; transform: translateY(14px); transition: opacity .6s ease, transform .6s ease; }
+.hero.is-visible .hero-copy > * { opacity: 1; transform: translateY(0); }
+.hero.is-visible .hero-copy > .hero-intro { transition-delay: .08s; }
+.hero.is-visible .hero-copy > .hero-actions { transition-delay: .16s; }
+.hero.is-visible .hero-copy > .hero-stats { transition-delay: .24s; }
+.hero-media { opacity: 0; transform: translateY(18px) scale(.985); transition: opacity .8s ease .3s, transform .8s ease .3s; }
+.hero.is-visible .hero-media { opacity: 1; transform: translateY(0) scale(1); }
+.trust { border-bottom: 1px solid var(--line); border-top: 1px solid var(--line); display: flex; gap: 70px; padding-bottom: 28px; padding-top: 28px; }
+.trust-list { display: flex; flex: 1; justify-content: space-between; gap: 20px; }
+.trust-list span { color: var(--text-light); font-size: 15px; }
+
+.work { padding-top: 130px; }
+.work-grid { display: grid; gap: 18px; grid-template-columns: 1.2fr .8fr; grid-template-rows: repeat(2, minmax(250px, 1fr)); margin-top: 58px; }
+.project-card { display: grid; grid-template-rows: minmax(0, 1fr) auto; height: auto; min-height: 0; overflow: hidden; }
+.project-card:first-child { grid-row: span 2; }
+.project-image { display: block; min-height: 0; overflow: hidden; }
+.project-card img { height: 100%; object-fit: cover; position: static; transition: transform .7s cubic-bezier(.2,.75,.25,1); width: 100%; }
+.project-card:hover img { transform: scale(1.045); }
+.project-copy { background: var(--surface); border-top: 1px solid var(--line); display: block; padding: 18px 20px 20px; position: static; }
+.project-copy strong { display: block; font-size: clamp(24px, 3vw, 38px); font-weight: 500; letter-spacing: -.04em; }
+.project-copy p { color: var(--text-light); font-size: 14px; margin: 4px 0 14px; }
+.project-copy small { background: var(--blue); color: var(--text-white); display: inline-flex; font-size: 11px; margin-top: 4px; padding: 8px 11px; text-transform: uppercase; }
+
+.services { background: rgba(21, 28, 37, .42); max-width: none; padding-left: max(32px, calc((100vw - var(--content-width)) / 2 + 32px)); padding-right: max(32px, calc((100vw - var(--content-width)) / 2 + 32px)); }
+.service-list { margin-top: 52px; max-width: 1000px; }
+.service-list a { align-items: center; border-top: 1px solid var(--line); display: grid; gap: 24px; grid-template-columns: 56px 1fr auto; padding: 25px 0; transition: padding .25s ease, color .25s ease; }
+.service-list a:last-child { border-bottom: 1px solid var(--line); }
+.service-list a:hover { color: var(--blue-light); padding-left: 12px; }
+.service-list a > span, .service-list small { color: var(--muted); font-size: 11px; }
+.service-list strong { font-size: clamp(26px, 4vw, 44px); font-weight: 450; letter-spacing: -.04em; }
+.service-list small { text-align: right; }
+.service-list i { color: var(--blue-light); font-size: 18px; font-style: normal; margin-left: 18px; }
+
+.about-layout { align-items: center; display: grid; gap: 70px; grid-template-columns: 1fr .8fr; margin-top: 54px; }
+.about-lead { color: var(--text-light); font-size: clamp(22px, 2.4vw, 32px); letter-spacing: -.03em; line-height: 1.25; max-width: 650px; }
+.profile-grid { display: grid; gap: 10px; grid-template-columns: repeat(3, 1fr); margin-top: 38px; }
+.profile-card { align-items: center; border-color: var(--line); display: grid; gap: 16px; grid-template-columns: 56px minmax(0, 1fr); min-height: 108px; overflow: visible; padding: 18px; }
+.profile-card .profile-icon { align-items: center; display: grid; height: 40px; justify-content: center; position: static; transform: none; width: 40px; }
+.profile-card .profile-icon svg { height: 30px; width: 30px; }
+.profile-card .profile-icon { grid-column: 1; grid-row: 1 / span 2; }
+.profile-card > strong, .profile-card > p { grid-column: 2; }
+.profile-card strong { color: var(--text-white); display: block; font-size: 18px; margin: 0; }
+.profile-card p { color: var(--text-light); font-size: 13px; }
+.about-brand { align-items: center; background: var(--surface); display: flex; justify-content: center; min-height: 330px; }
+.about-brand img { max-width: 78%; width: min(260px, 78%); opacity: .82; }
+
+.ratings { padding-top: 70px; }
+.review-grid { display: grid; gap: 14px; grid-template-columns: 1.35fr .8fr .8fr; margin-top: 50px; }
+.review-grid blockquote { border-left: 2px solid var(--blue); margin: 0; padding: 10px 24px 20px; }
+.review-grid blockquote:first-child { background: rgba(21, 28, 37, .48); border: 1px solid var(--line); border-left: 2px solid var(--blue); grid-row: span 2; padding: 30px; }
+.review-grid blockquote:first-child p { font-size: clamp(22px, 2.4vw, 32px); line-height: 1.18; }
+.quote-icon { color: var(--blue-light); display: block; height: 22px; margin-bottom: 28px; width: 22px; }
+.quote-icon svg { fill: currentColor; height: 100%; width: 100%; }
+.review-grid blockquote p { color: var(--text-light); font-size: 18px; line-height: 1.35; }
+.review-person { align-items: center; display: flex; gap: 12px; margin-top: 28px; }
+.review-person img { border-radius: 50%; height: 38px; object-fit: cover; width: 38px; }
+.review-person strong, .review-person small { display: block; }
+.review-person strong { font-size: 13px; }
+.review-person small { color: var(--muted); font-size: 11px; margin-top: 2px; }
+.process { border-top: 1px solid var(--line); }
+.process-intro { color: var(--muted); margin-top: 22px; max-width: 430px; }
+.process-list { display: grid; gap: 0; grid-template-columns: repeat(3, 1fr); list-style: none; margin: 58px 0 0; padding: 0; }
+.process-list li { border-top: 1px solid var(--line); padding: 18px 28px 0 0; position: relative; }
+.process-list li:not(:last-child)::after { background: var(--line); content: ""; height: 1px; position: absolute; right: 0; top: -1px; width: 28px; }
+.step-number { color: var(--blue-light); display: block; font-size: 12px; margin-bottom: 45px; }
+.process-list strong { font-size: 17px; font-weight: 500; }
+.process-list p { color: var(--muted); font-size: 13px; margin-top: 8px; }
+.home-cta { padding-bottom: 150px; text-align: center; }
+.home-cta h2 { margin: 18px auto 34px; text-align: center; }
+
+@media (max-width: 760px) {
+  .section-shell { padding: 82px 20px; }
+  .hero { display: block; min-height: 0; padding-top: 124px; }
+  .hero h1 { font-size: clamp(54px, 16vw, 82px); }
+  .hero-stats { gap: 10px; margin-top: 48px; }
+  .hero-stats span { font-size: 8px; }
+  .hero-media { margin-top: 48px; }
+  .hero-media-mini { height: 64px; }
+  .hero-media-note { bottom: 86px; left: 16px; }
+  .trust { display: block; }
+  .trust-list { flex-wrap: wrap; gap: 16px 28px; margin-top: 18px; }
+  .section-heading-row { align-items: flex-start; flex-direction: column; }
+  .work-grid { display: grid; grid-template-columns: 1fr; grid-template-rows: none; margin-top: 38px; }
+  .project-card, .project-card:first-child { min-height: 330px; margin-bottom: 0; }
+  .service-list a { gap: 12px; grid-template-columns: 32px 1fr; }
+  .service-list small { grid-column: 2; text-align: left; }
+  .about-layout { display: flex; flex-direction: column; gap: 35px; }
+  .about-brand { min-height: 230px; order: -1; width: 100%; }
+  .profile-grid, .review-grid, .process-list { grid-template-columns: 1fr; }
+  .review-grid blockquote:first-child { grid-row: auto; padding: 24px; }
+  .profile-card { display: grid; gap: 14px; grid-template-columns: 48px minmax(0, 1fr); justify-content: initial; }
+  .profile-card .profile-icon { position: static; }
+  .process-list { gap: 0; grid-template-columns: 1fr; }
+  .process-list li { padding-bottom: 24px; }
+  .process-list li:not(:last-child)::after { height: 24px; left: 6px; right: auto; top: 36px; width: 1px; }
+  .step-number { margin-bottom: 18px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-copy > *, .hero-media { opacity: 1; transform: none; transition: none; }
+}
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\css\work-pages.css =====
+
+:root { --line: rgba(125, 136, 152, .28); }
+body { color: var(--text-white); font-size: 16px; line-height: 1.5; }
+.work-page { min-height: 70vh; padding: 155px 32px 100px; }
+.work-page-shell { margin: 0 auto; max-width: var(--content-width, 1180px); }
+.work-page h1 { font-size: clamp(58px, 9vw, 120px); letter-spacing: -.07em; line-height: .87; margin: 0; text-align: left; }
+.work-page h1 span { color: var(--blue-light); }
+.work-page-intro { color: var(--text-light); font-size: 19px; line-height: 1.45; margin: 28px 0 0; max-width: 480px; }
+.case-study-list { display: flex; flex-direction: column; gap: 110px; margin-top: 90px; }
+.case-study { align-items: center; display: grid; gap: clamp(30px, 7vw, 100px); grid-template-columns: minmax(0, .58fr) minmax(0, 1fr); opacity: 1; transform: translateY(0); transition: opacity .6s ease, transform .6s ease; }
+.work-page.is-ready .case-study:not(.is-visible) { opacity: 0; transform: translateY(18px); }
+.case-study.is-reverse { grid-template-columns: minmax(0, 1fr) minmax(0, .58fr); }
+.case-study.is-reverse .case-copy { order: 2; }
+.case-study.is-reverse .case-media { order: 1; }
+.case-copy h2 { font-size: clamp(30px, 4vw, 56px); margin: 0; }
+.case-copy h2 span { color: var(--blue-light); }
+.case-copy p { color: var(--text-light); font-size: 16px; line-height: 1.5; margin: 14px 0 0; }
+.case-copy .case-role { color: var(--blue-light); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; }
+.video-frame, .media-frame { aspect-ratio: 16 / 9; background: var(--surface); border: 1px solid var(--line); overflow: hidden; position: relative; }
+.video-frame img, .video-frame iframe, .media-frame img, .media-frame video { border: 0; display: block; height: 100%; object-fit: cover; width: 100%; }
+.media-frame video { object-fit: contain; }
+.video-play { align-items: center; background: rgba(9, 16, 23, .82); border: 1px solid rgba(255, 255, 255, .7); border-radius: 50%; color: var(--text-white); cursor: pointer; display: grid; height: 52px; left: 50%; place-items: center; position: absolute; top: 50%; transform: translate(-50%, -50%); transition: background .25s ease, transform .25s ease; width: 52px; }
+.video-play:hover { background: var(--blue); transform: translate(-50%, -50%) scale(1.05); }
+.video-play svg { fill: currentColor; height: 20px; width: 20px; }
+.video-dialog { background: rgba(9, 16, 23, .96); border: 1px solid var(--line); color: var(--text-white); max-width: min(1100px, calc(100vw - 32px)); padding: 0; width: 100%; }
+.video-dialog::backdrop { background: rgba(0, 0, 0, .82); }
+.video-dialog-shell { padding: 18px; position: relative; }
+.video-dialog-frame { aspect-ratio: 16 / 9; background: #000; }
+.video-dialog-frame iframe { border: 0; display: block; height: 100%; width: 100%; }
+.video-dialog-close { background: var(--surface); border: 1px solid var(--line); color: var(--text-white); cursor: pointer; font-size: 24px; height: 38px; line-height: 1; position: absolute; right: 8px; top: 8px; width: 38px; z-index: 1; }
+.video-dialog-close:hover { background: var(--blue); }
+.has-video-dialog { overflow: hidden; }
+.work-page-back { color: var(--blue-light); display: inline-block; margin-top: 90px; }
+.work-page-back:hover { color: var(--text-white); }
+.gallery-page .case-study-list { display: grid; gap: 18px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.gallery-page .case-study { display: block; }
+.gallery-page .case-copy { margin-bottom: 16px; }
+.gallery-page .case-copy h2 { font-size: 24px; }
+.gallery-page .case-study.is-reverse .case-copy, .gallery-page .case-study.is-reverse .case-media { order: initial; }
+@media (max-width: 760px) {
+  .work-page { padding: 125px 20px 76px; }
+  .case-study-list { gap: 72px; margin-top: 60px; }
+  .case-study, .case-study.is-reverse { display: flex; flex-direction: column; gap: 24px; }
+  .case-study.is-reverse .case-copy, .case-study.is-reverse .case-media { order: initial; }
+  .gallery-page .case-study-list { grid-template-columns: 1fr; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .work-page.is-ready .case-study:not(.is-visible) { opacity: 1; transform: none; }
+}
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\work\client-videos\index.html =====
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Client video editing projects by HeldenCuts for creators and brands." />
+    <meta name="theme-color" content="#091017" />
+    <link rel="canonical" href="/work/client-videos/" />
+    <link rel="icon" href="../../assets/images/logo.avif" type="image/avif" />
+    <link rel="stylesheet" href="../../css/global.css" />
+    <link rel="stylesheet" href="../../css/header.css" />
+    <link rel="stylesheet" href="../../css/footer.css" />
+    <link rel="stylesheet" href="../../css/work-pages.css" />
+    <title>Client Videos | HeldenCuts</title>
+  </head>
+  <body>
+    <div data-page-header></div>
+    <main class="work-page">
+      <div class="work-page-shell">
+        <p class="eyebrow">Selected work / Video</p>
+        <h1>Client <span>videos.</span></h1>
+        <p class="work-page-intro">Edits made for creators and brands, from fast-paced gaming videos to product-focused content.</p>
+        <div class="case-study-list">
+          <article class="case-study" data-video-id="t7nDj_Aqdyo" data-video-title="How to Get PRESTIGE in Brawl Stars (Step-by-Step Guide!)"><div class="case-copy"><h2>Mini-Top</h2><p class="case-role">YouTuber / Gaming</p><p>Fast-paced gaming edit for a Brawl Stars video.</p></div><div class="case-media"><div class="video-frame"><img src="https://i.ytimg.com/vi_webp/t7nDj_Aqdyo/sddefault.webp" alt="Mini-Top client video preview" /><button class="video-play" type="button" aria-label="Play Mini-Top client video"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 9 6-9 6Z"></path></svg></button></div></div></article>
+          <article class="case-study is-reverse" data-video-id="Hkb6z5TDlFY" data-video-title="This TOOL Just Changed 3D Modelling FOREVER"><div class="case-copy"><h2>Meshy AI</h2><p class="case-role">Brand / AI</p><p>Product-focused video about 3D modelling.</p></div><div class="case-media"><div class="video-frame"><img src="https://i.ytimg.com/vi_webp/Hkb6z5TDlFY/sddefault.webp" alt="Meshy AI client video preview" /><button class="video-play" type="button" aria-label="Play Meshy AI client video"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 9 6-9 6Z"></path></svg></button></div></div></article>
+          <article class="case-study" data-video-id="Ekvk8C4PW6g" data-video-title="Reeen96 client video"><div class="case-copy"><h2>Reeen96</h2><p class="case-role">Streamer / YouTuber</p><p>Client video edit created for a creator.</p></div><div class="case-media"><div class="video-frame"><img src="https://i.ytimg.com/vi_webp/Ekvk8C4PW6g/sddefault.webp" alt="Reeen96 client video preview" /><button class="video-play" type="button" aria-label="Play Reeen96 client video"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 9 6-9 6Z"></path></svg></button></div></div></article>
+          <article class="case-study is-reverse" data-video-id="5K9wqWVnvKY" data-video-title="SirKobold client video"><div class="case-copy"><h2>SirKobold</h2><p class="case-role">YouTuber</p><p>Client video edit created for a YouTube creator.</p></div><div class="case-media"><div class="video-frame"><img src="https://i.ytimg.com/vi_webp/5K9wqWVnvKY/sddefault.webp" alt="SirKobold client video preview" /><button class="video-play" type="button" aria-label="Play SirKobold client video"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 9 6-9 6Z"></path></svg></button></div></div></article>
+        </div>
+        <a class="work-page-back" href="../../work/">Back to Work</a>
+      </div>
+    </main>
+    <div data-page-footer></div>
+    <script type="module" src="../../js/work-pages.js?v=20260918"></script>
+  </body>
+</html>
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\work\motion-design\index.html =====
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Motion design and animation work by HeldenCuts." />
+    <meta name="theme-color" content="#091017" />
+    <link rel="canonical" href="/work/motion-design/" />
+    <link rel="icon" href="../../assets/images/logo.avif" type="image/avif" />
+    <link rel="stylesheet" href="../../css/global.css" />
+    <link rel="stylesheet" href="../../css/header.css" />
+    <link rel="stylesheet" href="../../css/footer.css" />
+    <link rel="stylesheet" href="../../css/work-pages.css" />
+    <title>Motion Design | HeldenCuts</title>
+  </head>
+  <body>
+    <div data-page-header></div>
+    <main class="work-page">
+      <div class="work-page-shell">
+        <p class="eyebrow">Selected work / Motion</p>
+        <h1>Motion <span>design.</span></h1>
+        <p class="work-page-intro">A visual selection of animation and motion design studies.</p>
+        <div class="case-study-list">
+          <article class="case-study"><div class="case-copy"><h2>Motion study 01</h2><p class="case-role">Animation / Graphics</p></div><div class="case-media"><div class="media-frame"><video src="https://framerusercontent.com/assets/BQHSZYO0Zq1ydsMFDjEZSJOa0.mp4" autoplay muted loop playsinline></video></div></div></article>
+          <article class="case-study is-reverse"><div class="case-copy"><h2>Motion study 02</h2><p class="case-role">Animation / Graphics</p></div><div class="case-media"><div class="media-frame"><video src="https://framerusercontent.com/assets/K8xSpatXdPZe8CMZiXu1gNCykY.mp4" autoplay muted loop playsinline></video></div></div></article>
+          <article class="case-study"><div class="case-copy"><h2>Motion study 03</h2><p class="case-role">Animation / Graphics</p></div><div class="case-media"><div class="media-frame"><video src="https://framerusercontent.com/assets/2d13quhJvk8pQAHkHPNQ2fQmTM.mp4" autoplay muted loop playsinline></video></div></div></article>
+          <article class="case-study is-reverse"><div class="case-copy"><h2>Motion study 04</h2><p class="case-role">Animation / Graphics</p></div><div class="case-media"><div class="media-frame"><video src="https://framerusercontent.com/assets/pzVCn1o9Fz3VEC4Mv0hbldqnQA.mp4" autoplay muted loop playsinline></video></div></div></article>
+        </div>
+        <a class="work-page-back" href="../../work/">Back to Work</a>
+      </div>
+    </main>
+    <div data-page-footer></div>
+    <script type="module" src="../../js/work-pages.js?v=20260918"></script>
+  </body>
+</html>
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\work\thumbnails\index.html =====
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Thumbnail design gallery by HeldenCuts." />
+    <meta name="theme-color" content="#091017" />
+    <link rel="canonical" href="/work/thumbnails/" />
+    <link rel="icon" href="../../assets/images/logo.avif" type="image/avif" />
+    <link rel="stylesheet" href="../../css/global.css" />
+    <link rel="stylesheet" href="../../css/header.css" />
+    <link rel="stylesheet" href="../../css/footer.css" />
+    <link rel="stylesheet" href="../../css/work-pages.css" />
+    <title>Thumbnails | HeldenCuts</title>
+  </head>
+  <body>
+    <div data-page-header></div>
+    <main class="work-page gallery-page">
+      <div class="work-page-shell">
+        <p class="eyebrow">Selected work / Thumbnails</p>
+        <h1>Thumbnail <span>gallery.</span></h1>
+        <p class="work-page-intro">A selection of custom thumbnail designs created for client projects.</p>
+        <div class="case-study-list">
+          <article class="case-study"><div class="case-copy"><h2>Thumbnail study 01</h2></div><div class="case-media"><div class="media-frame"><img src="https://framerusercontent.com/images/5xMsQjirVBhcmekNNZHcE5kEmLk.jpg?width=1280&amp;height=720" alt="Custom thumbnail design study 01" /></div></div></article>
+          <article class="case-study"><div class="case-copy"><h2>Thumbnail study 02</h2></div><div class="case-media"><div class="media-frame"><img src="https://framerusercontent.com/images/HVglpJLvDz453UU4fexcsWMtlU.png?width=1280&amp;height=720" alt="Custom thumbnail design study 02" /></div></div></article>
+          <article class="case-study"><div class="case-copy"><h2>Thumbnail study 03</h2></div><div class="case-media"><div class="media-frame"><img src="https://framerusercontent.com/images/ZwLu6RlLiKW0Q81YTc7SokzoTM.jpeg?width=2388&amp;height=1339" alt="Custom thumbnail design study 03" /></div></div></article>
+          <article class="case-study"><div class="case-copy"><h2>Thumbnail study 04</h2></div><div class="case-media"><div class="media-frame"><img src="https://framerusercontent.com/images/XmhJtSdDvgIH1FEKEVtKeWzJLnw.jpeg?width=1668&amp;height=933" alt="Custom thumbnail design study 04" /></div></div></article>
+        </div>
+        <a class="work-page-back" href="../../work/">Back to Work</a>
+      </div>
+    </main>
+    <div data-page-footer></div>
+    <script type="module" src="../../js/work-pages.js?v=20260918"></script>
+  </body>
+</html>
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\work\index.html =====
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Selected video editing, motion design and thumbnail work by HeldenCuts." />
+    <meta name="theme-color" content="#091017" />
+    <link rel="icon" href="../assets/images/logo.avif" type="image/avif" />
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/site.css" />
+    <link rel="stylesheet" href="../css/work-pages.css" />
+    <title>Work | HeldenCuts</title>
+  </head>
+  <body>
+    <div data-page-header></div>
+    <main class="work-page">
+      <div class="work-page-shell">
+        <p class="eyebrow">Portfolio</p>
+        <h1>My <span>work.</span></h1>
+        <p class="work-page-intro">A selection of projects, edits and creative work made for creators and brands.</p>
+        <div class="portfolio-grid">
+          <a class="portfolio-tile portfolio-tile-large" href="client-videos/"><img src="../assets/images/client-videos.jpg" alt="Client video editing work" /><span><small>01 / Video</small><strong>Client videos</strong></span></a>
+          <a class="portfolio-tile" href="motion-design/"><img src="../assets/images/motion-design.png" alt="Motion design work" /><span><small>02 / Motion</small><strong>Motion design</strong></span></a>
+          <a class="portfolio-tile" href="thumbnails/"><img src="../assets/images/thumbnails.jpg" alt="Thumbnail design work" /><span><small>03 / Thumbnails</small><strong>Thumbnail design</strong></span></a>
+        </div>
+      </div>
+    </main>
+    <div data-page-footer></div>
+    <script type="module" src="../js/page.js?v=20260918"></script>
+  </body>
+</html>
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\about.html =====
+
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="description" content="Meet Simon, the editor behind HeldenCuts." /><meta name="theme-color" content="#091017" /><link rel="icon" href="assets/images/logo.avif" type="image/avif" /><link rel="stylesheet" href="css/global.css" /><link rel="stylesheet" href="css/header.css" /><link rel="stylesheet" href="css/footer.css" /><link rel="stylesheet" href="css/site.css" /><title>About | HeldenCuts</title></head>
+<body><div data-page-header></div><main class="about-page"><section class="section-shell"><p class="eyebrow">About the editor</p><h1>The editor<br /><span>behind HeldenCuts.</span></h1><div class="about-layout"><div><p class="about-lead">I'm Heldenhuf, a video editor focused on turning raw footage into clear, engaging stories. My style is clean, modern and minimal, with every cut serving the story.</p><div class="profile-grid"><article class="profile-card"><strong>01</strong><p>English and German</p></article><article class="profile-card"><strong>02</strong><p>Clean, modern &amp; minimal editing</p></article><article class="profile-card"><strong>03</strong><p>DaVinci, Alight Motion &amp; CapCut</p></article></div></div><div class="about-brand"><img src="assets/images/logo.avif" alt="Heldenhuf logo" /></div></div></section></main><div data-page-footer></div><script type="module" src="js/page.js"></script></body></html>
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\contact.html =====
+
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="description" content="Start a video editing project with HeldenCuts." /><meta name="theme-color" content="#091017" /><link rel="icon" href="assets/images/logo.avif" type="image/avif" /><link rel="stylesheet" href="css/global.css" /><link rel="stylesheet" href="css/header.css" /><link rel="stylesheet" href="css/footer.css" /><link rel="stylesheet" href="css/site.css" /><title>Get a Quote | HeldenCuts</title></head>
+<body><div data-page-header></div><main class="contact-page"><section class="section-shell"><p class="eyebrow">Start a project</p><h1>Let's make<br /><span>something worth watching.</span></h1><div class="contact-layout"><form class="quote-form" action="mailto:heldenhuf@gmx.net" method="post" enctype="text/plain"><label>Name<input name="name" required /></label><label>Email<input type="email" name="email" required /></label><label>What do you need?<select name="service"><option>Video Editing</option><option>Motion Design</option><option>Thumbnail</option></select></label><label>Project description<textarea name="description" rows="5"></textarea></label><div class="form-row"><label>Budget<input name="budget" placeholder="Optional" /></label><label>Deadline<input name="deadline" placeholder="Optional" /></label></div><button class="button button-primary" type="submit">Send project request <span>â†—</span></button></form><aside class="contact-aside"><p>Tell me a little about your project. You can also message me directly.</p><a href="mailto:heldenhuf@gmx.net">heldenhuf@gmx.net â†—</a><a href="https://discord.gg/aFdQzYfwF">Message me on Discord â†—</a></aside></div><div class="faq-list"><details><summary>What kind of videos do you edit?</summary><p>Long-form and short-form content, no matter the niche.</p></details><details><summary>How quickly can you deliver?</summary><p>Depending on complexity, turnaround typically ranges from two to fourteen days.</p></details><details><summary>What is the price range?</summary><p>Pricing is discussed individually based on the project scope and requirements.</p></details></div></section></main><div data-page-footer></div><script type="module" src="js/page.js"></script></body></html>
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\imprint.html =====
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Terms of service for HeldenCuts by Heldenhuf."
+    />
+    <meta name="theme-color" content="#091017" />
+    <link rel="icon" href="assets/images/logo.avif" type="image/avif" />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/legal.css" />
+    <title>Terms of Service | HeldenCuts</title>
+  </head>
+  <body>
+    <div data-page-header></div>
+
+    <main class="legal-page-shell">
+      <article class="legal-card">
+        <div class="legal-meta">Legal</div>
+        <h1>Terms of Service</h1>
+
+        <div class="legal-copy">
+          <p><strong>Last updated:</strong> August 3, 2026</p>
+
+          <h2>1. Acceptance of Terms</h2>
+          <p>
+            By accessing and using this website, you agree to these Terms of
+            Service. If you do not agree, please do not use this website.
+          </p>
+
+          <h2>2. Website Purpose</h2>
+          <p>
+            This website showcases video editing work, creative projects, and
+            information about services offered by HeldenCuts. All content is
+            provided for informational and private purposes.
+          </p>
+
+          <h2>3. Intellectual Property</h2>
+          <p>
+            Unless otherwise stated, all original content on this website,
+            including videos, graphics, text, logos, branding, and designs, is
+            owned by HeldenCuts and is protected by applicable copyright laws.
+            You may not copy, reproduce, redistribute, or use any content without
+            prior written permission.
+          </p>
+
+          <h2>4. Third-Party Content</h2>
+          <p>
+            Some showcased projects may include material owned by third parties.
+            All respective copyrights and trademarks remain the property of their
+            respective owners.
+          </p>
+
+          <h2>5. User Conduct</h2>
+          <ul>
+            <li>Use this website for lawful purposes only.</li>
+            <li>Do not attempt to gain unauthorized access to the website.</li>
+            <li>Do not interfere with the operation or security of this website.</li>
+          </ul>
+
+          <h2>6. Services</h2>
+          <p>
+            Any editing services, collaborations, or commissions are subject to
+            separate agreements discussed directly with the client. Pricing,
+            delivery times, revisions, and project scope may vary depending on the
+            individual project.
+          </p>
+
+          <h2>7. Disclaimer</h2>
+          <p>
+            The information on this website is provided â€œas isâ€ without warranties
+            of any kind. While reasonable efforts are made to keep information
+            accurate and up to date, no guarantee is made regarding completeness,
+            accuracy, or availability.
+          </p>
+
+          <h2>8. Limitation of Liability</h2>
+          <p>
+            To the fullest extent permitted by law, HeldenCuts shall not be liable
+            for any direct, indirect, incidental, or consequential damages arising
+            from the use of this website.
+          </p>
+
+          <h2>9. External Links</h2>
+          <p>
+            This website may contain links to third-party websites. HeldenCuts is
+            not responsible for the content, privacy practices, or availability of
+            external websites.
+          </p>
+
+          <h2>10. Changes to These Terms</h2>
+          <p>
+            These Terms of Service may be updated at any time without prior notice.
+            Continued use of the website after changes have been published
+            constitutes acceptance of the updated Terms.
+          </p>
+
+          <h2>11. Contact</h2>
+          <p>
+            For questions regarding these Terms of Service, please contact:
+            <a href="mailto:heldenhuf@gmx.net">heldenhuf@gmx.net</a> or use the
+            contact methods provided on this website.
+          </p>
+        </div>
+      </article>
+    </main>
+
+    <div data-page-footer></div>
+
+    <script type="module" src="js/main.js?v=20260918"></script>
+  </body>
+</html>
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\index.html =====
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="HeldenCuts by Heldenhuf: high-quality video editing for brands and creators."
+    />
+    <meta name="theme-color" content="#091017" />
+    <link rel="icon" href="assets/images/logo.avif" type="image/avif" />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/site.css" />
+    <title>HeldenCuts | Video Editing by Heldenhuf</title>
+  </head>
+  <body>
+    <div data-page-header></div>
+
+    <main>
+      <div data-component="hero"></div>
+      <div data-component="trust"></div>
+      <div data-component="work"></div>
+      <div data-component="services"></div>
+      <div data-component="about"></div>
+      <div data-component="ratings"></div>
+      <div data-component="process"></div>
+      <div data-component="home-cta"></div>
+    </main>
+
+    <div data-page-footer></div>
+
+    <script type="module" src="js/main.js?v=20260918"></script>
+  </body>
+</html>
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\privacy-policy.html =====
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Privacy policy for HeldenCuts by Heldenhuf."
+    />
+    <meta name="theme-color" content="#091017" />
+    <link rel="icon" href="assets/images/logo.avif" type="image/avif" />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/legal.css" />
+    <title>Privacy Policy | HeldenCuts</title>
+  </head>
+  <body>
+    <div data-page-header></div>
+
+    <main class="legal-page-shell">
+      <article class="legal-card">
+        <div class="legal-meta">Legal</div>
+        <h1>Privacy Policy</h1>
+
+        <div class="legal-copy">
+          <h2>1. General Information</h2>
+          <p>
+            The protection of your personal data is important to us. This privacy
+            policy explains how personal data is processed when you visit this
+            website.
+          </p>
+
+          <h2>2. Responsible Person</h2>
+          <p>
+            Simon Lang<br />
+            68167 Mannheim<br />
+            Germany<br />
+            <a href="mailto:heldenhuf@gmx.net">heldenhuf@gmx.net</a>
+          </p>
+
+          <h2>3. Hosting and Website Provider</h2>
+          <p>
+            This project is a static HTML, CSS, and JavaScript website. The
+            specific hosting provider depends on the deployment used for the
+            website. Standard technical request data may be processed by that
+            provider to deliver the website and protect its operation.
+          </p>
+
+          <h2>4. Analytics</h2>
+          <p>
+            No analytics service is configured in this project. If analytics are
+            added in a future deployment, this policy should be updated before
+            that service is enabled.
+          </p>
+
+          <h2>5. Embedded YouTube Videos</h2>
+          <p>
+            This website loads selected project previews and videos from external
+            providers, including YouTube and Framer-hosted media URLs. Those
+            providers may process technical data such as your IP address when
+            their media is requested or played. Their own privacy policies apply.
+          </p>
+
+          <h2>6. Contact</h2>
+          <p>
+            If you contact me via email, Discord, or a contact form, the
+            information you provide (such as your name, email address, and
+            message) will only be used to respond to your request and communicate
+            about potential projects.
+          </p>
+
+          <h2>7. Your Rights</h2>
+          <p>
+            You have the right to request information about your personal data,
+            request correction or deletion of your data, and object to certain
+            processing activities.
+          </p>
+
+          <h2>8. Updates</h2>
+          <p>
+            This privacy policy may be updated if the website or services used
+            change. <strong>Last updated:</strong> 31 July 2026.
+          </p>
+        </div>
+      </article>
+    </main>
+
+    <div data-page-footer></div>
+
+    <script type="module" src="js/main.js?v=20260918"></script>
+  </body>
+</html>
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\services.html =====
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Video editing, motion design and thumbnail design services by HeldenCuts." />
+    <meta name="theme-color" content="#091017" />
+    <link rel="icon" href="assets/images/logo.avif" type="image/avif" />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/site.css" />
+    <title>Services | HeldenCuts</title>
+  </head>
+  <body>
+    <div data-page-header></div>
+    <main class="service-page">
+      <section class="section-shell">
+        <p class="eyebrow">Services</p>
+        <h1>Good work starts<br />with a <span>clear cut.</span></h1>
+        <p class="page-lead">Focused creative support for content that needs to move, land and stay with people.</p>
+        <div class="service-list service-list-detailed">
+          <a href="contact.html?service=video-editing"><span>01</span><strong>Video editing</strong><div><p>Long-form and short-form edits with clean pacing, purposeful motion and modern visuals.</p><small>Long-form / Short-form <i>â†—</i></small></div></a>
+          <a href="contact.html?service=motion-design"><span>02</span><strong>Motion design</strong><div><p>Animations and graphics that give an edit rhythm, clarity and visual direction.</p><small>Animations / Graphics <i>â†—</i></small></div></a>
+          <a href="contact.html?service=thumbnails"><span>03</span><strong>Thumbnails</strong><div><p>Custom thumbnail design made to present the idea clearly before the video starts.</p><small>Custom thumbnail design <i>â†—</i></small></div></a>
+        </div>
+        <div class="page-cta"><p class="eyebrow">Have a project in mind?</p><h2>Start a <span>project.</span></h2><a class="button button-primary" href="contact.html">Get a quote <span>â†—</span></a></div>
+      </section>
+    </main>
+    <div data-page-footer></div>
+    <script type="module" src="js/page.js?v=20260918"></script>
+  </body>
+</html>
+
+
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\imprint.html =====
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Terms of service for HeldenCuts by Heldenhuf."
+    />
+    <meta name="theme-color" content="#091017" />
+    <link rel="icon" href="assets/images/logo.avif" type="image/avif" />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/legal.css" />
+    <title>Terms of Service | HeldenCuts</title>
+  </head>
+  <body>
+    <div data-page-header></div>
+
+    <main class="legal-page-shell">
+      <article class="legal-card">
+        <div class="legal-meta">Legal</div>
+        <h1>Terms of Service</h1>
+
+        <div class="legal-copy">
+          <p><strong>Last updated:</strong> August 3, 2026</p>
+
+          <h2>1. Acceptance of Terms</h2>
+          <p>
+            By accessing and using this website, you agree to these Terms of
+            Service. If you do not agree, please do not use this website.
+          </p>
+
+          <h2>2. Website Purpose</h2>
+          <p>
+            This website showcases video editing work, creative projects, and
+            information about services offered by HeldenCuts. All content is
+            provided for informational and private purposes.
+          </p>
+
+          <h2>3. Intellectual Property</h2>
+          <p>
+            Unless otherwise stated, all original content on this website,
+            including videos, graphics, text, logos, branding, and designs, is
+            owned by HeldenCuts and is protected by applicable copyright laws.
+            You may not copy, reproduce, redistribute, or use any content without
+            prior written permission.
+          </p>
+
+          <h2>4. Third-Party Content</h2>
+          <p>
+            Some showcased projects may include material owned by third parties.
+            All respective copyrights and trademarks remain the property of their
+            respective owners.
+          </p>
+
+          <h2>5. User Conduct</h2>
+          <ul>
+            <li>Use this website for lawful purposes only.</li>
+            <li>Do not attempt to gain unauthorized access to the website.</li>
+            <li>Do not interfere with the operation or security of this website.</li>
+          </ul>
+
+          <h2>6. Services</h2>
+          <p>
+            Any editing services, collaborations, or commissions are subject to
+            separate agreements discussed directly with the client. Pricing,
+            delivery times, revisions, and project scope may vary depending on the
+            individual project.
+          </p>
+
+          <h2>7. Disclaimer</h2>
+          <p>
+            The information on this website is provided â€œas isâ€ without warranties
+            of any kind. While reasonable efforts are made to keep information
+            accurate and up to date, no guarantee is made regarding completeness,
+            accuracy, or availability.
+          </p>
+
+          <h2>8. Limitation of Liability</h2>
+          <p>
+            To the fullest extent permitted by law, HeldenCuts shall not be liable
+            for any direct, indirect, incidental, or consequential damages arising
+            from the use of this website.
+          </p>
+
+          <h2>9. External Links</h2>
+          <p>
+            This website may contain links to third-party websites. HeldenCuts is
+            not responsible for the content, privacy practices, or availability of
+            external websites.
+          </p>
+
+          <h2>10. Changes to These Terms</h2>
+          <p>
+            These Terms of Service may be updated at any time without prior notice.
+            Continued use of the website after changes have been published
+            constitutes acceptance of the updated Terms.
+          </p>
+
+          <h2>11. Contact</h2>
+          <p>
+            For questions regarding these Terms of Service, please contact:
+            <a href="mailto:heldenhuf@gmx.net">heldenhuf@gmx.net</a> or use the
+            contact methods provided on this website.
+          </p>
+        </div>
+      </article>
+    </main>
+
+    <div data-page-footer></div>
+
+    <script type="module" src="js/page.js?v=20260918"></script>
+  </body>
+</html>
+
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\index.html =====
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="HeldenCuts by Heldenhuf: high-quality video editing for brands and creators."
+    />
+    <meta name="theme-color" content="#091017" />
+    <link rel="icon" href="assets/images/logo.avif" type="image/avif" />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/site.css" />
+    <title>HeldenCuts | Video Editing by Heldenhuf</title>
+  </head>
+  <body>
+    <div data-page-header></div>
+
+    <main>
+      <div data-component="hero"></div>
+      <div data-component="trust"></div>
+      <div data-component="work"></div>
+      <div data-component="services"></div>
+      <div data-component="about"></div>
+      <div data-component="ratings"></div>
+      <div data-component="process"></div>
+      <div data-component="home-cta"></div>
+    </main>
+
+    <div data-page-footer></div>
+
+    <script type="module" src="js/main.js?v=20260918"></script>
+  </body>
+</html>
+
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\privacy-policy.html =====
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Privacy policy for HeldenCuts by Heldenhuf."
+    />
+    <meta name="theme-color" content="#091017" />
+    <link rel="icon" href="assets/images/logo.avif" type="image/avif" />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/legal.css" />
+    <title>Privacy Policy | HeldenCuts</title>
+  </head>
+  <body>
+    <div data-page-header></div>
+
+    <main class="legal-page-shell">
+      <article class="legal-card">
+        <div class="legal-meta">Legal</div>
+        <h1>Privacy Policy</h1>
+
+        <div class="legal-copy">
+          <h2>1. General Information</h2>
+          <p>
+            The protection of your personal data is important to us. This privacy
+            policy explains how personal data is processed when you visit this
+            website.
+          </p>
+
+          <h2>2. Responsible Person</h2>
+          <p>
+            Simon Lang<br />
+            68167 Mannheim<br />
+            Germany<br />
+            <a href="mailto:heldenhuf@gmx.net">heldenhuf@gmx.net</a>
+          </p>
+
+          <h2>3. Hosting and Website Provider</h2>
+          <p>
+            This project is a static HTML, CSS, and JavaScript website. The
+            specific hosting provider depends on the deployment used for the
+            website. Standard technical request data may be processed by that
+            provider to deliver the website and protect its operation.
+          </p>
+
+          <h2>4. Analytics</h2>
+          <p>
+            No analytics service is configured in this project. If analytics are
+            added in a future deployment, this policy should be updated before
+            that service is enabled.
+          </p>
+
+          <h2>5. Embedded YouTube Videos</h2>
+          <p>
+            This website loads selected project previews and videos from external
+            providers, including YouTube and Framer-hosted media URLs. Those
+            providers may process technical data such as your IP address when
+            their media is requested or played. Their own privacy policies apply.
+          </p>
+
+          <h2>6. Contact</h2>
+          <p>
+            If you contact me via email, Discord, or a contact form, the
+            information you provide (such as your name, email address, and
+            message) will only be used to respond to your request and communicate
+            about potential projects.
+          </p>
+
+          <h2>7. Your Rights</h2>
+          <p>
+            You have the right to request information about your personal data,
+            request correction or deletion of your data, and object to certain
+            processing activities.
+          </p>
+
+          <h2>8. Updates</h2>
+          <p>
+            This privacy policy may be updated if the website or services used
+            change. <strong>Last updated:</strong> 31 July 2026.
+          </p>
+        </div>
+      </article>
+    </main>
+
+    <div data-page-footer></div>
+
+    <script type="module" src="js/page.js?v=20260918"></script>
+  </body>
+</html>
+
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\projekt-inhalt.txt =====
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\README.md =====
+# HeldenCuts
+
+Static portfolio website for Heldenhuf, built with HTML, CSS and vanilla JavaScript.
+
+## Structure
+
+- `index.html` - homepage
+- `work/` - portfolio overview and canonical project pages
+- `services.html` - services
+- `about.html` - editor profile
+- `contact.html` - project inquiry and FAQ
+- `imprint.html` and `privacy-policy.html` - legal pages
+- `components/` - shared HTML fragments
+- `css/` - tokens, shared layout, page, portfolio, header, footer and legal styles
+- `js/` - shared loader, homepage behavior and portfolio video behavior
+- `assets/` - local font and brand imagery
+
+## Local preview
+
+Because components are loaded with `fetch`, use a static server from the project root:
+
+```powershell
+python -m http.server 4173
+```
+
+Open `http://localhost:4173/` in a browser.
+
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\services.html =====
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Video editing, motion design and thumbnail design services by HeldenCuts." />
+    <meta name="theme-color" content="#091017" />
+    <link rel="icon" href="assets/images/logo.avif" type="image/avif" />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/site.css" />
+    <title>Services | HeldenCuts</title>
+  </head>
+  <body>
+    <div data-page-header></div>
+    <main class="service-page">
+      <section class="section-shell">
+        <p class="eyebrow">Services</p>
+        <h1>Good work starts<br />with a <span>clear cut.</span></h1>
+        <p class="page-lead">Focused creative support for content that needs to move, land and stay with people.</p>
+        <div class="service-list service-list-detailed">
+          <a href="contact.html?service=video-editing"><span>01</span><strong>Video editing</strong><div><p>Long-form and short-form edits with clean pacing, purposeful motion and modern visuals.</p><small>Long-form / Short-form <i>â†—</i></small></div></a>
+          <a href="contact.html?service=motion-design"><span>02</span><strong>Motion design</strong><div><p>Animations and graphics that give an edit rhythm, clarity and visual direction.</p><small>Animations / Graphics <i>â†—</i></small></div></a>
+          <a href="contact.html?service=thumbnails"><span>03</span><strong>Thumbnails</strong><div><p>Custom thumbnail design made to present the idea clearly before the video starts.</p><small>Custom thumbnail design <i>â†—</i></small></div></a>
+        </div>
+        <div class="page-cta"><p class="eyebrow">Have a project in mind?</p><h2>Start a <span>project.</span></h2><a class="button button-primary" href="contact.html">Get a quote <span>â†—</span></a></div>
+      </section>
+    </main>
+    <div data-page-footer></div>
+    <script type="module" src="js/page.js?v=20260918"></script>
+  </body>
+</html>
+
+
