@@ -113,6 +113,11 @@ h2 {
   text-align: center;
 }
 
+.section-shell > .eyebrow + h2,
+.section-shell > div > .eyebrow + h2 {
+  margin-top: 11px;
+}
+
 h2 span {
   color: var(--blue);
 }
