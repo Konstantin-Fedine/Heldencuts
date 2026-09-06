@@ -3,15 +3,21 @@
   text-align: center;
 }
 
-.about-copy {
-  width: 100%;
-}
-
-.about-intro {
+.about-layout {
   align-items: center;
   display: grid;
   gap: 60px;
-  grid-template-columns: minmax(0, 1fr) 220px;
+  grid-template-columns: minmax(0, 1fr) 240px;
+  margin-top: 58px;
+}
+
+.about-main {
+  min-width: 0;
+  text-align: left;
+}
+
+.about-copy {
+  width: 100%;
 }
 
 .about-brand {
@@ -27,11 +33,7 @@
 }
 
 .about-brand p {
-  color: #8e9aaa;
-  font-size: 12px;
-  line-height: 18px;
-  margin: 12px 0 0 auto;
-  max-width: 210px;
+  display: none;
 }
 
 .about h2 {
@@ -43,17 +45,17 @@
   font-size: 18px;
   letter-spacing: 0;
   line-height: 27px;
-  margin: 25px auto 0;
+  margin: 25px 0 0;
   max-width: 751px;
 }
 
 .profile-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: 1fr;
   gap: 24px;
   width: 100%;
   max-width: 1236px;
-  margin: 70px auto 0;
+  margin: 42px auto 0;
 }
 
 .profile-card {

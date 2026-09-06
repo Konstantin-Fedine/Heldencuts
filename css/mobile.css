@@ -337,15 +337,15 @@
     display: block;
     padding-top: 100px;
   }
-  .about-intro {
+  .about-layout {
     display: block;
+    margin-top: 42px;
   }
   .about-brand {
     margin: 42px auto 0;
     text-align: center;
   }
-  .about-brand img,
-  .about-brand p {
+  .about-brand img {
     margin-left: auto;
     margin-right: auto;
   }
