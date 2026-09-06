@@ -1,0 +1,3090 @@
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\client-videos\index.html =====
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/header.css?v=20260916" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/mobile.css" />
+    <link rel="stylesheet" href="../css/work-pages.css" />
+    <title>Client Videos | HeldenCuts</title>
+  </head>
+  <body>
+    <div data-page-header></div>
+    <main class="work-page">
+      <div class="work-page-shell">
+        <h1>Client Videos</h1>
+        <div class="case-study-list">
+          <article class="case-study" data-video-id="t7nDj_Aqdyo" data-video-title="How to Get PRESTIGE in Brawl Stars (Step-by-Step Guide!)">
+            <div class="case-copy"><h2>Mini-Top</h2><p class="case-role">YouTuber · Gaming</p><p>Fast-paced gaming edit for a Brawl Stars video.</p></div>
+            <div class="case-media"><div class="video-frame">
+              <img src="https://i.ytimg.com/vi_webp/t7nDj_Aqdyo/sddefault.webp" alt="Mini-Top client video preview" />
+              <button class="video-play" type="button" aria-label="Play Mini-Top client video"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 9 6-9 6Z"></path></svg></button>
+            </div></div>
+          </article>
+          <article class="case-study is-reverse" data-video-id="Hkb6z5TDlFY" data-video-title="This TOOL Just Changed 3D Modelling FOREVER">
+            <div class="case-copy"><h2>Meshy AI</h2><p class="case-role">Brand · AI</p><p>Product-focused video about 3D modelling.</p></div>
+            <div class="case-media"><div class="video-frame">
+              <img src="https://i.ytimg.com/vi_webp/Hkb6z5TDlFY/sddefault.webp" alt="Meshy AI client video preview" />
+              <button class="video-play" type="button" aria-label="Play Meshy AI client video"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 9 6-9 6Z"></path></svg></button>
+            </div></div>
+          </article>
+          <article class="case-study" data-video-id="Ekvk8C4PW6g" data-video-title="Reeen96 client video">
+            <div class="case-copy"><h2>Reeen96</h2><p class="case-role">Streamer &amp; YouTuber</p><p>Client video edit created for a creator.</p></div>
+            <div class="case-media"><div class="video-frame">
+              <img src="https://i.ytimg.com/vi_webp/Ekvk8C4PW6g/sddefault.webp" alt="Reeen96 client video preview" />
+              <button class="video-play" type="button" aria-label="Play Reeen96 client video"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 9 6-9 6Z"></path></svg></button>
+            </div></div>
+          </article>
+          <article class="case-study is-reverse" data-video-id="5K9wqWVnvKY" data-video-title="SirKobold client video">
+            <div class="case-copy"><h2>SirKobold</h2><p class="case-role">YouTuber</p><p>Client video edit created for a YouTube creator.</p></div>
+            <div class="case-media"><div class="video-frame">
+              <img src="https://i.ytimg.com/vi_webp/5K9wqWVnvKY/sddefault.webp" alt="SirKobold client video preview" />
+              <button class="video-play" type="button" aria-label="Play SirKobold client video"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 9 6-9 6Z"></path></svg></button>
+            </div></div>
+          </article>
+        </div>
+        <a class="work-page-back" href="../index.html#work">Back to Work-Showoff</a>
+      </div>
+    </main>
+    <div data-page-footer></div>
+    <script type="module" src="../js/work-pages.js?v=20260917"></script>
+  </body>
+</html>
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\components\about.html =====
+
+<section class="about section-shell" id="about" aria-labelledby="about-title">
+  <p class="eyebrow">Profile</p>
+  <h2 id="about-title">About <span>Me</span></h2>
+
+  <div class="about-layout">
+    <div class="about-main">
+      <p class="about-lead">
+        I'm Heldenhuf, a video editor who turns raw footage into clear,
+        engaging stories. I focus on clean pacing, purposeful motion and
+        modern visuals that help creators and brands hold attention and grow
+        their audience across every platform.
+      </p>
+
+      <div class="profile-grid">
+        <!-- Language -->
+        <article class="profile-card card">
+          <span class="profile-icon" aria-hidden="true">
+            <svg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M15 0C6.716 0 0 6.716 0 15s6.716 15 15 15 15-6.716 15-15S23.284 0 15 0Zm12.692 15c.001 1.171-.16 2.336-.48 3.462h-5.554c.354-2.295.354-4.629 0-6.924h5.554c.32 1.126.481 2.291.48 3.462ZM11.25 20.769h7.5c-.739 2.421-2.022 4.641-3.75 6.491-1.728-1.85-3.01-4.07-3.75-6.491Zm-.563-2.307c-.396-2.291-.396-4.633 0-6.924h8.637c.396 2.291.396 4.633 0 6.924h-8.637ZM2.308 15c-.001-1.171.16-2.336.48-3.462h5.554c-.354 2.295-.354 4.629 0 6.924H2.788A12.69 12.69 0 0 1 2.308 15Zm16.442-5.769h-7.5c.739-2.421 2.022-4.641 3.75-6.491 1.728 1.85 3.011 4.07 3.75 6.491Zm7.548 0H21.16c-.647-2.376-1.739-4.607-3.216-6.577 3.612.868 6.666 3.27 8.359 6.577ZM12.056 2.654c-1.477 1.97-2.569 4.201-3.216 6.577H3.697c1.693-3.307 4.747-5.709 8.359-6.577ZM3.697 20.769H8.84c.647 2.376 1.739 4.607 3.216 6.577-3.612-3.307-6.666-5.709-8.359-6.577Zm14.247 6.577c1.477-1.97 2.569-4.201 3.216-6.577h5.143c-1.693-3.307-4.747-5.709-8.359-6.577Z"
+                  d="M15 0C6.716 0 0 6.716 0 15s6.716 15 15 15 15-6.716 15-15S23.284 0 15 0Zm12.692 15c.001 1.171-.16 2.336-.48 3.462h-5.554c.354-2.295.354-4.629 0-6.924h5.554c.32 1.126.481 2.291.48 3.462ZM11.25 20.769h7.5c-.739 2.421-2.022 4.641-3.75 6.491-1.728 1.85-3.01 4.07-3.75 6.491Zm-.563-2.307c-.396-2.291-.396-4.633 0-6.924h8.637c.396 2.291.396 4.633 0 6.924h-8.637ZM2.308 15c-.001-1.171.16-2.336.48-3.462h5.554c-.354 2.295-.354 4.629 0 6.924H2.788A12.69 12.69 0 0 1 2.308 15Zm16.442-5.769h-7.5c.739-2.421 2.022-4.641 3.75-6.491 1.728-1.85 3.011-4.07 3.75-6.491Zm7.548 0H21.16c-.647-2.376-1.739-4.607-3.216-6.577 3.612.868 6.666 3.27 8.359 6.577ZM12.056 2.654c-1.477 1.97-2.569 4.201-3.216 6.577H3.697c1.693-3.307 4.747-5.709 8.359-6.577ZM3.697 20.769H8.84c.647 2.376 1.739 4.607 3.216 6.577-3.612 1.97-4.201 2.569-6.577 3.216Zm14.247 6.577c1.477-1.97 2.569-4.201 3.216-6.577h5.143c-1.693-3.307-4.747-5.709-8.359-6.577Z"
+                fill="#2b89fc"
+              />
+            </svg>
+          </span>
+          <strong>Language</strong>
+          <p>English and German</p>
+        </article>
+
+        <!-- Editing Style -->
+        <article class="profile-card card">
+          <span class="profile-icon" aria-hidden="true">
+            <svg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M29.297 7.406 22.595.703A2.4 2.4 0 0 0 19.2.703L.704 19.2A2.4 2.4 0 0 0 0 20.897V27.6A2.4 2.4 0 0 0 2.4 30h6.704a2.4 2.4 0 0 0 1.696-.703l18.497-18.496a2.4 2.4 0 0 0 0-3.395ZM9.104 27.6H2.4v-6.703l13.2-13.2 6.704 6.704L9.104 27.6ZM24 12.703 17.297 6l3.6-3.6L27.6 9.103l-3.6 3.6Z"
+                fill="#2b89fc"
+              />
+            </svg>
+          </span>
+          <strong>Editing Style</strong>
+          <p>Clean, modern &amp; minimal</p>
+        </article>
+
+        <!-- Software -->
+        <article class="profile-card card">
+          <span class="profile-icon" aria-hidden="true">
+            <svg viewBox="0 0 30 25.487" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M27.692 0H2.308A2.31 2.31 0 0 0 0 2.317V23.17a2.31 2.31 0 0 0 2.308 2.317h25.384A2.31 2.31 0 0 0 30 23.17V2.317A2.31 2.31 0 0 0 27.692 0Zm0 23.17H2.308V2.317h25.384V23.17ZM8.077 6.372a1.731 1.731 0 1 1-3.462 0 1.731 1.731 0 0 1 3.462 0Zm5.769 0a1.731 1.731 0 1 1-3.461 0 1.731 1.731 0 0 1 3.461 0Z"
+                fill="#2b89fc"
+              />
+            </svg>
+          </span>
+          <strong>Software</strong>
+          <p>DaVinci, Alight Motion &amp; CapCut</p>
+        </article>
+      </div>
+    </div>
+
+    <div class="about-brand">
+      <img src="assets/images/logo.avif" alt="Heldenhuf logo" />
+    </div>
+  </div>
+</section>
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\components\contact.html =====
+
+<section
+  class="contact section-shell"
+  id="contact"
+  aria-labelledby="contact-title"
+>
+  <p class="eyebrow">Contacts</p>
+  <h2 id="contact-title">Get In <span>Touch</span></h2>
+  <p class="section-intro">
+    Simply get in touch via email or Discord, and we can discuss your project.
+  </p>
+  <div class="contact-grid">
+    <a class="contact-card" href="mailto:heldenhuf@gmx.net"
+      ><span class="contact-icon mail-icon" aria-hidden="true"
+        ><svg viewBox="0 0 36 28">
+          <rect x="1" y="1" width="34" height="26" rx="2"></rect>
+          <path d="m3 3 15 13L33 3M3 25l11-10M33 25 22 15"></path></svg></span
+      ><strong>E-Mail</strong><span>heldenhuf@gmx.net</span
+      ><small>Contact</small></a
+    ><a class="contact-card" href="https://discord.gg/aFdQzYfwF"
+      ><span class="contact-icon discord-icon" aria-hidden="true"
+        ><svg viewBox="0 0 24 24">
+          <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.211.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.077.077 0 0 0 .084-.028c.462-.63.874-1.293 1.226-1.994a.076.076 0 0 0-.042-.106 13.1 13.1 0 0 1-1.872-.892.077.077 0 0 1-.008-.128c.126-.094.252-.192.372-.291a.074.074 0 0 1 .077-.01c3.928 1.794 8.18 1.794 12.061 0a.074.074 0 0 1 .078.01c.12.099.246.198.373.292a.077.077 0 0 1-.006.127c-.598.353-1.22.65-1.873.892a.077.077 0 0 0-.041.107c.36.7.77 1.363 1.225 1.993a.076.076 0 0 0 .084.028 19.84 19.84 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.548-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.42 0-1.336.956-2.42 2.157-2.42 1.21 0 2.175 1.094 2.157 2.42 0 1.335-.956 2.42-2.157 2.42zm7.974 0c-1.183 0-2.157-1.085-2.157-2.42 0-1.336.956-2.42 2.157-2.42 1.21 0 2.175 1.094 2.157 2.42 0 1.335-.956 2.42-2.157 2.42z"></path></svg></span
+      ><strong>Discord</strong><span>heldenhuf</span><small>Message</small></a
+    >
+  </div>
+</section>
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\components\faq.html =====
+
+<section class="faq section-shell" id="faq" aria-labelledby="faq-title">
+  <p class="eyebrow">FAQ</p>
+  <h2 id="faq-title">Frequently <span>Asked</span></h2>
+  <div class="faq-list">
+    <details>
+      <summary>What kind of videos do you edit?<span class="faq-toggle-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg></span></summary>
+      <p>
+        I specialise in both long-form and short-form content, no matter the
+        niche.
+      </p>
+    </details>
+    <details>
+      <summary>How quickly can you deliver?<span class="faq-toggle-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg></span></summary>
+      <p>
+        Depending on the project’s complexity, turnaround typically ranges from
+        two to fourteen days.
+      </p>
+    </details>
+    <details>
+      <summary>What is your price range?<span class="faq-toggle-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg></span></summary>
+      <p>
+        Every project is different, so pricing is discussed individually based
+        on the scope and requirements.
+      </p>
+    </details>
+    <details>
+      <summary>How can I hire you?<span class="faq-toggle-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg></span></summary>
+      <p>
+        Simply get in touch via email or Discord, and we can discuss your
+        project.
+      </p>
+    </details>
+  </div>
+</section>
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\components\footer.html =====
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <a class="brand" href="index.html#home">Helden<span>Cuts</span></a>
+      <p>
+        High-quality video editing that helps brands and creators grow their
+        audience.
+      </p>
+      <small>© 2026 Heldenhuf All rights reserved.</small>
+    </div>
+    <nav aria-label="Footer sections">
+      <strong>SECTIONS</strong><a href="index.html#home">Home</a
+      ><a href="index.html#about">Profile</a><a href="index.html#work">Work-Showoff</a
+      ><a href="index.html#ratings">Client-Ratings</a><a href="index.html#process">Process</a
+      ><a href="index.html#contact">Contact</a><a href="index.html#faq">FAQ</a>
+    </nav>
+    <nav aria-label="Legal">
+      <strong>LEGAL</strong><a href="imprint.html">Terms of Service</a
+      ><a href="privacy-policy.html">Privacy Policy</a>
+    </nav>
+    <nav aria-label="Support">
+      <strong>SUPPORT</strong><a href="mailto:heldenhuf@gmx.net">E-Mail</a
+      ><a href="https://discord.gg/aFdQzYfwF">Discord</a>
+    </nav>
+  </div>
+</footer>
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\components\header.html =====
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html#home" class="logo" aria-label="HeldenCuts home">
+      <div class="logo-text">
+        <p>Helden<span>Cuts</span></p>
+      </div>
+    </a>
+
+    <nav class="header-nav" aria-label="Main navigation">
+      <a href="index.html#about" class="nav-link">Profile</a>
+      <a href="index.html#work" class="nav-link">Work-Showoff</a>
+      <a href="index.html#ratings" class="nav-link">Client-Ratings</a>
+      <a href="index.html#process" class="nav-link">Process</a>
+      <a href="index.html#contact" class="nav-link">Contact</a>
+      <a href="index.html#faq" class="nav-link">FAQ</a>
+    </nav>
+
+    <button class="header-menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+      <svg class="menu-icon" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M4 7h16M4 12h16M4 17h16"></path>
+      </svg>
+    </button>
+  </div>
+</header>
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\components\hero.html =====
+
+<section class="hero section-shell" id="home" aria-labelledby="hero-title">
+  <h1 id="hero-title">
+    <span class="hero-title-line">Grow your Audience through</span
+    ><span class="hero-title-accent">Viral Editing.</span>
+  </h1>
+  <div class="hero-actions">
+    <a class="button button-primary" href="#contact">Contact Me</a>
+    <a class="button button-secondary" href="#work">Explore Work</a>
+  </div>
+  <div class="hero-stats" aria-label="HeldenCuts statistics">
+    <div><strong>3+</strong><span>Years Experience</span></div>
+    <div><strong>+500%</strong><span>Views on Client Videos</span></div>
+    <div><strong>2.5k</strong><span>YouTube Subscribers</span></div>
+  </div>
+</section>
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\components\process.html =====
+
+<section
+  class="process section-shell"
+  id="process"
+  aria-labelledby="process-title"
+>
+  <p class="eyebrow">Process</p>
+  <h2 id="process-title">View The <span>Workflow</span></h2>
+  <p class="process-intro">
+    Take a look at the simple process behind every Client project and look at
+    every step of the Workflow.
+  </p>
+  <ol class="process-list">
+    <li>
+      <span class="step-number">1</span><strong>Send the Footage</strong>
+      <p>Share Expectations and Footage</p>
+    </li>
+    <li>
+      <span class="step-number">2</span><strong>Editing &amp; Feedback</strong>
+      <p>Editing based on your feedback</p>
+    </li>
+    <li>
+      <span class="step-number">3</span><strong>Final Delivery</strong>
+      <p>Receive the finished files.</p>
+    </li>
+  </ol>
+</section>
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\components\ratings.html =====
+
+<section
+  class="ratings section-shell"
+  id="ratings"
+  aria-labelledby="ratings-title"
+>
+  <div class="section-heading">
+    <p class="eyebrow">Client-Ratings</p>
+    <h2 id="ratings-title">Read Client <span>Reviews</span></h2>
+  </div>
+  <div class="review-grid">
+    <blockquote>
+      <span class="quote-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 11h5v8H4v-6c0-4 2-7 6-9l1 2c-3 1-5 3-6 5Zm10 0h5v8h-6v-6c0-4 2-7 6-9l1 2c-3 1-5 3-6 5Z"></path></svg></span>
+      <p>
+        “Heldenhuf is a great editor who completes his work quickly and
+        carefully”
+      </p>
+      <div class="review-person">
+        <img src="assets/images/reeen96.jpg" alt="Reeen96" /><span
+          ><strong>Reeen96</strong><small>Streamer &amp; YouTuber</small></span
+        >
+      </div>
+    </blockquote>
+    <blockquote>
+      <span class="quote-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 11h5v8H4v-6c0-4 2-7 6-9l1 2c-3 1-5 3-6 5Zm10 0h5v8h-6v-6c0-4 2-7 6-9l1 2c-3 1-5 3-6 5Z"></path></svg></span>
+      <p>
+        “As always your editing is crazy! I swear I like your style so much.”
+      </p>
+      <div class="review-person">
+        <img src="assets/images/mini-top.jpg" alt="Mini-Top" /><span
+          ><strong>Mini-Top</strong><small>300k+ YouTuber</small></span
+        >
+      </div>
+    </blockquote>
+    <blockquote>
+      <span class="quote-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 11h5v8H4v-6c0-4 2-7 6-9l1 2c-3 1-5 3-6 5Zm10 0h5v8h-6v-6c0-4 2-7 6-9l1 2c-3 1-5 3-6 5Z"></path></svg></span>
+      <p>
+        “Heldenhuf works very proffesional, and the videos were always finished
+        very quickly.”
+      </p>
+      <div class="review-person">
+        <img src="assets/images/sirkobold.jpg" alt="SirKobold" /><span
+          ><strong>SirKobold</strong><small>YouTuber</small></span
+        >
+      </div>
+    </blockquote>
+  </div>
+</section>
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\components\work.html =====
+
+<section class="work section-shell" id="work" aria-labelledby="work-title">
+  <p class="eyebrow">Work-Showoff</p>
+  <h2 id="work-title">Explore My <span>Work</span></h2>
+  <div class="work-grid">
+    <a class="project-card card" href="client-videos/"
+      ><img
+        src="assets/images/client-videos.jpg"
+        alt="Client video project preview"
+      /><span class="project-overlay"></span
+      ><span class="project-copy"
+        ><strong>Client Videos</strong>
+        <p>Browse through a collection of Client Videos I've worked on.</p>
+        <small>View</small></span
+      ></a
+    >
+    <a class="project-card card" href="motion-design/"
+      ><img
+        src="assets/images/motion-design.png"
+        alt="Motion design project preview"
+      /><span class="project-overlay"></span
+      ><span class="project-copy"
+        ><strong>Motion Design</strong>
+        <p>Explore my Motion Design and Custom Animation Work.</p>
+        <small>View</small></span
+      ></a
+    >
+    <a class="project-card card" href="thumbnails/"
+      ><img
+        src="assets/images/thumbnails.jpg"
+        alt="Custom thumbnail design preview"
+      /><span class="project-overlay"></span
+      ><span class="project-copy"
+        ><strong>Thumbnails</strong>
+        <p>Discover Custom Thumbnail Designs I've made for Clients.</p>
+        <small>View</small></span
+      ></a
+    >
+  </div>
+</section>
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\css\about.css =====
+
+.about {
+  padding-top: 141px;
+  text-align: center;
+}
+
+.about-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 240px;
+  align-items: center;
+  gap: 60px;
+  margin-top: 58px;
+}
+
+.about-main {
+  min-width: 0;
+  text-align: left;
+}
+
+.about-copy {
+  width: 100%;
+}
+
+.about-brand {
+  text-align: right;
+}
+
+.about-brand img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 180px;
+  max-height: 182px;
+  margin-left: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 12px 30px rgba(43, 137, 252, 0.12));
+}
+
+.about-brand p {
+  display: none;
+}
+
+.about h2 {
+  color: var(--blue);
+  margin-bottom: 0;
+}
+
+.about-lead {
+  max-width: 751px;
+  margin: 25px 0 0;
+  color: #b9c2d1;
+  font-size: 18px;
+  line-height: 1.6;
+  letter-spacing: 0;
+}
+
+/* Profile Cards */
+
+.profile-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 18px;
+  width: 100%;
+  max-width: 1236px;
+  margin: 42px auto 0;
+}
+
+.profile-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 100%;
+  min-width: 0;
+  min-height: 108px;
+  box-sizing: border-box;
+
+  padding: 22px 28px 22px 100px;
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.025),
+      rgba(255, 255, 255, 0.008)
+    ),
+    #121212;
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+
+  text-align: left;
+  overflow: hidden;
+
+  transition:
+    transform 0.35s ease,
+    border-color 0.35s ease,
+    box-shadow 0.35s ease,
+    background 0.35s ease;
+}
+
+.profile-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background:
+    radial-gradient(
+      circle at 0% 50%,
+      rgba(43, 137, 252, 0.11),
+      transparent 35%
+    );
+
+  opacity: 0;
+  pointer-events: none;
+
+  transition: opacity 0.35s ease;
+}
+
+.profile-card:hover {
+  transform: translateY(-3px);
+
+  border-color: rgba(43, 137, 252, 0.55);
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(43, 137, 252, 0.045),
+      rgba(255, 255, 255, 0.01)
+    ),
+    #121212;
+
+  box-shadow:
+    0 10px 35px rgba(0, 0, 0, 0.28),
+    0 0 0 1px rgba(43, 137, 252, 0.08),
+    0 0 30px rgba(43, 137, 252, 0.07);
+}
+
+.profile-card:hover::before {
+  opacity: 1;
+}
+
+/* Icon */
+
+.profile-icon {
+  position: absolute;
+  left: 34px;
+  top: 50%;
+  transform: translateY(-50%);
+
+  display: grid;
+  place-items: center;
+
+  width: 34px;
+  height: 34px;
+
+  margin: 0;
+
+  z-index: 1;
+}
+
+.profile-icon svg {
+  display: block;
+  width: 32px;
+  height: 32px;
+
+  max-width: none;
+
+  fill: #2b89fc;
+  overflow: visible;
+
+  filter: drop-shadow(0 0 10px rgba(43, 137, 252, 0.18));
+
+  transition:
+    transform 0.35s ease,
+    filter 0.35s ease;
+}
+
+.profile-icon svg path {
+  fill: #2b89fc;
+}
+
+.profile-card:hover .profile-icon svg {
+  transform: scale(1.08);
+  filter: drop-shadow(0 0 14px rgba(43, 137, 252, 0.35));
+}
+
+/* Text */
+
+.profile-card strong {
+  position: relative;
+  z-index: 1;
+
+  display: block;
+
+  margin: 0 0 4px;
+
+  color: #ffffff;
+
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.25;
+
+  font-variation-settings:
+    "opsz" 28,
+    "wght" 635;
+
+  overflow-wrap: anywhere;
+  word-break: break-word;
+
+  transition: color 0.3s ease;
+}
+
+.profile-card:hover strong {
+  color: #ffffff;
+}
+
+.profile-card p {
+  position: relative;
+  z-index: 1;
+
+  margin: 0;
+
+  color: #aeb8c8;
+
+  font-size: 16px;
+  line-height: 1.55;
+
+  max-width: 100%;
+
+  overflow-wrap: anywhere;
+  word-break: break-word;
+
+  transition: color 0.3s ease;
+}
+
+.profile-card:hover p {
+  color: #c2ccda;
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+  .about {
+    padding-top: 90px;
+  }
+
+  .about-layout {
+    grid-template-columns: 1fr;
+    gap: 35px;
+    margin-top: 42px;
+  }
+
+  .about-brand {
+    order: -1;
+    text-align: center;
+  }
+
+  .about-brand img {
+    margin: 0 auto;
+    max-width: 130px;
+    max-height: 130px;
+  }
+
+  .about-main {
+    text-align: center;
+  }
+
+  .about-lead {
+    margin: 20px auto 0;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .profile-grid {
+    gap: 14px;
+    margin-top: 32px;
+  }
+
+  .profile-card {
+    min-height: 100px;
+    padding: 20px 20px 20px 78px;
+    border-radius: 9px;
+  }
+
+  .profile-icon {
+    left: 24px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .profile-icon svg {
+    width: 28px;
+    height: 28px;
+  }
+
+  .profile-card strong {
+    font-size: 19px;
+  }
+
+  .profile-card p {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+}
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\css\contact.css =====
+
+.contact {
+  margin-top: 47px;
+  padding-bottom: 0;
+  padding-top: 95px;
+  text-align: center;
+}
+.contact h2 {
+  font-size: 41px;
+}
+.contact > .section-intro {
+  color: #b9c2d1;
+  font-size: 16px;
+  line-height: 24.8px;
+  margin: 25px auto 0;
+  max-width: 676px;
+}
+.contact-grid {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(2, 396px);
+  margin: 32px 0 0 calc(50% - 416px);
+  text-align: left;
+}
+.contact-card {
+  background: #121212;
+  border: 1px solid #2a3442;
+  border-radius: 6px;
+  min-height: 171px;
+  padding: 27px 32px 84px 110px;
+  position: relative;
+  transition: box-shadow 0.75s ease;
+  min-width: 0;
+  max-width: 100%;
+}
+
+.contact-card:hover {
+  box-shadow:
+    0 0 0 1px var(--blue),
+    0 0 12px rgba(0, 122, 245, 0.15);
+}
+.contact-card strong {
+  display: block;
+  font-size: 23px;
+  font-variation-settings:
+    "opsz" 28,
+    "wght" 635;
+  font-weight: 400;
+  line-height: 27.6px;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+.contact-card > span:not(.contact-icon) {
+  color: #b9c2d1;
+  display: block;
+  font-size: 17px;
+  line-height: 25.5px;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+.contact-icon {
+  height: 28px;
+  left: 43px;
+  position: absolute;
+  top: 36px;
+  width: 36px;
+}
+.contact-icon svg {
+  fill: none;
+  height: 100%;
+  stroke: #2b89fc;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.4;
+  width: 100%;
+}
+.discord-icon svg {
+  fill: #2b89fc;
+  stroke: none;
+}
+.contact-card small {
+  align-items: center;
+  background: radial-gradient(50% 309%, #007af5 0%, #044fd9 100%);
+  border-radius: 5px;
+  bottom: 32px;
+  color: #fff;
+  display: flex;
+  font-size: 20px;
+  height: 43px;
+  justify-content: center;
+  left: 33px;
+  padding: 0;
+  position: absolute;
+  transition:
+    filter 0.2s ease,
+    transform 0.2s ease;
+  width: 255px;
+}
+.contact-card small:hover {
+  filter: brightness(1.08);
+  transform: translateY(-1px);
+}
+.contact-card small span {
+  font-size: 24px;
+  margin-left: 12px;
+}
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\css\faq.css =====
+
+.faq {
+  padding-top: 140px;
+}
+.faq-list {
+  margin: 39.7px auto 0;
+  max-width: 720px;
+}
+.faq details {
+  background: #121212;
+  border: 1px solid #2a3442;
+  border-radius: 6px;
+  margin: 10px 0;
+  padding: 20px 22px;
+  transition: box-shadow 0.75s ease;
+}
+
+.faq details:hover {
+  box-shadow:
+    0 0 0 1px var(--blue),
+    0 0 12px rgba(0, 122, 245, 0.15);
+}
+.faq summary {
+  cursor: pointer;
+  font-size: 18px;
+  font-variation-settings:
+    "opsz" 28,
+    "wght" 400;
+  line-height: 30.5px;
+  list-style: none;
+  padding-right: 25px;
+  position: relative;
+}
+.faq summary::-webkit-details-marker {
+  display: none;
+}
+.faq-toggle-icon {
+  color: var(--blue);
+  height: 22px;
+  position: absolute;
+  right: 0;
+  top: 4px;
+  transition: transform 0.2s ease;
+  width: 22px;
+}
+.faq-toggle-icon svg {
+  display: block;
+  fill: none;
+  height: 100%;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: 2;
+  width: 100%;
+}
+.faq details[open] .faq-toggle-icon {
+  transform: rotate(45deg);
+}
+.faq details p {
+  color: #7d8898;
+  font-size: 13px;
+  line-height: 1.5;
+  margin: 15px 25px 4px 0;
+}
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\css\footer.css =====
+
+.site-footer {
+  background: #121212;
+  border-top: 1px solid #2a2a2a;
+  margin-top: 120px;
+  padding: 66px 24px 45px;
+}
+.footer-inner {
+  display: grid;
+  gap: 50px;
+  grid-template-columns: 304px 179px 173px 1fr;
+  margin: auto;
+  max-width: 1100px;
+}
+.footer-inner > div,
+.footer-inner nav {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.brand {
+  font-size: 27px;
+  font-variation-settings:
+    "opsz" 28,
+    "wght" 723;
+  font-weight: 400;
+  line-height: 32.4px;
+}
+.brand span {
+  color: var(--blue);
+}
+.footer-brand p {
+  color: #a6a6a6;
+  font-size: 13px;
+  line-height: 19.5px;
+  max-width: 240px;
+}
+.footer-brand small {
+  color: #545454;
+  font-size: 15px;
+  line-height: 16.5px;
+  margin-top: 35px;
+}
+.footer-inner nav strong {
+  color: #c9c9c9;
+  font-size: 15px;
+  font-variation-settings:
+    "opsz" 28,
+    "wght" 400;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0;
+  margin-bottom: 9px;
+}
+.footer-inner nav a {
+  color: #a6a6a6;
+  font-size: 14px;
+  line-height: 21px;
+  transition: color 0.2s;
+}
+.footer-inner nav a:hover {
+  color: #fff;
+}
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\css\global.css =====
+
+/* =========================================
+   GLOBAL STYLES
+   ========================================= */
+
+@font-face {
+  font-family: "Neutral Sans Variable";
+
+  src: url("../assets/fonts/neutral-sans-variable.woff2") format("woff2");
+
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* =========================================
+   FRAMER COLOR TOKENS
+   ========================================= */
+
+:root {
+  --background: #091017;
+  --surface: #151c25;
+  --muted: #7d8898;
+
+  --blue: #2b89fc;
+  --blue-light: #3098ff;
+  --blue-dark: #196aff;
+
+  --blue-transparent: #2b89fc9c;
+
+  --text-white: #ffffff;
+  --text-light: #d4d4d4;
+  --text-gray: #9c9c9c;
+  --text-muted: #808080;
+
+  --border: #3b465480;
+  --radius: 4px;
+  --transition: 0.25s ease;
+}
+
+/* =========================================
+   RESET
+   ========================================= */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  margin: 0;
+  overflow-x: hidden;
+  padding: 0;
+
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  background: radial-gradient(100% 50% at 55.1% -29%, #002d61 0%, #0b0c12 100%);
+  color: var(--text-white);
+
+  font-family:
+    "Neutral Sans Variable", "Neutral Sans Variable Placeholder", sans-serif;
+
+  font-size: 12px;
+  font-weight: 400;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body::before {
+  display: none;
+}
+
+main {
+  overflow: hidden;
+}
+
+main [id] {
+  scroll-margin-top: 90px;
+}
+
+main.is-reveal-ready > section {
+  opacity: 0;
+  transform: translateY(18px);
+  transition:
+    opacity 0.6s ease,
+    transform 0.6s ease;
+}
+
+main.is-reveal-ready > section.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.section-shell {
+  margin: auto;
+  max-width: 1100px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.eyebrow {
+  color: var(--blue);
+  font-size: 14px;
+  letter-spacing: 6.44px;
+  line-height: 16.8px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 41px;
+  font-weight: 400;
+  font-variation-settings:
+    "opsz" 28,
+    "wght" 723;
+  line-height: 49.2px;
+  margin-top: 11px;
+  text-align: center;
+}
+
+.section-shell > .eyebrow + h2,
+.section-shell > div > .eyebrow + h2 {
+  margin-top: 11px;
+}
+
+h2 span {
+  color: var(--blue);
+}
+
+.about h2 span {
+  color: var(--text-white);
+}
+
+/* =========================================
+   TEXT RESET
+   ========================================= */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+p {
+  font-family: inherit;
+}
+
+/* =========================================
+   LINKS
+   ========================================= */
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* =========================================
+   FORM ELEMENTS
+   ========================================= */
+
+button,
+input,
+textarea,
+select {
+  font-family: inherit;
+}
+
+/* =========================================
+   IMAGES
+   ========================================= */
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+
+  main.is-reveal-ready > section {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  .site-header {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+/* =========================================
+   CARDS
+   ========================================= */
+.card {
+  --border-bottom-width: 1.5px;
+  --border-color: var(--border);
+  --border-left-width: 1.5px;
+  --border-right-width: 1.5px;
+  --border-style: solid;
+  --border-top-width: 1.5px;
+  border-width: 1.5px;
+}
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\css\header.css =====
+
+/* Fixed navigation bar */
+.site-header {
+  background-color: #091017cc;
+  backdrop-filter: blur(6px);
+  height: 70px;
+  left: 0;
+  opacity: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  transform: translateY(-16px);
+  transition:
+    opacity 0.6s ease,
+    transform 0.6s ease;
+  width: 100%;
+  z-index: 5;
+}
+.site-header.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.header-inner {
+  align-items: center;
+  display: flex;
+  gap: 34px;
+  height: min-content;
+  justify-content: space-between;
+  left: 0;
+  margin: auto;
+  max-width: 1100px;
+  position: absolute;
+  padding: 0 24px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+.header-nav {
+  align-items: center;
+  display: flex;
+  gap: 34px;
+}
+.logo {
+  height: 30px;
+  flex-shrink: 0;
+  position: relative;
+  width: 140px;
+}
+.logo-text {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.logo-text p {
+  font-size: 24px;
+  font-variation-settings:
+    "wght" 723,
+    "opsz" 28;
+  font-weight: 723;
+  margin: 0;
+}
+.logo-text span {
+  color: var(--blue);
+}
+.nav-link {
+  color: #808080;
+  font-size: 14px;
+  line-height: 1.5em;
+  transition: color 0.2s ease;
+  white-space: nowrap;
+}
+.nav-link:hover {
+  color: #fff;
+}
+.header-menu-toggle {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(122, 138, 160, 0.32);
+  border-radius: 10px;
+  cursor: pointer;
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  height: 38px;
+  justify-content: center;
+  margin-left: auto;
+  width: 42px;
+}
+.menu-icon {
+  display: block;
+  height: 20px;
+  width: 20px;
+}
+.menu-icon path {
+  fill: none;
+  stroke: #edf5ff;
+  stroke-linecap: round;
+  stroke-width: 2;
+}
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\css\hero.css =====
+
+.hero {
+  min-height: 850px;
+  padding: 243px 24px 40px;
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero h1 {
+  font-size: 35px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 42px;
+  margin: 0 auto 11px;
+  max-width: 600px;
+}
+.hero h1,
+.hero-actions,
+.hero-stats {
+  opacity: 0;
+  transform: translateY(16px);
+  transition:
+    opacity 0.6s ease,
+    transform 0.6s ease;
+}
+.hero.is-visible h1,
+.hero.is-visible .hero-actions,
+.hero.is-visible .hero-stats {
+  opacity: 1;
+  transform: translateY(0);
+}
+.hero.is-visible .hero-actions {
+  transition-delay: 0.1s;
+}
+.hero.is-visible .hero-stats {
+  transition-delay: 0.2s;
+}
+.hero-title-line,
+.hero-title-accent {
+  display: block;
+}
+.hero-title-line {
+  font-variation-settings:
+    "opsz" 28,
+    "wght" 635;
+}
+.hero h1 .hero-title-accent {
+  background: radial-gradient(75% 319%, #2185ff 20%, #006bed 63%);
+  background-clip: text;
+  color: transparent;
+  font-size: 58px;
+  font-variation-settings:
+    "opsz" 28,
+    "wght" 900;
+  font-weight: 400;
+  line-height: 69.6px;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translateY(-5px);
+  white-space: pre;
+  width: max-content;
+}
+.hero-actions {
+  display: flex;
+  gap: 31px;
+}
+.button {
+  align-items: center;
+  border: 0;
+  border-radius: 5px;
+  display: inline-flex;
+  font-size: 25px;
+  font-variation-settings:
+    "opsz" 28,
+    "wght" 497;
+  font-weight: 400;
+  height: 61px;
+  justify-content: center;
+  line-height: 30px;
+  width: 254px;
+  transition:
+    transform 0.2s,
+    filter 0.2s;
+}
+.button:hover {
+  filter: brightness(1.12);
+  transform: translateY(-2px);
+}
+.button-primary {
+  background: radial-gradient(75% 319%, #2185ff 20%, #006bed 63%);
+}
+.button-secondary {
+  background: rgba(59, 59, 59, 0.5);
+  border: 1px solid #555;
+}
+.hero-stats {
+  display: flex;
+  margin: 80px auto 0;
+}
+.hero-stats div {
+  border-right: 1px solid #26303e;
+  min-width: 197px;
+  padding: 0 22px;
+}
+.hero-stats div:last-child {
+  border: 0;
+}
+.hero-stats strong {
+  display: block;
+  font-size: 40px;
+  font-variation-settings:
+    "opsz" 28,
+    "wght" 900;
+  font-weight: 400;
+  line-height: 48px;
+}
+.hero-stats span {
+  color: #747f91;
+  display: block;
+  font-size: 9px;
+  margin-top: 8px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero h1,
+  .hero-actions,
+  .hero-stats {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+.hero-footer {
+  bottom: 21px;
+  color: #667284;
+  display: flex;
+  font-size: 9px;
+  justify-content: space-between;
+  letter-spacing: 0.12em;
+  position: absolute;
+  text-transform: uppercase;
+  width: calc(100% - 48px);
+}
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\css\legal.css =====
+
+.legal-page-shell {
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 140px 24px 80px;
+}
+
+.legal-card {
+  background: rgba(17, 24, 34, 0.8);
+  border: 1px solid rgba(122, 138, 160, 0.3);
+  border-radius: 18px;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.22);
+  padding: 36px 32px 42px;
+}
+
+.legal-card h1 {
+  color: #fff;
+  font-size: clamp(32px, 4vw, 48px);
+  font-variation-settings: "opsz" 28, "wght" 723;
+  font-weight: 723;
+  line-height: 1.1;
+  margin-bottom: 18px;
+}
+
+.legal-meta {
+  color: #8ea0b8;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  margin-bottom: 22px;
+  text-transform: uppercase;
+}
+
+.legal-copy {
+  color: #dfe7f2;
+  font-size: 17px;
+  line-height: 1.75;
+}
+
+.legal-copy h2,
+.legal-copy h3 {
+  color: #fff;
+  font-size: 22px;
+  font-variation-settings: "opsz" 28, "wght" 650;
+  line-height: 1.3;
+  margin: 26px 0 12px;
+}
+
+.legal-copy p,
+.legal-copy li {
+  color: #dfe7f2;
+  font-size: 17px;
+  line-height: 1.75;
+  margin: 0 0 16px;
+}
+
+.legal-copy ul,
+.legal-copy ol {
+  margin: 12px 0 18px 20px;
+  padding-left: 20px;
+}
+
+.legal-copy strong {
+  color: #fff;
+  font-weight: 700;
+}
+
+.legal-copy a {
+  color: #5aa8ff;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.legal-copy a:hover {
+  color: #9ecbff;
+}
+
+.legal-copy em {
+  color: #bfe0ff;
+  font-style: italic;
+}
+
+@media (max-width: 700px) {
+  .legal-page-shell {
+    padding: 110px 18px 60px;
+  }
+
+  .legal-card {
+    padding: 24px 20px 30px;
+  }
+
+  .legal-copy {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  .legal-copy p,
+  .legal-copy li,
+  .legal-copy h2,
+  .legal-copy h3 {
+    font-size: inherit;
+  }
+}
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\css\mobile.css =====
+
+@media (max-width: 1280px) {
+  .work-grid,
+  .review-grid,
+  .process-list,
+  .contact-grid {
+    margin-left: auto;
+    margin-right: auto;
+    width: min(100%, 100%);
+  }
+
+  .work-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .review-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .process-list {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .contact-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .footer-inner {
+    gap: 30px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    width: 100%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header-inner {
+    justify-content: flex-start;
+    gap: 22px;
+    overflow-x: auto;
+    padding: 0 24px;
+    scrollbar-width: none;
+  }
+
+  .header-inner::-webkit-scrollbar {
+    display: none;
+  }
+
+  .nav-link {
+    flex-shrink: 0;
+  }
+
+  .work-grid,
+  .review-grid,
+  .process-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    width: min(100%, 760px);
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+    width: min(100%, 540px);
+  }
+
+  .hero-stats {
+    width: min(100%, 620px);
+  }
+
+  .hero-stats div {
+    min-width: 0;
+    padding: 0 12px;
+  }
+}
+
+@media (max-width: 900px) {
+  .site-header {
+    height: 64px;
+    overflow: visible;
+  }
+
+  .header-inner {
+    justify-content: space-between;
+    overflow: visible;
+    padding: 0 18px;
+    position: relative;
+  }
+
+  .header-nav {
+    background: rgba(9, 16, 23, 0.98);
+    border: 1px solid rgba(122, 138, 160, 0.32);
+    border-radius: 12px;
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.32);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    left: 18px;
+    padding: 18px 16px;
+    position: absolute;
+    right: 18px;
+    top: calc(100% + 10px);
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-8px);
+    transition:
+      opacity 0.2s ease,
+      transform 0.2s ease;
+    visibility: hidden;
+    z-index: 20;
+  }
+
+  .site-header.is-open .header-nav {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+    visibility: visible;
+  }
+
+  .header-menu-toggle {
+    display: flex;
+    flex-shrink: 0;
+  }
+
+  .header-nav .nav-link {
+    font-size: 15px;
+    padding: 2px 0;
+  }
+
+  .hero {
+    min-height: 760px;
+    padding-top: 190px;
+  }
+
+  .hero h1 {
+    max-width: 520px;
+  }
+
+  .hero-actions {
+    gap: 18px;
+  }
+
+  .button {
+    width: 210px;
+  }
+
+  .hero-stats {
+    width: min(100%, 520px);
+  }
+}
+
+@media (max-width: 768px) {
+  .work-grid,
+  .review-grid,
+  .process-list {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .contact-grid {
+    width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  .profile-grid {
+    grid-template-columns: 1fr;
+    margin: 30px 0 0;
+    width: auto;
+  }
+  .review-grid blockquote {
+    min-height: 270px !important;
+    padding: 0 !important;
+  }
+  .quote-icon {
+    left: 20px;
+    top: 24px;
+  }
+  .review-person {
+    bottom: 13px;
+    left: 20px;
+  }
+  .review-person {
+    gap: 12px;
+  }
+  .review-person img {
+    height: 42px;
+    width: 42px;
+  }
+  .review-grid blockquote p {
+    font-size: 16px;
+    line-height: 23px;
+    margin: 86px 20px 0;
+  }
+  .process-list li {
+    padding-left: 90px !important;
+  }
+  .step-number {
+    left: 20px !important;
+    top: 25px !important;
+  }
+  .contact-card {
+    height: 150px;
+    padding-left: 62px;
+    padding-right: 18px;
+  }
+  .contact-icon {
+    left: 20px;
+    top: 26px;
+  }
+  .contact-card strong {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .contact-card > span:not(.contact-icon) {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .contact-card small {
+    bottom: 18px;
+    left: 18px;
+    right: 18px;
+    width: auto;
+  }
+}
+@media (max-width: 700px) {
+  .site-header {
+    height: 64px;
+  }
+
+  .header-inner {
+    justify-content: space-between;
+    overflow: visible;
+    padding: 0 18px;
+  }
+
+  .header-nav {
+    display: none;
+  }
+
+  .site-header.is-open .header-nav {
+    display: flex;
+  }
+
+  .logo {
+    flex-shrink: 0;
+  }
+
+  .header-menu-toggle {
+    display: flex;
+  }
+
+  .hero {
+    min-height: 640px;
+    padding: 165px 18px 35px;
+  }
+  .hero h1 {
+    font-size: 32px;
+    line-height: 36px;
+    margin-bottom: 28px;
+  }
+  .hero h1 .hero-title-accent {
+    font-size: 42px;
+    line-height: 50px;
+  }
+  .hero-actions {
+    gap: 10px;
+    width: 100%;
+  }
+  .button {
+    font-size: 14px;
+    height: 50px;
+    line-height: 20px;
+    width: auto;
+    flex: 1;
+  }
+  .hero-stats {
+    margin-top: 42px;
+    width: 100%;
+  }
+  .hero-stats div {
+    min-width: 0;
+    padding: 0 8px;
+    width: 33.333%;
+  }
+  .hero-stats strong {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .hero-stats span {
+    font-size: 8px;
+    line-height: 1.3;
+  }
+  .hero-footer {
+    font-size: 7px;
+    width: calc(100% - 36px);
+  }
+  .section-shell {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+  .work,
+  .ratings,
+  .faq {
+    padding-top: 90px;
+  }
+  .work-grid,
+  .review-grid,
+  .process-list {
+    grid-template-columns: 1fr;
+    margin: 30px 0 0;
+    width: auto;
+  }
+  .project-card {
+    aspect-ratio: auto;
+    height: 380px;
+  }
+  .project-card img {
+    height: 220px;
+  }
+  .project-copy {
+    left: 0;
+    min-height: 160px;
+    padding: 18px 18px 18px;
+    right: 0;
+  }
+  .project-copy strong {
+    font-size: 23px;
+    line-height: 28px;
+  }
+  .project-copy p {
+    max-width: 100%;
+  }
+  .project-copy small {
+    height: 44px;
+    margin-top: 18px;
+    max-width: 100%;
+    width: 100%;
+  }
+  .about {
+    display: block;
+    padding-top: 100px;
+  }
+  .about-layout {
+    display: block;
+    margin-top: 42px;
+  }
+  .about-brand {
+    margin: 42px auto 0;
+    text-align: center;
+  }
+  .about-brand img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .about-lead {
+    font-size: 23px;
+    line-height: 1.3;
+  }
+  .about-details {
+    padding-top: 55px;
+  }
+  .section-heading {
+    display: block;
+  }
+  .ratings {
+    padding-bottom: 0;
+    padding-top: 100px;
+  }
+  .review-grid {
+    gap: 10px;
+  }
+  .review-grid blockquote {
+    min-height: 210px;
+    padding: 20px;
+  }
+  .review-person {
+    gap: 12px;
+  }
+  .review-person img {
+    height: 42px;
+    width: 42px;
+  }
+  .review-person strong {
+    font-size: 18px;
+  }
+  .review-person small {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .review-grid blockquote p {
+    font-size: 16px;
+    line-height: 23px;
+  }
+  .process {
+    padding-top: 100px;
+  }
+  .process-list {
+    gap: 10px;
+  }
+  .process-list li {
+    height: 145px;
+    padding: 0 20px;
+  }
+  .process-list strong {
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 30px;
+    padding-top: 20px;
+  }
+  .process-list p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .contact {
+    display: block;
+    margin-top: 100px;
+    padding-bottom: 65px;
+    padding-top: 65px;
+  }
+  .contact h2 {
+    font-size: 34px;
+  }
+  .contact-grid {
+    grid-template-columns: 1fr;
+    margin: 38px 0 0;
+  }
+  .contact-card {
+    height: 150px;
+    padding: 18px 18px 18px 66px;
+  }
+  .contact-icon {
+    left: 22px;
+    top: 24px;
+  }
+  .contact-card strong {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .contact-card > span:not(.contact-icon) {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .contact-card small {
+    bottom: 16px;
+    left: 18px;
+    right: 18px;
+    width: auto;
+  }
+  .faq-list {
+    margin-top: 28px;
+  }
+  .faq summary {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .site-footer {
+    margin-top: 90px;
+    padding: 48px 18px 35px;
+  }
+  .footer-inner {
+    grid-template-columns: 1fr 1fr;
+    gap: 38px 25px;
+  }
+  .footer-brand {
+    grid-column: 1/-1;
+  }
+  .footer-brand small {
+    margin-top: 22px;
+  }
+}
+
+/* Final mobile safeguards for text and card content. */
+@media (max-width: 700px) {
+  .section-shell,
+  .work-grid,
+  .profile-grid,
+  .review-grid,
+  .process-list,
+  .contact-grid,
+  .faq-list {
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .hero h1,
+  h2,
+  p,
+  strong,
+  small,
+  summary,
+  a {
+    overflow-wrap: anywhere;
+  }
+
+  .hero h1 .hero-title-accent {
+    max-width: 100%;
+    white-space: normal;
+  }
+
+  .project-copy {
+    left: 18px;
+    right: 18px;
+  }
+
+  .project-copy small {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .profile-card,
+  .review-grid blockquote,
+  .process-list li,
+  .contact-card,
+  .faq details {
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .review-grid blockquote p {
+    max-width: calc(100% - 40px);
+  }
+
+  .contact-card small {
+    max-width: calc(100% - 64px);
+  }
+
+  .footer-inner nav,
+  .footer-brand {
+    min-width: 0;
+  }
+}
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\css\process.css =====
+
+.process {
+  padding-top: 145px;
+}
+.process-intro {
+  color: #b9c2d1;
+  font-size: 16px;
+  line-height: 24.8px;
+  margin: 25px auto 0;
+  max-width: 751px;
+}
+.process-list {
+  display: grid;
+  gap: 34px;
+  grid-template-columns: repeat(3, 396px);
+  list-style: none;
+  margin: 33px 0 0 calc(50% - 628px);
+  padding: 0;
+  width: 1256px;
+}
+.process-list li {
+  background: #121212;
+  border: 1px solid #2a3442;
+  border-radius: 6px;
+  min-height: 100px;
+  padding: 20px 26px 18px 100px;
+  position: relative;
+  transition: box-shadow 0.75s ease;
+  min-width: 0;
+  max-width: 100%;
+}
+
+.process-list li:hover {
+  box-shadow:
+    0 0 0 1px var(--blue),
+    0 0 12px rgba(0, 122, 245, 0.15);
+}
+.step-number {
+  align-items: center;
+  background: #002a54;
+  border-radius: 10px;
+  color: var(--blue);
+  display: flex;
+  font-size: 31px;
+  font-variation-settings:
+    "opsz" 28,
+    "wght" 831;
+  font-weight: 400;
+  height: 55px;
+  justify-content: center;
+  left: 23px;
+  position: absolute;
+  top: 22.5px;
+  width: 55px;
+}
+.process-list strong {
+  display: block;
+  font-size: 23px;
+  font-variation-settings:
+    "opsz" 28,
+    "wght" 635;
+  font-weight: 400;
+  line-height: 27.6px;
+  margin-top: 0;
+  padding-top: 0;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+.process-list p {
+  color: #b9c2d1;
+  font-size: 17px;
+  line-height: 25.5px;
+  margin-top: 0;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\css\ratings.css =====
+
+.ratings {
+  padding-bottom: 0;
+  padding-top: 161px;
+}
+.section-heading {
+  display: block;
+}
+.review-grid {
+  display: grid;
+  gap: 47px;
+  grid-template-columns: repeat(3, 443px);
+  margin: 101px 0 0 calc(50% - 716.5px);
+  width: 1427px;
+}
+.review-grid blockquote {
+  background: #121212;
+  border: 1px solid #2a3442;
+  border-radius: 9px;
+  margin: 0;
+  min-height: 270px;
+  padding: 0;
+  position: relative;
+  transition: box-shadow 0.75s ease;
+}
+
+.review-grid blockquote:hover {
+  box-shadow:
+    0 0 0 1px var(--blue),
+    0 0 12px rgba(0, 122, 245, 0.15);
+}
+.quote-icon {
+  color: #2b89fc;
+  height: 54px;
+  left: 28px;
+  position: absolute;
+  top: 28px;
+  width: 54px;
+}
+.quote-icon svg {
+  display: block;
+  fill: currentColor;
+  height: 100%;
+  width: 100%;
+}
+.review-person {
+  align-items: center;
+  bottom: 13px;
+  display: flex;
+  gap: 20px;
+  left: 45px;
+  position: absolute;
+}
+.review-person img {
+  border-radius: 50%;
+  height: 45px;
+  object-fit: cover;
+  width: 45px;
+}
+.review-person span {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.review-person strong {
+  font-size: 21px;
+  font-variation-settings:
+    "opsz" 28,
+    "wght" 635;
+  font-weight: 400;
+  line-height: 25.2px;
+}
+.review-person small {
+  color: #b9c2d1;
+  font-size: 17px;
+  line-height: 25.5px;
+}
+.review-grid blockquote p {
+  font-size: 18px;
+  font-variation-settings:
+    "opsz" 28,
+    "wght" 400;
+  line-height: 26.1px;
+  margin: 86px 41px 0;
+  max-width: 360px;
+}
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\css\work-pages.css =====
+
+.work-page {
+  min-height: 100vh;
+  padding: 142px 24px 70px;
+}
+
+.work-page-shell {
+  width: min(1080px, 100%);
+  margin: 0 auto;
+}
+
+.work-page h1 {
+  margin: 0;
+  color: #fff;
+  font-size: clamp(42px, 6vw, 72px);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1;
+  text-align: center;
+}
+
+.work-page h1 span {
+  color: var(--blue);
+}
+
+.work-page.is-ready h1 {
+  animation: work-page-reveal 0.6s ease both;
+}
+
+.work-page-intro {
+  max-width: 560px;
+  margin: 24px auto 0;
+  color: #b9c2d1;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+}
+
+.video-grid,
+.media-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 32px;
+  margin-top: 76px;
+}
+
+.video-project,
+.media-project {
+  min-width: 0;
+}
+
+.video-meta,
+.media-meta {
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  min-height: 54px;
+  margin-bottom: 18px;
+}
+
+.video-meta h2,
+.media-meta h2 {
+  color: #fff;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 25px;
+  margin: 0;
+}
+
+.video-meta p,
+.media-meta p,
+.video-meta time,
+.media-meta time {
+  color: #b9c2d1;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 3px 0 0;
+}
+
+.video-meta time,
+.media-meta time {
+  flex: 0 0 auto;
+  text-align: right;
+}
+
+.video-frame {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border: 1px solid #2a3442;
+  border-radius: 10px;
+  background: #121212;
+}
+
+.video-frame img,
+.video-frame iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  object-fit: cover;
+}
+
+.video-play {
+  position: absolute;
+  inset: 50% auto auto 50%;
+  width: 48px;
+  height: 48px;
+  border: 1px solid rgba(255, 255, 255, 0.72);
+  border-radius: 50%;
+  background: rgba(7, 17, 29, 0.74);
+  color: #fff;
+  cursor: pointer;
+  font-size: 17px;
+  line-height: 1;
+  transform: translate(-50%, -50%);
+  transition:
+    filter 0.2s ease,
+    transform 0.2s ease;
+}
+
+.video-play:hover {
+  filter: brightness(1.12);
+  transform: translate(-50%, -50%) scale(1.04);
+}
+
+.video-play:active {
+  transform: translate(-50%, -50%) scale(0.96);
+}
+
+.video-play svg {
+  display: block;
+  fill: currentColor;
+  height: 20px;
+  margin-left: 2px;
+  width: 20px;
+}
+
+.video-project h2 {
+  margin: 0;
+}
+
+.video-project p {
+  margin: 0;
+  color: #b9c2d1;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.media-frame {
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border: 1px solid #2a3442;
+  border-radius: 10px;
+  background: #121212;
+}
+
+.media-frame img,
+.media-frame video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.media-frame video {
+  background: #fff;
+  object-fit: contain;
+}
+
+.work-page-back {
+  display: block;
+  width: fit-content;
+  margin: 66px auto 0;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.work-page-back:hover {
+  color: var(--blue);
+}
+
+.case-study-list {
+  display: flex;
+  flex-direction: column;
+  gap: 112px;
+  margin-top: 68px;
+}
+
+.case-study {
+  align-items: center;
+  display: grid;
+  gap: clamp(24px, 4vw, 52px);
+  grid-template-columns: minmax(0, 0.62fr) minmax(0, 1fr);
+  opacity: 1;
+  transform: translateY(0);
+  transition:
+    opacity 0.6s ease,
+    transform 0.6s ease;
+}
+
+.work-page.is-ready .case-study:not(.is-visible) {
+  opacity: 0;
+  transform: translateY(18px);
+}
+
+.work-page.is-ready .case-study.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.work-page.is-ready .case-study:nth-child(2) {
+  transition-delay: 0.06s;
+}
+
+.work-page.is-ready .case-study:nth-child(3) {
+  transition-delay: 0.12s;
+}
+
+.work-page.is-ready .case-study:nth-child(4) {
+  transition-delay: 0.18s;
+}
+
+.case-study.is-reverse .case-copy {
+  order: 2;
+}
+
+.case-study.is-reverse .case-media {
+  order: 1;
+}
+
+.case-study.is-reverse {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 0.62fr);
+}
+
+.case-copy {
+  min-width: 0;
+}
+
+.case-index {
+  color: var(--blue);
+  font-size: 13px;
+  letter-spacing: 3px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.case-copy h2 {
+  margin: 0 0 10px;
+  font-size: clamp(26px, 3vw, 38px);
+  line-height: 1.12;
+  text-align: left;
+}
+
+.case-copy h2 span {
+  color: var(--blue);
+}
+
+.case-copy p {
+  max-width: 410px;
+  color: #b9c2d1;
+  font-size: 16px;
+  line-height: 24px;
+  overflow-wrap: anywhere;
+}
+
+.case-copy .case-role {
+  margin-bottom: 0;
+  color: #fff;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.case-details {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px 24px;
+  margin-top: 28px;
+  max-width: 430px;
+}
+
+.case-details > div {
+  min-width: 0;
+}
+
+.case-details dt {
+  color: #7d8898;
+  font-size: 12px;
+  letter-spacing: 1.6px;
+  line-height: 17px;
+  text-transform: uppercase;
+}
+
+.case-details dd {
+  margin: 3px 0 0;
+  color: #fff;
+  font-size: 15px;
+  line-height: 22px;
+  overflow-wrap: anywhere;
+}
+
+.case-details .case-detail-wide {
+  grid-column: 1 / -1;
+}
+
+.case-details time {
+  color: #fff;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.case-media {
+  min-width: 0;
+  width: 100%;
+}
+
+.case-media .video-frame,
+.case-media .media-frame {
+  border-radius: 8px;
+}
+
+.case-media .video-frame,
+.case-media .media-frame,
+.case-media img,
+.case-media video {
+  transition:
+    transform 0.75s ease,
+    filter 0.2s ease;
+}
+
+.case-media:hover .video-frame,
+.case-media:hover .media-frame {
+  box-shadow:
+    0 0 0 1px var(--blue),
+    0 0 12px rgba(0, 122, 245, 0.15);
+}
+
+.case-media:hover img,
+.case-media:hover video {
+  transform: scale(1.012);
+}
+
+.case-media .video-meta {
+  display: none;
+}
+
+.case-study-list + .work-page-back {
+  margin-top: 110px;
+}
+
+@keyframes work-page-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 700px) {
+  .work-page {
+    padding: 120px 18px 50px;
+  }
+
+  .video-grid,
+  .media-grid {
+    grid-template-columns: 1fr;
+    gap: 38px;
+    margin-top: 52px;
+  }
+
+  .video-meta,
+  .media-meta {
+    margin-bottom: 14px;
+  }
+
+  .video-play {
+    width: 52px;
+    height: 52px;
+  }
+
+  .case-study-list {
+    gap: 76px;
+    margin-top: 48px;
+  }
+
+  .case-study,
+  .case-study.is-reverse {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+  }
+
+  .case-study .case-copy,
+  .case-study .case-media,
+  .case-study.is-reverse .case-copy,
+  .case-study.is-reverse .case-media {
+    order: initial;
+  }
+
+  .case-study .case-media,
+  .case-study.is-reverse .case-media {
+    order: 1;
+  }
+
+  .case-study .case-copy,
+  .case-study.is-reverse .case-copy {
+    order: 2;
+  }
+
+  .case-study {
+    transition-duration: 0.5s;
+  }
+
+  .case-copy h2 {
+    font-size: 32px;
+  }
+
+  .case-copy .case-role {
+    margin-bottom: 0;
+  }
+
+  .case-copy p {
+    max-width: none;
+  }
+
+  .case-details {
+    gap: 14px 18px;
+    margin-top: 20px;
+  }
+
+  .case-study-list + .work-page-back {
+    margin-top: 76px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .work-page.is-ready h1,
+  .work-page.is-ready .case-study,
+  .case-media .video-frame,
+  .case-media .media-frame,
+  .case-media img,
+  .case-media video {
+    animation: none;
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\css\work.css =====
+
+.work {
+  padding-top: 89px;
+}
+.eyebrow {
+  text-align: center;
+}
+#work-title {
+  text-align: center;
+  padding: 15px 0 25px 0;
+}
+.work-grid {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(3, 346px);
+  margin: 55px 0 0 calc(50% - 549px);
+  width: 1098px;
+}
+.project-card {
+  background: #171717;
+  border: 1px solid #2a3442;
+  border-radius: 11px;
+  height: 530px;
+  isolation: isolate;
+  overflow: hidden;
+  position: relative;
+  transition:
+    box-shadow 0.75s ease,
+    transform 0.2s ease;
+}
+.project-card:hover {
+  box-shadow:
+    0 0 0 1px var(--blue),
+    0 0 12px rgba(0, 122, 245, 0.15);
+  transform: translateY(-2px);
+}
+.project-card img {
+  height: 310px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -2;
+}
+.project-overlay {
+  display: none;
+}
+.project-copy {
+  background: #171717;
+  border-top: 1px solid rgba(58, 70, 84, 0.8);
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 220px;
+  padding: 22px 24px 24px;
+  position: absolute;
+  right: 0;
+}
+.project-copy strong {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 30px;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+.project-copy p {
+  color: #b9c2d1;
+  font-size: 15px;
+  line-height: 21px;
+  margin: 0;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+.project-copy small {
+  align-items: center;
+  background: radial-gradient(50% 309%, #007af5 0%, #044fd9 100%);
+  border-radius: 5px;
+  display: flex;
+  font-size: 14px;
+  height: 45px;
+  justify-content: center;
+  margin-top: 23px;
+  padding: 0;
+  text-align: center;
+  transition:
+    filter 0.2s ease,
+    transform 0.2s ease;
+  width: 100%;
+}
+.project-copy small:hover {
+  filter: brightness(1.08);
+  transform: translateY(-1px);
+}
+.project-copy small span {
+  margin-left: auto;
+  margin-right: 12px;
+}
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\motion-design\index.html =====
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/header.css?v=20260916" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/mobile.css" />
+    <link rel="stylesheet" href="../css/work-pages.css" />
+    <title>Motion Design | HeldenCuts</title>
+  </head>
+  <body>
+    <div data-page-header></div>
+    <main class="work-page">
+      <div class="work-page-shell">
+        <h1>Motion <span>Design</span></h1>
+        <div class="case-study-list">
+          <article class="case-study"><div class="case-copy"><h2>Motion <span>Design</span></h2></div><div class="case-media"><div class="media-frame"><video src="https://framerusercontent.com/assets/BQHSZYO0Zq1ydsMFDjEZSJOa0.mp4" autoplay muted loop playsinline></video></div></div></article>
+          <article class="case-study is-reverse"><div class="case-copy"><h2>Custom <span>Animation</span></h2></div><div class="case-media"><div class="media-frame"><video src="https://framerusercontent.com/assets/K8xSpatXdPZe8CMZiXu1gNCykY.mp4" autoplay muted loop playsinline></video></div></div></article>
+          <article class="case-study"><div class="case-copy"><h2>Motion <span>Design</span></h2></div><div class="case-media"><div class="media-frame"><video src="https://framerusercontent.com/assets/2d13quhJvk8pQAHkHPNQ2fQmTM.mp4" autoplay muted loop playsinline></video></div></div></article>
+          <article class="case-study is-reverse"><div class="case-copy"><h2>Custom <span>Animation</span></h2></div><div class="case-media"><div class="media-frame"><video src="https://framerusercontent.com/assets/pzVCn1o9Fz3VEC4Mv0hbldqnQA.mp4" autoplay muted loop playsinline></video></div></div></article>
+        </div>
+        <a class="work-page-back" href="../index.html#work">Back to Work-Showoff</a>
+      </div>
+    </main>
+    <div data-page-footer></div>
+    <script type="module" src="../js/work-pages.js?v=20260917"></script>
+  </body>
+</html>
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\thumbnails\index.html =====
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/header.css?v=20260916" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/mobile.css" />
+    <link rel="stylesheet" href="../css/work-pages.css" />
+    <title>Thumbnails | HeldenCuts</title>
+  </head>
+  <body>
+    <div data-page-header></div>
+    <main class="work-page">
+      <div class="work-page-shell">
+        <h1>Thumbnails</h1>
+        <div class="case-study-list">
+          <article class="case-study"><div class="case-copy"><h2>Custom <span>Thumbnail</span></h2></div><div class="case-media"><div class="media-frame"><img src="https://framerusercontent.com/images/5xMsQjirVBhcmekNNZHcE5kEmLk.jpg?width=1280&amp;height=720" alt="Custom thumbnail design project" /></div></div></article>
+          <article class="case-study is-reverse"><div class="case-copy"><h2>Custom <span>Thumbnail</span></h2></div><div class="case-media"><div class="media-frame"><img src="https://framerusercontent.com/images/HVglpJLvDz453UU4fexcsWMtlU.png?width=1280&amp;height=720" alt="Custom thumbnail design project" /></div></div></article>
+          <article class="case-study"><div class="case-copy"><h2>Custom <span>Thumbnail</span></h2></div><div class="case-media"><div class="media-frame"><img src="https://framerusercontent.com/images/ZwLu6RlLiKW0Q81YTc7SokzoTM.jpeg?width=2388&amp;height=1339" alt="Custom thumbnail design project" /></div></div></article>
+          <article class="case-study is-reverse"><div class="case-copy"><h2>Custom <span>Thumbnail</span></h2></div><div class="case-media"><div class="media-frame"><img src="https://framerusercontent.com/images/XmhJtSdDvgIH1FEKEVtKeWzJLnw.jpeg?width=1668&amp;height=933" alt="Custom thumbnail design project" /></div></div></article>
+        </div>
+        <a class="work-page-back" href="../index.html#work">Back to Work-Showoff</a>
+      </div>
+    </main>
+    <div data-page-footer></div>
+    <script type="module" src="../js/work-pages.js?v=20260917"></script>
+  </body>
+</html>
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\imprint.html =====
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Terms of service for HeldenCuts by Heldenhuf."
+    />
+    <meta name="theme-color" content="#091017" />
+    <link rel="stylesheet" href="css/global.css?v=20260907" />
+    <link rel="stylesheet" href="css/header.css?v=20260907" />
+    <link rel="stylesheet" href="css/footer.css?v=20260907" />
+    <link rel="stylesheet" href="css/mobile.css?v=20260907" />
+    <link rel="stylesheet" href="css/legal.css?v=20260907" />
+    <title>Terms of Service | HeldenCuts</title>
+  </head>
+  <body>
+    <div data-component="header"></div>
+
+    <main class="legal-page-shell">
+      <article class="legal-card">
+        <div class="legal-meta">Legal</div>
+        <h1>Terms of Service</h1>
+
+        <div class="legal-copy">
+          <p><strong>Last updated:</strong> August 3, 2026</p>
+
+          <h2>1. Acceptance of Terms</h2>
+          <p>
+            By accessing and using this website, you agree to these Terms of
+            Service. If you do not agree, please do not use this website.
+          </p>
+
+          <h2>2. Website Purpose</h2>
+          <p>
+            This website showcases video editing work, creative projects, and
+            information about services offered by HeldenCuts. All content is
+            provided for informational and private purposes.
+          </p>
+
+          <h2>3. Intellectual Property</h2>
+          <p>
+            Unless otherwise stated, all original content on this website,
+            including videos, graphics, text, logos, branding, and designs, is
+            owned by HeldenCuts and is protected by applicable copyright laws.
+            You may not copy, reproduce, redistribute, or use any content without
+            prior written permission.
+          </p>
+
+          <h2>4. Third-Party Content</h2>
+          <p>
+            Some showcased projects may include material owned by third parties.
+            All respective copyrights and trademarks remain the property of their
+            respective owners.
+          </p>
+
+          <h2>5. User Conduct</h2>
+          <ul>
+            <li>Use this website for lawful purposes only.</li>
+            <li>Do not attempt to gain unauthorized access to the website.</li>
+            <li>Do not interfere with the operation or security of this website.</li>
+          </ul>
+
+          <h2>6. Services</h2>
+          <p>
+            Any editing services, collaborations, or commissions are subject to
+            separate agreements discussed directly with the client. Pricing,
+            delivery times, revisions, and project scope may vary depending on the
+            individual project.
+          </p>
+
+          <h2>7. Disclaimer</h2>
+          <p>
+            The information on this website is provided “as is” without warranties
+            of any kind. While reasonable efforts are made to keep information
+            accurate and up to date, no guarantee is made regarding completeness,
+            accuracy, or availability.
+          </p>
+
+          <h2>8. Limitation of Liability</h2>
+          <p>
+            To the fullest extent permitted by law, HeldenCuts shall not be liable
+            for any direct, indirect, incidental, or consequential damages arising
+            from the use of this website.
+          </p>
+
+          <h2>9. External Links</h2>
+          <p>
+            This website may contain links to third-party websites. HeldenCuts is
+            not responsible for the content, privacy practices, or availability of
+            external websites.
+          </p>
+
+          <h2>10. Changes to These Terms</h2>
+          <p>
+            These Terms of Service may be updated at any time without prior notice.
+            Continued use of the website after changes have been published
+            constitutes acceptance of the updated Terms.
+          </p>
+
+          <h2>11. Contact</h2>
+          <p>
+            For questions regarding these Terms of Service, please contact:
+            <a href="mailto:heldenhuf@gmx.net">heldenhuf@gmx.net</a> or use the
+            contact methods provided on this website.
+          </p>
+        </div>
+      </article>
+    </main>
+
+    <div data-component="footer"></div>
+
+    <script type="module" src="js/main.js?v=20260905"></script>
+  </body>
+</html>
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\index.html =====
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="HeldenCuts by Heldenhuf: high-quality video editing for brands and creators."
+    />
+    <meta name="theme-color" content="#091017" />
+    <link rel="stylesheet" href="css/global.css?v=20260913" />
+    <link rel="stylesheet" href="css/hero.css?v=20260916" />
+    <link rel="stylesheet" href="css/work.css?v=20260913" />
+    <link rel="stylesheet" href="css/about.css?v=20260907" />
+    <link rel="stylesheet" href="css/ratings.css?v=20260907" />
+    <link rel="stylesheet" href="css/process.css?v=20260909" />
+    <link rel="stylesheet" href="css/contact.css?v=20260911" />
+    <link rel="stylesheet" href="css/faq.css?v=20260908" />
+    <link rel="stylesheet" href="css/header.css?v=20260916" />
+    <link rel="stylesheet" href="css/footer.css?v=20260907" />
+    <link rel="stylesheet" href="css/mobile.css?v=20260913" />
+    <title>HeldenCuts | Video Editing by Heldenhuf</title>
+  </head>
+  <body>
+    <div data-component="header"></div>
+
+    <main>
+      <div data-component="hero"></div>
+      <div data-component="about"></div>
+      <div data-component="work"></div>
+      <div data-component="ratings"></div>
+      <div data-component="process"></div>
+      <div data-component="contact"></div>
+      <div data-component="faq"></div>
+    </main>
+
+    <div data-component="footer"></div>
+
+    <script type="module" src="js/main.js?v=20260916"></script>
+  </body>
+</html>
+
+===== C:\Users\Konst\Documents\Programmieren Konstantin\Projekte\Heldencuts\privacy-policy.html =====
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Privacy policy for HeldenCuts by Heldenhuf."
+    />
+    <meta name="theme-color" content="#091017" />
+    <link rel="stylesheet" href="css/global.css?v=20260907" />
+    <link rel="stylesheet" href="css/header.css?v=20260907" />
+    <link rel="stylesheet" href="css/footer.css?v=20260907" />
+    <link rel="stylesheet" href="css/mobile.css?v=20260907" />
+    <link rel="stylesheet" href="css/legal.css?v=20260907" />
+    <title>Privacy Policy | HeldenCuts</title>
+  </head>
+  <body>
+    <div data-component="header"></div>
+
+    <main class="legal-page-shell">
+      <article class="legal-card">
+        <div class="legal-meta">Legal</div>
+        <h1>Privacy Policy</h1>
+
+        <div class="legal-copy">
+          <h2>1. General Information</h2>
+          <p>
+            The protection of your personal data is important to us. This privacy
+            policy explains how personal data is processed when you visit this
+            website.
+          </p>
+
+          <h2>2. Responsible Person</h2>
+          <p>
+            Simon Lang<br />
+            68167 Mannheim<br />
+            Germany<br />
+            <a href="mailto:heldenhuf@gmx.net">heldenhuf@gmx.net</a>
+          </p>
+
+          <h2>3. Hosting and Website Provider</h2>
+          <p>
+            This website is hosted by Framer. When you visit this website,
+            technical data such as your IP address, browser type, device
+            information, and access time may be processed by the hosting provider
+            to ensure the website functions properly.
+          </p>
+
+          <h2>4. Analytics</h2>
+          <p>
+            This website uses Framer Analytics to understand how visitors interact
+            with the website and improve the user experience. Framer Analytics may
+            collect anonymous usage information such as page visits and general
+            visitor behavior. The data is used only for website performance
+            analysis and improvement.
+          </p>
+
+          <h2>5. Embedded YouTube Videos</h2>
+          <p>
+            This website includes embedded videos from YouTube. YouTube is a
+            service provided by Google. When you view embedded YouTube content,
+            data such as your IP address and information about your interaction
+            with the video may be transmitted to YouTube. This may happen even if
+            you are not logged into a YouTube account. The processing of data by
+            YouTube is subject to Google’s privacy policy.
+          </p>
+
+          <h2>6. Contact</h2>
+          <p>
+            If you contact me via email, Discord, or a contact form, the
+            information you provide (such as your name, email address, and
+            message) will only be used to respond to your request and communicate
+            about potential projects.
+          </p>
+
+          <h2>7. Your Rights</h2>
+          <p>
+            You have the right to request information about your personal data,
+            request correction or deletion of your data, and object to certain
+            processing activities.
+          </p>
+
+          <h2>8. Updates</h2>
+          <p>
+            This privacy policy may be updated if the website or services used
+            change. <strong>Last updated:</strong> 31 July 2026.
+          </p>
+        </div>
+      </article>
+    </main>
+
+    <div data-component="footer"></div>
+
+    <script type="module" src="js/main.js?v=20260905"></script>
+  </body>
+</html>
+

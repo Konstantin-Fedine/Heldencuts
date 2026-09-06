@@ -16,10 +16,15 @@ async function loadChrome() {
 
   document.querySelectorAll("a[href]").forEach((link) => {
     const href = link.getAttribute("href");
-    if (href?.startsWith("index.html") || href === "imprint.html" || href === "privacy-policy.html") {
+    if (href === "work/" || href === "services.html" || href === "about.html" || href === "contact.html" || href?.startsWith("index.html") || href === "imprint.html" || href === "privacy-policy.html") {
       link.setAttribute("href", `../${href}`);
     }
   });
+
+  const sharedStyles = document.createElement("link");
+  sharedStyles.rel = "stylesheet";
+  sharedStyles.href = "../css/site.css";
+  document.head.appendChild(sharedStyles);
 
   const header = document.querySelector(".site-header");
   const toggle = document.querySelector(".header-menu-toggle");
