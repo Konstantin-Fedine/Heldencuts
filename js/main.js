@@ -11,7 +11,11 @@ function setupHeaderMenu() {
   const header = document.querySelector(".site-header");
   const toggle = document.querySelector(".header-menu-toggle");
 
-  if (!header || !toggle) return;
+  if (!header) return;
+
+  requestAnimationFrame(() => header.classList.add("is-visible"));
+
+  if (!toggle) return;
 
   const closeMenu = () => {
     header.classList.remove("is-open");
