@@ -58,4 +58,34 @@ function setupVideoButtons() {
   });
 }
 
-loadChrome().then(setupVideoButtons).catch((error) => console.error(error));
+function setupWorkReveal() {
+  const workPage = document.querySelector(".work-page");
+  if (!workPage) return;
+
+  workPage.classList.add("is-ready");
+  const projects = workPage.querySelectorAll(".case-study");
+  if (!("IntersectionObserver" in window)) {
+    projects.forEach((project) => project.classList.add("is-visible"));
+    return;
+  }
+
+  const observer = new IntersectionObserver(
+    (entries, currentObserver) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add("is-visible");
+        currentObserver.unobserve(entry.target);
+      });
+    },
+    { rootMargin: "0px 0px -10%", threshold: 0.12 },
+  );
+
+  projects.forEach((project) => observer.observe(project));
+}
+
+loadChrome()
+  .then(() => {
+    setupWorkReveal();
+    setupVideoButtons();
+  })
+  .catch((error) => console.error(error));
