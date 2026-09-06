@@ -9,6 +9,7 @@
   font-size: 41px;
 }
 .contact > .section-intro {
+  color: #b9c2d1;
   font-size: 16px;
   line-height: 24.8px;
   margin: 25px auto 0;
@@ -18,7 +19,7 @@
   display: grid;
   gap: 40px;
   grid-template-columns: repeat(2, 396px);
-  margin: 13px 0 0 calc(50% - 416px);
+  margin: 32px 0 0 calc(50% - 416px);
   text-align: left;
 }
 .contact-card {
