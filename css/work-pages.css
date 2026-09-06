@@ -187,7 +187,7 @@
 }
 
 .case-copy h2 {
-  margin: 14px 0 8px;
+  margin: 0 0 10px;
   font-size: clamp(28px, 3vw, 42px);
   line-height: 1.12;
   text-align: left;
@@ -203,6 +203,13 @@
   font-size: 17px;
   line-height: 27px;
   overflow-wrap: anywhere;
+}
+
+.case-copy .case-role {
+  margin-bottom: 12px;
+  color: #fff;
+  font-size: 15px;
+  line-height: 22px;
 }
 
 .case-details {
