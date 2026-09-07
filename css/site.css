@@ -104,6 +104,7 @@ h2 span, h1 em { color: var(--blue-light); font-style: normal; }
 .about h2 { letter-spacing: -.02em; line-height: 1.1; }
 .about-lead { color: #e2e8f0; font-size: clamp(19px, 2vw, 25px); letter-spacing: 0; line-height: 1.6; max-width: 620px; }
 .about-details { display: grid; gap: 18px; grid-template-columns: repeat(3, minmax(0, 1fr)); margin-top: 42px; }
+.about .about-details, .about .about-workflow-link { display: none; }
 .about-detail { border-top: 1px solid var(--border); display: grid; gap: 14px; grid-template-columns: 30px minmax(0, 1fr); padding-top: 16px; }
 .about-detail-icon { color: var(--blue-light); display: block; height: 22px; width: 22px; }
 .about-detail-icon svg { fill: none; height: 100%; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5; width: 100%; }

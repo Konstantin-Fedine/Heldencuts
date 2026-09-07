@@ -121,7 +121,7 @@
   .logo { width: 125px; }
   .logo-text p { font-size: 21px; }
   .header-nav {
-    align-items: flex-start;
+    align-items: center;
     background: rgba(9, 16, 23, .98);
     border: 1px solid var(--border);
     border-top: 1px solid var(--border);
@@ -138,15 +138,18 @@
     transition: opacity var(--duration-normal) var(--ease-standard), transform var(--duration-normal) var(--ease-standard);
   }
   .site-header.is-open .header-nav { opacity: 1; pointer-events: auto; transform: translateY(0); }
-  .nav-link { font-size: 24px; letter-spacing: -.05em; }
-  .button-header {
-    align-self: flex-start;
+  .nav-link { font-size: 24px; letter-spacing: -.05em; padding-block: 4px; width: auto; }
+  .header-nav .button-header {
+    align-self: center;
     font-size: 14px;
     letter-spacing: 0.05em;
     margin-top: 6px;
-    min-height: 42px;
+    min-height: 44px;
+    justify-content: center;
     text-transform: uppercase;
+    text-align: center;
     width: auto;
   }
+  .site-header .header-nav .button-header { align-self: center; margin-left: 0; }
   .header-menu-toggle { display: flex; }
 }

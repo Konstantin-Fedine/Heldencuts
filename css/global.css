@@ -323,3 +323,7 @@ svg {
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
 }
+
+@media (max-width: 760px) {
+  .button-small { min-height: 44px; padding-inline: 16px; }
+}

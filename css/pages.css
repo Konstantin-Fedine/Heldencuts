@@ -4,124 +4,42 @@
 .about-page .profile-grid { margin-top: 44px; }
 .about-page .about-main { padding-top: 28px; }
 .about-page .about-lead { color: #e2e8f0; font-size: clamp(19px, 2vw, 25px); letter-spacing: 0; line-height: 1.6; max-width: 620px; }
-.about-bento-grid {
-  display: grid;
-  gap: 1.5rem;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  margin-top: 120px;
-}
-
-.about-bento-card {
-  background: #111318;
-  border: 1px solid rgba(255, 255, 255, 0.05);
-  border-radius: 1.5rem;
-  display: grid;
-  gap: 1.5rem;
-  min-height: 220px;
-  padding: 2rem;
-}
-
-.about-section-heading {
-  align-items: start;
-  display: grid;
-  gap: 20px;
-  grid-template-columns: 30px minmax(0, 1fr);
-}
-
-.about-section-heading h2 {
-  font-size: clamp(30px, 4vw, 52px);
-  letter-spacing: -.02em;
-  line-height: 1.05;
-  margin: 12px 0 0;
-  max-width: 620px;
-}
-
-.about-detail-icon {
-  color: var(--blue-light);
-  display: block;
-  height: 22px;
-  width: 22px;
-}
-
-.about-detail-icon svg {
-  fill: none;
-  height: 100%;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke-width: 1.5;
-  width: 100%;
-}
-
-.about-detail-label {
-  color: var(--muted);
-  font-size: 10px;
-  letter-spacing: .12em;
-  text-transform: uppercase;
-}
-
-.about-bento-tags,
-.about-language-row,
-.about-bento-principles {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-}
-
-.about-bento-tags span,
-.about-language-row span,
-.about-bento-principles span {
-  align-items: center;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.04);
-  border-radius: 9999px;
-  color: var(--text-light);
-  display: inline-flex;
-  font-size: 0.78rem;
-  justify-content: center;
-  min-height: 2.5rem;
-  padding: 0.55rem 0.9rem;
-}
-
-.about-language-row {
-  justify-content: flex-start;
-}
-
-.about-bento-style {
-  grid-column: 1 / -1;
-  justify-items: center;
-  text-align: center;
-}
-
-.about-bento-style .about-section-heading {
-  justify-items: center;
-  text-align: center;
-  width: 100%;
-}
-
-.about-bento-quote {
-  color: var(--text-primary);
-  font-size: clamp(28px, 4vw, 46px);
-  letter-spacing: -.02em;
-  line-height: 1.05;
-  margin: 0;
-  max-width: 760px;
-  text-align: center;
-}
-
-.about-bento-principles {
-  justify-content: center;
-}
+.about-topic-stack { display: grid; gap: 28px; margin-top: 120px; }
+.about-topic-section { border-top: 1px solid var(--border); padding-top: 32px; }
+.about-topic-title { color: var(--text-primary); font-size: clamp(30px, 4vw, 48px); font-weight: 500; letter-spacing: -.04em; line-height: 1.05; margin: 0; }
+.about-topic-title::after { background: var(--blue-light); content: ""; display: block; height: 2px; margin-top: 14px; width: 34px; }
+.about-topic-cards { display: grid; gap: 14px; grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 28px; }
+.about-topic-item { align-items: center; background: var(--surface); border: 1px solid rgba(255, 255, 255, .1); border-radius: var(--radius-md); display: flex; gap: 18px; min-height: 220px; padding: 30px; position: relative; transition: border-color var(--control-transition), box-shadow var(--control-transition), filter var(--control-transition), transform var(--control-transition); }
+.about-topic-item:hover, .about-style-item:hover { border-color: var(--blue-light); box-shadow: 0 18px 42px rgba(0, 0, 0, .25); filter: brightness(1.16); transform: scale(1.02); z-index: 1; }
+.about-topic-item strong { color: var(--text-primary); font-size: clamp(22px, 2.5vw, 32px); font-weight: 500; line-height: 1.1; }
+.about-topic-item span { color: var(--muted); font-size: 16px; margin: 0; }
+.about-software-card { display: grid; grid-template-columns: minmax(0, 1fr) 120px; }
+.about-software-card strong { grid-column: 1; grid-row: 1; }
+.about-software-card .about-software-logo { grid-column: 2; grid-row: 1; }
+.about-software-card strong { font-size: clamp(24px, 2.8vw, 36px); }
+.about-software-logo { height: 120px; object-fit: contain; width: 120px; }
+.about-capcut-logo { filter: invert(1); mix-blend-mode: screen; transform: scale(1.35); }
+.about-language-card { display: grid; grid-template-columns: 220px minmax(0, 1fr); }
+.about-topic-item .about-language-code { color: var(--blue-light); font-size: clamp(90px, 10vw, 150px); font-weight: 500; letter-spacing: -.08em; line-height: .8; margin: 0; }
+.about-language-copy { display: grid; gap: 12px; }
+.about-language-copy strong { font-size: clamp(28px, 3vw, 42px); }
+.about-language-copy span { color: var(--text-light); font-size: clamp(16px, 1.8vw, 21px); }
+.about-style-list { display: grid; gap: 14px; grid-template-columns: repeat(3, minmax(0, 1fr)); margin-top: 28px; }
+.about-style-item { align-items: center; background: var(--surface); border: 1px solid rgba(255, 255, 255, .1); border-radius: var(--radius-md); display: flex; flex-direction: column; gap: 8px; justify-content: center; min-height: 190px; padding: 30px; text-align: center; transition: border-color var(--control-transition), box-shadow var(--control-transition), filter var(--control-transition), transform var(--control-transition); }
+.about-style-item small { color: var(--blue-light); font-size: 10px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; }
+.about-style-item .about-style-number { font-size: 34px; letter-spacing: 0; line-height: 1; }
+.about-style-item strong { color: var(--text-primary); font-size: clamp(20px, 2.2vw, 28px); font-weight: 500; }
 
 .about-workflow { border-top: 1px solid var(--border); margin-top: 130px; padding-top: 34px; }
-.about-workflow h2 { font-size: clamp(38px, 5vw, 68px); letter-spacing: -.02em; line-height: 1; margin: 14px 0 54px; }
+.about-workflow h2 { font-size: clamp(42px, 5vw, 68px); letter-spacing: -.02em; line-height: 1; margin: 14px 0 20px; }
 .about-workflow h2 span { color: var(--blue-light); }
+.about-workflow-intro { color: var(--muted); font-size: 15px; line-height: 1.5; margin-bottom: 54px; max-width: 520px; }
 .about-workflow-list { border-left: 1px solid var(--border); display: grid; margin-bottom: 34px; }
 .about-workflow-list article { align-items: start; display: grid; gap: 28px; grid-template-columns: 54px minmax(0, 520px); margin-left: -1px; padding: 0 0 34px 28px; position: relative; }
 .about-workflow-list article::before { background: var(--blue-light); border-radius: 50%; content: ""; height: 7px; left: -4px; position: absolute; top: 5px; width: 7px; }
 .about-workflow-list article > span { color: var(--blue-light); font-size: 12px; }
 .about-workflow-list h3 { font-size: 22px; font-weight: 500; margin: 0; }
-.about-workflow-list p { color: var(--muted); font-size: 14px; line-height: 1.5; margin-top: 6px; }
+.about-workflow-list p { color: var(--muted); font-size: 14px; line-height: 1.5; margin-top: 6px; max-width: 520px; }
 .page-lead { color: var(--text-light); font-size: 20px; margin-top: 28px; max-width: 520px; }
 .service-page .service-list { margin-top: 90px; }
 .service-list-detailed a { align-items: start; grid-template-columns: 56px minmax(180px, .8fr) minmax(0, 1fr); }
@@ -233,13 +151,14 @@
   .project-wizard { gap: 22px; }
   .wizard-step h2 { font-size: clamp(32px, 10vw, 46px); }
   .wizard-actions { flex-wrap: wrap; }
-  .about-bento-grid { grid-template-columns: 1fr; margin-top: 76px; }
-  .about-bento-card { min-height: 0; padding: 1.4rem; }
-  .about-section-heading { gap: 14px; grid-template-columns: 26px minmax(0, 1fr); }
-  .about-section-heading h2 { font-size: clamp(28px, 8vw, 40px); }
-  .about-bento-style .about-section-heading { justify-items: start; text-align: left; }
-  .about-bento-quote { font-size: clamp(26px, 8vw, 38px); }
-  .about-bento-principles { justify-content: flex-start; }
+  .about-topic-stack { gap: 42px; margin-top: 76px; }
+  .about-topic-cards, .about-style-list { grid-template-columns: 1fr; }
+  .about-topic-item, .about-style-item { min-height: 150px; padding: 24px; }
+  .about-software-card { grid-template-columns: minmax(0, 1fr) 92px; }
+  .about-software-logo { height: 82px; width: 82px; }
+  .about-language-card { grid-template-columns: 140px minmax(0, 1fr); }
+  .about-topic-item .about-language-code { font-size: clamp(68px, 20vw, 110px); }
+  .about-topic-item span { margin-left: 0; }
   .about-workflow { margin-top: 82px; }
   .about-workflow h2 { font-size: clamp(36px, 11vw, 54px); margin-bottom: 42px; }
   .about-workflow-list article { gap: 18px; grid-template-columns: 36px minmax(0, 1fr); padding-left: 18px; }
