@@ -67,7 +67,6 @@ async function loadPage() {
     ["[data-component='hero']", "components/hero.html"],
     ["[data-component='trust']", "components/trust.html"],
     ["[data-component='work']", "components/work.html"],
-    ["[data-component='services']", "components/services.html"],
     ["[data-component='about']", "components/about.html"],
     ["[data-component='ratings']", "components/ratings.html"],
     ["[data-component='process']", "components/process.html"],

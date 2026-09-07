@@ -51,6 +51,22 @@ function setupVideoButtons() {
   });
 }
 
+function setupVideoLinks() {
+  document.querySelectorAll("[data-video-id]").forEach((project) => {
+    const title = project.querySelector(".case-copy h2");
+    const videoId = project.dataset.videoId;
+    if (!title || !videoId || title.querySelector("a")) return;
+
+    const link = document.createElement("a");
+    link.className = "case-video-link";
+    link.href = `https://www.youtube.com/watch?v=${encodeURIComponent(videoId)}`;
+    link.target = "_blank";
+    link.rel = "noreferrer";
+    link.textContent = title.textContent;
+    title.replaceChildren(link);
+  });
+}
+
 function setupWorkReveal() {
   const projects = document.querySelectorAll(".case-study");
   if (!projects.length) return;
@@ -80,6 +96,7 @@ loadSharedChrome()
   .then(() => {
     setupSharedMenu();
     setupWorkReveal();
+    setupVideoLinks();
     setupVideoButtons();
   })
   .catch((error) => console.error(error));

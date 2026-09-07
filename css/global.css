@@ -51,8 +51,11 @@
   --page-padding-mobile: 20px;
   --space-section: clamp(80px, 8vw, 120px);
   --duration-fast: 180ms;
-  --duration-normal: 280ms;
+  --duration-normal: 360ms;
   --duration-slow: 650ms;
+  --duration-interaction: 360ms;
+  --duration-media: 650ms;
+  --duration-reveal: 650ms;
   --ease-standard: ease;
   --ease-smooth: cubic-bezier(.2, .75, .25, 1);
   --control-height: 52px;
@@ -215,6 +218,18 @@ select {
   transition: transform var(--control-transition);
 }
 
+.button-icon {
+  fill: none;
+  flex: 0 0 16px;
+  height: 16px;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.6;
+  transition: transform var(--control-transition);
+  width: 16px;
+}
+
 .button-small span { font-size: 16px; }
 
 .button-primary {
@@ -238,7 +253,7 @@ select {
 
 .button-primary:hover { background: var(--accent-hover); border-color: var(--accent-hover); }
 .button-secondary:hover, .button-small:hover, .icon-button:hover { background: var(--accent-subtle); }
-.button:hover span, .button-small:hover span { transform: translateX(3px); }
+.button:hover span, .button-small:hover span, .button:hover .button-icon { transform: translateX(3px); }
 .button:active, .button-small:active, .icon-button:active { transform: translateY(-1px); }
 
 .icon-button {

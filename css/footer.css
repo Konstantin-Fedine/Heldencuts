@@ -55,7 +55,7 @@
   color: var(--text-muted);
   font-size: 14px;
   line-height: 21px;
-  transition: color 0.2s;
+  transition: color var(--duration-interaction) var(--ease-standard);
 }
 .footer-inner nav a:hover {
   color: #fff;

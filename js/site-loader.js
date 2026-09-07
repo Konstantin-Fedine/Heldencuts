@@ -20,7 +20,7 @@ function rewriteRootLinks(prefix) {
     const href = link.getAttribute("href");
     if (!href || /^(?:[a-z]+:|\/|#)/i.test(href)) return;
     if (href.startsWith(prefix)) return;
-    const isRootLink = /^(?:index\.html(?:#.*)?|work\/(?:#.*)?|services\.html(?:\?.*)?|about\.html(?:\?.*)?|contact\.html(?:\?.*)?|imprint\.html|privacy-policy\.html)$/.test(href);
+    const isRootLink = /^(?:index\.html(?:#.*)?|work\/(?:#.*)?|about\.html(?:\?.*)?|contact\.html(?:\?.*)?|imprint\.html|privacy-policy\.html)$/.test(href);
     if (isRootLink) link.setAttribute("href", `${prefix}${href}`);
   });
 }
