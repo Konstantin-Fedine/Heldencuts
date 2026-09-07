@@ -73,3 +73,76 @@ export function setupSharedMenu() {
   });
   mobileQuery.addEventListener?.("change", syncNavigationAccessibility);
 }
+
+export function resetToPageHero() {
+  if ("scrollRestoration" in history) history.scrollRestoration = "manual";
+  if (window.location.hash) return;
+
+  const reset = () => window.scrollTo({ left: 0, top: 0, behavior: "auto" });
+  reset();
+  requestAnimationFrame(() => requestAnimationFrame(reset));
+}
+
+export function setupScrollReveals() {
+  const targets = document.querySelectorAll(
+    "main > *:not(.hero), .about-topic-section, .about-workflow, .contact-row, .faq-list details, .portfolio-entry, .work-page-cta",
+  );
+  if (!targets.length) return;
+
+  const revealTarget = (target) => {
+    target.classList.add("is-visible");
+    target.style.setProperty("opacity", "1", "important");
+    target.style.setProperty("transform", "translateY(0)", "important");
+  };
+
+  const pageHero = document.querySelector("main > .hero");
+  if (pageHero) {
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => pageHero.classList.add("is-visible"));
+    });
+  } else {
+    const pageIntro = document.querySelector("main > *");
+    if (pageIntro) {
+      pageIntro.classList.add("page-hero");
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => pageIntro.classList.add("is-hero-visible"));
+      });
+    }
+  }
+
+  targets.forEach((target) => target.classList.add("scroll-reveal"));
+
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    targets.forEach(revealTarget);
+    return;
+  }
+
+  if (!("IntersectionObserver" in window)) {
+    targets.forEach(revealTarget);
+    return;
+  }
+
+  const revealVisibleTargets = () => {
+    targets.forEach((target) => {
+      const rect = target.getBoundingClientRect();
+      if (rect.top < window.innerHeight * 0.92 && rect.bottom > 0) {
+        revealTarget(target);
+      }
+    });
+  };
+
+  revealVisibleTargets();
+
+  const observer = new IntersectionObserver(
+    (entries, currentObserver) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        revealTarget(entry.target);
+        currentObserver.unobserve(entry.target);
+      });
+    },
+    { rootMargin: "0px 0px -10%", threshold: 0.08 },
+  );
+
+  targets.forEach((target) => observer.observe(target));
+}

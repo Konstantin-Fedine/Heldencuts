@@ -1,7 +1,7 @@
 .legal-page-shell {
   margin: 0 auto;
   max-width: var(--legal-content-width);
-  padding: 140px 24px 80px;
+  padding: 150px 24px 80px;
 }
 
 .legal-card {
@@ -80,7 +80,7 @@
 
 @media (max-width: 700px) {
   .legal-page-shell {
-    padding: 110px 18px 60px;
+    padding: 150px 18px 60px;
   }
 
   .legal-card {

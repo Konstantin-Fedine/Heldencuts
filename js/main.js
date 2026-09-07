@@ -1,4 +1,11 @@
-import { loadSharedChrome, setupSharedMenu } from "./site-loader.js?v=20260918";
+import {
+  loadSharedChrome,
+  resetToPageHero,
+  setupScrollReveals,
+  setupSharedMenu,
+} from "./site-loader.js?v=20260929";
+
+resetToPageHero();
 
 function scrollToHashTarget() {
   const hash = window.location.hash.slice(1);
@@ -25,7 +32,9 @@ function setupMainReveal() {
   const main = document.querySelector("main");
   if (!main) return;
 
-  const sections = main.querySelectorAll(":scope > section");
+  const sections = [...main.children].filter(
+    (child) => child.tagName === "SECTION",
+  );
   main.classList.add("is-reveal-ready");
 
   const revealVisibleSections = () => {
@@ -62,6 +71,15 @@ function setupMainReveal() {
   sections.forEach((section) => observer.observe(section));
 }
 
+function setupHomepageHeroReveal() {
+  const hero = document.querySelector("main > .hero");
+  if (!hero) return;
+
+  requestAnimationFrame(() => {
+    requestAnimationFrame(() => hero.classList.add("is-visible"));
+  });
+}
+
 async function loadPage() {
   const components = [
     ["[data-component='hero']", "components/hero.html"],
@@ -86,6 +104,8 @@ async function loadPage() {
 
   setupSharedMenu();
   setupMainReveal();
+  setupHomepageHeroReveal();
+  setupScrollReveals();
   scrollToHashTarget();
 }
 

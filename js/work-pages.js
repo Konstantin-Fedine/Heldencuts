@@ -1,4 +1,11 @@
-import { loadSharedChrome, setupSharedMenu } from "./site-loader.js?v=20260918";
+import {
+  loadSharedChrome,
+  resetToPageHero,
+  setupScrollReveals,
+  setupSharedMenu,
+} from "./site-loader.js?v=20260929";
+
+resetToPageHero();
 
 function createVideoDialog() {
   const dialog = document.createElement("dialog");
@@ -96,6 +103,7 @@ loadSharedChrome()
   .then(() => {
     setupSharedMenu();
     setupWorkReveal();
+    setupScrollReveals();
     setupVideoLinks();
     setupVideoButtons();
   })

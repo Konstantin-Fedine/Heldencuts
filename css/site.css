@@ -1,4 +1,4 @@
-@import url("pages.css");
+@import url("pages.css?v=20260907-8");
 
 /* Shared editorial layer for the multi-page portfolio. */
 :root { --blue-wash: var(--accent-subtle); }
@@ -62,12 +62,12 @@ h2 span, h1 em { color: var(--blue-light); font-style: normal; }
 .hero-media-play { align-items: center; display: flex; gap: 9px; right: 20px; }
 .hero-media-play i { color: var(--blue-light); font-size: 18px; font-style: normal; }
 .hero-copy > * { opacity: 0; transform: translateY(14px); transition: opacity var(--duration-reveal) var(--ease-smooth), transform var(--duration-reveal) var(--ease-smooth); }
-.hero.is-visible .hero-copy > * { opacity: 1; transform: translateY(0); }
-.hero.is-visible .hero-copy > .hero-intro { transition-delay: .08s; }
-.hero.is-visible .hero-copy > .hero-actions { transition-delay: .16s; }
-.hero.is-visible .hero-copy > .hero-stats { transition-delay: .24s; }
+.is-reveal-ready .hero .hero-copy > * { opacity: 1; transform: translateY(0); }
+.is-reveal-ready .hero .hero-copy > .hero-intro { transition-delay: .08s; }
+.is-reveal-ready .hero .hero-copy > .hero-actions { transition-delay: .16s; }
+.is-reveal-ready .hero .hero-copy > .hero-stats { transition-delay: .24s; }
 .hero-media { opacity: 0; transform: translateY(18px) scale(.985); transition: opacity var(--duration-reveal) var(--ease-smooth) .3s, transform var(--duration-reveal) var(--ease-smooth) .3s; }
-.hero.is-visible .hero-media { opacity: 1; transform: translateY(0) scale(1); }
+.is-reveal-ready .hero .hero-media { opacity: 1; transform: translateY(0) scale(1); }
 .trust { border-bottom: 1px solid var(--border); border-top: 1px solid var(--border); display: flex; gap: 70px; padding-bottom: 28px; padding-top: 28px; }
 .trust-list { display: flex; flex: 1; justify-content: space-between; gap: 20px; }
 .trust-list span { color: var(--text-light); font-size: 15px; }
@@ -190,7 +190,7 @@ h2 span, h1 em { color: var(--blue-light); font-style: normal; }
 
 @media (max-width: 760px) {
   .section-shell { padding: 76px var(--page-padding-mobile); }
-  .hero { display: block; min-height: 0; padding-top: 124px; }
+  .hero { display: block; min-height: 0; padding-top: 150px; }
   .hero h1 { font-size: clamp(54px, 16vw, 82px); line-height: .9; }
   .hero-intro { max-width: 100%; }
   .hero-actions { flex-direction: column; }

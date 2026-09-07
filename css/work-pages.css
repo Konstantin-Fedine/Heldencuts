@@ -1,5 +1,5 @@
 body { color: var(--text-primary); line-height: 1.5; }
-.work-page { min-height: 70vh; padding: 155px var(--page-padding-desktop) 100px; }
+.work-page { min-height: 70vh; padding: 150px var(--page-padding-desktop) 100px; }
 .work-page-shell { margin: 0 auto; max-width: var(--content-width, 1180px); }
 .work-page h1 { font-size: clamp(58px, 9vw, 120px); letter-spacing: -.07em; line-height: .87; margin: 0; text-align: left; }
 .work-page h1 span { color: var(--blue-light); }
@@ -73,7 +73,7 @@ body { color: var(--text-primary); line-height: 1.5; }
 .gallery-page .case-study:hover .media-frame img { transform: scale(1.04); }
 .gallery-page .case-study.is-reverse .case-copy, .gallery-page .case-study.is-reverse .case-media { order: initial; }
 @media (max-width: 760px) {
-  .work-page { padding: 125px var(--page-padding-mobile) 76px; }
+  .work-page { padding: 150px var(--page-padding-mobile) 76px; }
   .case-study-list { gap: 72px; margin-top: 60px; }
   .case-study, .case-study.is-reverse { display: flex; flex-direction: column; gap: 24px; }
   .case-study.is-reverse .case-copy, .case-study.is-reverse .case-media { order: initial; }

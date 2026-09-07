@@ -1,4 +1,11 @@
-import { loadSharedChrome, setupSharedMenu } from "./site-loader.js?v=20260918";
+import {
+  loadSharedChrome,
+  resetToPageHero,
+  setupScrollReveals,
+  setupSharedMenu,
+} from "./site-loader.js?v=20260929";
+
+resetToPageHero();
 
 function applyServiceQuery() {
   const serviceSelect = document.querySelector('select[name="service"]');
@@ -20,6 +27,7 @@ function applyServiceQuery() {
 loadSharedChrome()
   .then(() => {
     setupSharedMenu();
+    setupScrollReveals();
     applyServiceQuery();
   })
   .catch((error) => console.error(error));
