@@ -1,4 +1,4 @@
-function getPathPrefix() {
+export function getPathPrefix() {
   const segments = window.location.pathname.split("/").filter(Boolean);
   const isDirectoryPage = window.location.pathname.endsWith("/");
   const depth = isDirectoryPage ? segments.length : Math.max(segments.length - 1, 0);

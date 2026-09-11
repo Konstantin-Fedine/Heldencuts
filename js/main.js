@@ -1,4 +1,5 @@
 import {
+  getPathPrefix,
   loadSharedChrome,
   resetToPageHero,
   setupScrollReveals,
@@ -81,14 +82,15 @@ function setupHomepageHeroReveal() {
 }
 
 async function loadPage() {
+  const prefix = getPathPrefix();
   const components = [
-    ["[data-component='hero']", "components/hero.html"],
-    ["[data-component='trust']", "components/trust.html"],
-    ["[data-component='work']", "components/work.html"],
-    ["[data-component='about']", "components/about.html"],
-    ["[data-component='ratings']", "components/ratings.html"],
-    ["[data-component='process']", "components/process.html"],
-    ["[data-component='home-cta']", "components/home-cta.html"],
+    ["[data-component='hero']", `${prefix}components/hero.html`],
+    ["[data-component='trust']", `${prefix}components/trust.html`],
+    ["[data-component='work']", `${prefix}components/work.html`],
+    ["[data-component='about']", `${prefix}components/about.html`],
+    ["[data-component='ratings']", `${prefix}components/ratings.html`],
+    ["[data-component='process']", `${prefix}components/process.html`],
+    ["[data-component='home-cta']", `${prefix}components/home-cta.html`],
   ];
 
   await Promise.all([
