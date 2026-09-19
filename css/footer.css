@@ -63,10 +63,12 @@
 .footer-youtube {
   align-items: center;
   border: 1px solid rgba(43, 137, 252, 0.55);
+  border-radius: 12px !important;
   display: flex;
   gap: 16px;
   margin: 52px auto 0;
   max-width: 1180px;
+  overflow: hidden;
   padding: 18px 20px;
   transition: background-color var(--duration-interaction) var(--ease-standard),
     border-color var(--duration-interaction) var(--ease-standard),

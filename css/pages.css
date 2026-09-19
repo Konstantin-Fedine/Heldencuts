@@ -524,7 +524,7 @@
   align-items: center;
   background: rgba(255, 255, 255, 0.03);
   border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 1.25rem;
+  border-radius: var(--radius-lg);
   display: flex;
   gap: 1rem;
   justify-content: space-between;
@@ -554,7 +554,7 @@
   align-items: center;
   background: rgba(255, 255, 255, 0.03);
   border: 1px solid rgba(255, 255, 255, 0.06);
-  border-radius: 0.75rem;
+  border-radius: var(--radius-sm);
   color: var(--blue-light);
   display: inline-flex;
   height: 44px;

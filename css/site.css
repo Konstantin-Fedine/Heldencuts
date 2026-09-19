@@ -126,7 +126,7 @@ h2 span, h1 em { color: var(--blue-light); font-style: normal; }
 .profile-card p { color: var(--text-light); font-size: 14px; line-height: 1.4; }
 .about-brand { align-items: center; align-self: stretch; display: flex; justify-content: center; min-height: 260px; overflow: visible; position: relative; transform: translateY(-22px); }
 .about-brand { transition: transform var(--control-transition); }
-.about-brand img { border-radius: 18px; display: block; filter: drop-shadow(0 24px 34px rgba(43, 137, 252, .18)); max-width: 92%; width: min(360px, 92%); opacity: .9; transition: filter var(--control-transition), opacity var(--control-transition), transform var(--control-transition); }
+.about-brand img { border-radius: var(--radius-lg); display: block; filter: drop-shadow(0 24px 34px rgba(43, 137, 252, .18)); max-width: 92%; width: min(360px, 92%); opacity: .9; transition: filter var(--control-transition), opacity var(--control-transition), transform var(--control-transition); }
 .about-brand:hover { transform: translateY(-22px) translateY(-4px); }
 .about-brand:hover img { filter: brightness(1.14) drop-shadow(0 16px 24px rgba(43, 137, 252, .16)); opacity: 1; transform: scale(1.04); }
 
@@ -164,7 +164,7 @@ h2 span, h1 em { color: var(--blue-light); font-style: normal; }
   align-items: center;
   background: rgba(43, 137, 252, 0.08);
   border: 1px solid rgba(43, 137, 252, 0.24);
-  border-radius: 14px;
+  border-radius: var(--radius-sm);
   color: var(--blue-light);
   display: inline-flex;
   height: 58px;

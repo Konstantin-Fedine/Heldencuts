@@ -147,7 +147,7 @@
     background: rgba(9, 16, 23, .98);
     border: 1px solid var(--border);
     border-top: 1px solid var(--border);
-    border-radius: 0 0 18px 18px;
+    border-radius: 0 0 var(--radius-lg) var(--radius-lg);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.22);
     flex-direction: column;
     gap: 18px;
